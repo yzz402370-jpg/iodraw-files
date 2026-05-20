@@ -16,7 +16,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-l3uia2hVn8qkiQCGsqE-1802" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-l3uia2hVn8qkiQCGsqE-1795" target="-l3uia2hVn8qkiQCGsqE-1796">
+        <mxCell id="-l3uia2hVn8qkiQCGsqE-1802" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="-l3uia2hVn8qkiQCGsqE-1795" target="-l3uia2hVn8qkiQCGsqE-1796">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-l3uia2hVn8qkiQCGsqE-1795" value="1×1 Conv" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC6600;textShadow=1;fontColor=#ffffff;strokeColor=#6D1F00;fillStyle=auto;" vertex="1" parent="1">
