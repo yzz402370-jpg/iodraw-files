@@ -256,11 +256,8 @@
         <mxCell id="align_dot_orange_3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f28c28;strokeColor=none;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="1466" y="553" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="align_dot_green2_2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6fb36f;strokeColor=none;opacity=90;" parent="1" vertex="1">
-          <mxGeometry x="1375" y="617" width="10" height="10" as="geometry" />
-        </mxCell>
         <mxCell id="align_sep" value="" style="shape=line;html=1;strokeColor=#b0b0b0;strokeWidth=1.5;" parent="1" vertex="1">
-          <mxGeometry x="1260" y="635" width="190" height="10" as="geometry" />
+          <mxGeometry x="1256.5" y="625" width="190" height="10" as="geometry" />
         </mxCell>
         <mxCell id="align_text" value="同一身份特征聚合&lt;div&gt;不同身份特征分离&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1250" y="650" width="210" height="45" as="geometry" />
@@ -291,6 +288,9 @@
         </mxCell>
         <mxCell id="align_dot_green2_1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6fb36f;strokeColor=none;opacity=90;" parent="kwDwqjAPKf0Du8CAahXN-2" vertex="1">
           <mxGeometry x="35" y="8" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="align_dot_green2_2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6fb36f;strokeColor=none;opacity=90;" parent="kwDwqjAPKf0Du8CAahXN-2" vertex="1">
+          <mxGeometry x="22" y="31" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
