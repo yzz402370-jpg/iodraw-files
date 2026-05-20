@@ -32,7 +32,7 @@
           <mxGeometry x="1215" y="710" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="pred_container" value="身份预测结果&lt;div&gt;ID-1&amp;nbsp;&amp;nbsp; ID-2...&amp;nbsp; ID-N&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#e7f0ff;strokeColor=#4c9aff;strokeWidth=1.2;fontSize=20;fontColor=#003b7a;fontStyle=1;gradientColor=#cfe2ff;gradientDirection=south;" parent="1" vertex="1">
-          <mxGeometry x="1215" y="845" width="220" height="90" as="geometry" />
+          <mxGeometry x="1235" y="845" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gt_container" value="真实身份标签" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#ffffff;strokeColor=#2f80ed;strokeWidth=2;fontSize=17;fontStyle=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1470" y="855" width="140" height="70" as="geometry" />
