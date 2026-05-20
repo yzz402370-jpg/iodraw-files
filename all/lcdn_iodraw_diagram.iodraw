@@ -16,9 +16,6 @@
         <mxCell id="lcd_container" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#effaf0;strokeColor=#5cb85c;strokeWidth=1.2;fontSize=17;fontColor=#000000;fontStyle=0;gradientColor=#dcf4df;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="625" y="30" width="485" height="765" as="geometry" />
         </mxCell>
-        <mxCell id="kwDwqjAPKf0Du8CAahXN-3" value="Block" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="150" width="180" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="upper_branch" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#fff9f5;strokeColor=#ff7f50;strokeWidth=1.2;fontSize=17;fontColor=#000000;fontStyle=0;gradientColor=#fff0e3;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="650" y="130" width="435" height="300" as="geometry" />
         </mxCell>
@@ -273,6 +270,9 @@
         </mxCell>
         <mxCell id="edge_pred_gt" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#6fa8dc;strokeWidth=2;endArrow=block;endFill=1;startArrow=block;startFill=1;dashed=1;dashPattern=8 4;" parent="1" source="pred_container" target="gt_container" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kwDwqjAPKf0Du8CAahXN-3" value="Block" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="135" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="kwDwqjAPKf0Du8CAahXN-2" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1310" y="560" width="58" height="58" as="geometry" />
