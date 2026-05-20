@@ -94,9 +94,9 @@
           <mxGeometry x="16.153846153846153" y="16.666666666666668" width="51.25739644970414" height="76.8860946745562" as="geometry" />
         </mxCell>
         <mxCell id="-l3uia2hVn8qkiQCGsqE-1825" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#647687;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="470" y="390" width="90" height="160" as="geometry" />
+          <mxGeometry x="470" y="390" width="130" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="-l3uia2hVn8qkiQCGsqE-1826" value="Dynamic Encoder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+        <mxCell id="-l3uia2hVn8qkiQCGsqE-1826" value="Dynamic Encoder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" y="383" width="70" height="47" as="geometry" />
         </mxCell>
       </root>
