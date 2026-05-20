@@ -37,7 +37,7 @@
         <mxCell id="gt_container" value="真实身份标签" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#ffffff;strokeColor=#2f80ed;strokeWidth=2;fontSize=17;fontStyle=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1470" y="855" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="title_left" value="基础模块示意&amp;lt;br&amp;gt;（LCDN单元）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="title_left" value="基础模块示意（LCDN单元）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="45" y="45" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="title_seq" value="多步态时序序列输入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#003b7a;" parent="1" vertex="1">
@@ -139,7 +139,7 @@
         <mxCell id="upper_box_2" value="变化建模" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#ffe9e0;strokeColor=#ff7f50;strokeWidth=1.1;fontSize=17;fontColor=#000000;fontStyle=1;gradientColor=#fbd7c9;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="900" y="245" width="75" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="upper_box_3" value="动态&amp;lt;br&amp;gt;响应" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#ffe9e0;strokeColor=#ff7f50;strokeWidth=1.1;fontSize=17;fontColor=#000000;fontStyle=1;gradientColor=#fbd7c9;gradientDirection=south;" parent="1" vertex="1">
+        <mxCell id="upper_box_3" value="动态响应" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#ffe9e0;strokeColor=#ff7f50;strokeWidth=1.1;fontSize=17;fontColor=#000000;fontStyle=1;gradientColor=#fbd7c9;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="1010" y="245" width="75" height="85" as="geometry" />
         </mxCell>
         <mxCell id="edge_upper_box_0_upper_box_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=block;endFill=1;" parent="1" source="upper_box_0" target="upper_box_1" edge="1">
