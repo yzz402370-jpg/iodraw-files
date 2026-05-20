@@ -10,9 +10,6 @@
         <mxCell id="seq_container" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#eef7ff;strokeColor=#5fa8ff;strokeWidth=1.2;fontSize=17;fontColor=#000000;fontStyle=0;gradientColor=#d9ecff;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="285" y="30" width="300" height="385" as="geometry" />
         </mxCell>
-        <mxCell id="kwDwqjAPKf0Du8CAahXN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="encoder_container" target="upper_box_0">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="encoder_container" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#eaf5ff;strokeColor=#5fa8ff;strokeWidth=1.2;fontSize=17;fontColor=#000000;fontStyle=0;gradientColor=#d9ecff;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="285" y="450" width="300" height="305" as="geometry" />
         </mxCell>
@@ -288,6 +285,9 @@
         </mxCell>
         <mxCell id="align_dot_green2_2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6fb36f;strokeColor=none;opacity=90;" parent="kwDwqjAPKf0Du8CAahXN-2" vertex="1">
           <mxGeometry x="22" y="31" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="kwDwqjAPKf0Du8CAahXN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="encoder_container" target="upper_box_0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
