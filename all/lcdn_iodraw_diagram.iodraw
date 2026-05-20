@@ -49,6 +49,9 @@
         <mxCell id="title_lcdn" value="LCDN：隐条件时序解耦网络" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=1;fontColor=#0b6623;" parent="1" vertex="1">
           <mxGeometry x="700" y="50" width="340" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="kwDwqjAPKf0Du8CAahXN-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="title_upper" target="upper_box_2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="title_upper" value="条件相关变化分支&amp;lt;br&amp;gt;&amp;lt;font style=&amp;quot;font-size:16px&amp;quot;&amp;gt;（建模步态条件变化）&amp;lt;/font&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#d92d20;" parent="1" vertex="1">
           <mxGeometry x="745" y="150" width="250" height="60" as="geometry" />
         </mxCell>
