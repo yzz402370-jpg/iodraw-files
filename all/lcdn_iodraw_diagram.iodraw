@@ -31,7 +31,7 @@
         <mxCell id="clf_container" value="身份分类器&lt;div&gt;（全连接 + Softmax）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#fff3d8;strokeColor=#f39c12;strokeWidth=1.2;fontSize=20;fontColor=#000000;fontStyle=1;gradientColor=#ffe8a3;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="1215" y="710" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="pred_container" value="身份预测结果&amp;lt;br&amp;gt;&amp;lt;font style=&amp;quot;font-size:15px&amp;quot;&amp;gt;ID-1&amp;nbsp;&amp;nbsp; ID-2 &amp;nbsp;…&amp;nbsp; ID-N&amp;lt;/font&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#e7f0ff;strokeColor=#4c9aff;strokeWidth=1.2;fontSize=20;fontColor=#003b7a;fontStyle=1;gradientColor=#cfe2ff;gradientDirection=south;" parent="1" vertex="1">
+        <mxCell id="pred_container" value="身份预测结果&lt;div&gt;ID-1&amp;nbsp;&amp;nbsp; ID-2...&amp;nbsp; ID-N&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#e7f0ff;strokeColor=#4c9aff;strokeWidth=1.2;fontSize=20;fontColor=#003b7a;fontStyle=1;gradientColor=#cfe2ff;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="1215" y="845" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gt_container" value="真实身份标签" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#ffffff;strokeColor=#2f80ed;strokeWidth=2;fontSize=17;fontStyle=1;dashed=1;" parent="1" vertex="1">
