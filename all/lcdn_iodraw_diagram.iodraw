@@ -112,7 +112,7 @@
         <mxCell id="enc_spatial" value="空间特征编码&lt;div&gt;（提取外观与姿态信息）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#e9f4ff;strokeColor=#2f80ed;strokeWidth=1.2;fontSize=17;fontColor=#000000;fontStyle=1;gradientColor=#d9ecff;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="315" y="545" width="240" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="enc_temporal" value="时间特征编码&amp;lt;br&amp;gt;&amp;lt;font style=&amp;quot;font-size:15px&amp;quot;&amp;gt;（建模时序动态变化）&amp;lt;/font&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#e9f4ff;strokeColor=#2f80ed;strokeWidth=1.2;fontSize=17;fontColor=#000000;fontStyle=1;gradientColor=#d9ecff;gradientDirection=south;" parent="1" vertex="1">
+        <mxCell id="enc_temporal" value="时间特征编码&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;（建模时序动态变化）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#e9f4ff;strokeColor=#2f80ed;strokeWidth=1.2;fontSize=17;fontColor=#000000;fontStyle=1;gradientColor=#d9ecff;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="315" y="640" width="240" height="65" as="geometry" />
         </mxCell>
         <mxCell id="edge_seq_enc" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=block;endFill=1;" parent="1" source="seq_container" target="encoder_container" edge="1">
