@@ -80,7 +80,7 @@
           <mxGeometry x="65" y="710" width="130" height="65" as="geometry" />
         </mxCell>
         <mxCell id="plus" value="⊕" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontSize=28;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="650" width="42.5" height="42.5" as="geometry" />
+          <mxGeometry x="110" y="650" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="edge_left_box_0_left_box_1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=block;endFill=1;" parent="1" source="left_box_0" target="left_box_1" edge="1">
           <mxGeometry relative="1" as="geometry" />
