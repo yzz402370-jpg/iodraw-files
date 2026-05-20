@@ -7,10 +7,10 @@
         <mxCell id="-l3uia2hVn8qkiQCGsqE-1790" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="200" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-l3uia2hVn8qkiQCGsqE-1795" value="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-l3uia2hVn8qkiQCGsqE-1795" value="1×1 Conv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="249" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-l3uia2hVn8qkiQCGsqE-1796" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-l3uia2hVn8qkiQCGsqE-1796" value="Swish / GELU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="301" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-l3uia2hVn8qkiQCGsqE-1797" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
