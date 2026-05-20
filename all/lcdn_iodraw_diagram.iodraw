@@ -119,7 +119,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="feature_cube" value="… &amp;nbsp;&amp;nbsp; …" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#6db8ff;gradientColor=#1d65a6;strokeColor=#0b5394;strokeWidth=1.5;fontSize=18;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="325" y="795" width="235" height="80" as="geometry" />
+          <mxGeometry x="317.5" y="795" width="235" height="80" as="geometry" />
         </mxCell>
         <mxCell id="feature_cube_title" value="动态特征序列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#003b7a;" parent="1" vertex="1">
           <mxGeometry x="330" y="885" width="220" height="40" as="geometry" />
