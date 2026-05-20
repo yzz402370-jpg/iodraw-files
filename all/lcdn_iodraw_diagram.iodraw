@@ -130,7 +130,7 @@
         <mxCell id="edge_encoder_cube" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=block;endFill=1;" parent="1" source="encoder_container" target="feature_cube" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="upper_box_0" value="特征&amp;lt;br&amp;gt;提取" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#fff7e6;strokeColor=#e69f00;strokeWidth=1.1;fontSize=17;fontColor=#000000;fontStyle=1;gradientColor=#fff2cc;gradientDirection=south;" parent="1" vertex="1">
+        <mxCell id="upper_box_0" value="特征提取" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#fff7e6;strokeColor=#e69f00;strokeWidth=1.1;fontSize=17;fontColor=#000000;fontStyle=1;gradientColor=#fff2cc;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="680" y="245" width="75" height="85" as="geometry" />
         </mxCell>
         <mxCell id="upper_box_1" value="时序&amp;lt;br&amp;gt;解耦" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#ffe9e0;strokeColor=#ff7f50;strokeWidth=1.1;fontSize=17;fontColor=#000000;fontStyle=1;gradientColor=#fbd7c9;gradientDirection=south;" parent="1" vertex="1">
