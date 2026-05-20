@@ -35,7 +35,7 @@
           <mxGeometry x="1235" y="845" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gt_container" value="真实身份标签" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#ffffff;strokeColor=#2f80ed;strokeWidth=2;fontSize=17;fontStyle=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1470" y="855" width="140" height="70" as="geometry" />
+          <mxGeometry x="1490" y="855" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="title_left" value="基础模块示意（LCDN单元）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="45" y="45" width="180" height="60" as="geometry" />
@@ -288,6 +288,9 @@
         </mxCell>
         <mxCell id="align_dot_green2_2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6fb36f;strokeColor=none;opacity=90;" parent="kwDwqjAPKf0Du8CAahXN-2" vertex="1">
           <mxGeometry x="22" y="31" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="kwDwqjAPKf0Du8CAahXN-3" value="Block" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1258" y="135" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
