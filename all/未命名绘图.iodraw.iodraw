@@ -97,7 +97,7 @@
           <mxGeometry x="470" y="390" width="90" height="160" as="geometry" />
         </mxCell>
         <mxCell id="-l3uia2hVn8qkiQCGsqE-1826" value="Dynamic Encoder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="460" y="383" width="66" height="47" as="geometry" />
+          <mxGeometry x="460" y="383" width="70" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
