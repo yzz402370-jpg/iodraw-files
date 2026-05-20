@@ -41,9 +41,6 @@
         <mxCell id="-l3uia2hVn8qkiQCGsqE-1799" value="1×1 Conv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="456" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-l3uia2hVn8qkiQCGsqE-1808" value="&lt;h1&gt;⊕&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="315" y="476" width="30" height="10" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
