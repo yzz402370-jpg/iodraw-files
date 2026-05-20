@@ -10,6 +10,9 @@
         <mxCell id="seq_container" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#eef7ff;strokeColor=#5fa8ff;strokeWidth=1.2;fontSize=17;fontColor=#000000;fontStyle=0;gradientColor=#d9ecff;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="285" y="30" width="300" height="385" as="geometry" />
         </mxCell>
+        <mxCell id="kwDwqjAPKf0Du8CAahXN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="encoder_container" target="upper_box_0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="encoder_container" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;absoluteArcSize=1;fillColor=#eaf5ff;strokeColor=#5fa8ff;strokeWidth=1.2;fontSize=17;fontColor=#000000;fontStyle=0;gradientColor=#d9ecff;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="285" y="450" width="300" height="305" as="geometry" />
         </mxCell>
@@ -167,9 +170,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge_lower_box_2_lower_box_3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=2;endArrow=block;endFill=1;" parent="1" source="lower_box_2" target="lower_box_3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge_encoder_to_lcdn" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="encoder_container" target="lcd_container" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="edge_encoder_lower" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.65;entryX=0;entryY=0.5;" parent="1" source="encoder_container" target="lower_box_0" edge="1">
