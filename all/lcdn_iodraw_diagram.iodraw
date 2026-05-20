@@ -202,7 +202,7 @@
         <mxCell id="proto_ellipsis" value="…" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1420" y="165" width="30" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="proto_bullets" value="• 跨步态&amp;lt;br&amp;gt;• 跨场景&amp;lt;br&amp;gt;• 身份特异&amp;lt;br&amp;gt;• 稳定属性" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="proto_bullets" value="• 跨步态&lt;div&gt;• 跨场景&lt;/div&gt;&lt;div&gt;• 身份特异&lt;/div&gt;&lt;div&gt;• 稳定属性&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1255" y="275" width="175" height="90" as="geometry" />
         </mxCell>
         <mxCell id="edge_upper_proto" value="检索 / 更新" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#003b7a;strokeWidth=2.5;endArrow=block;endFill=1;dashed=1;dashPattern=8 4;fontSize=15;fontStyle=1;fontColor=#000000;labelBackgroundColor=#ffffff;" parent="1" source="upper_box_3" target="proto_cyl" edge="1">
