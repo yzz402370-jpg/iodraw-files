@@ -55,7 +55,7 @@
         <mxCell id="title_upper" value="条件相关变化分支&lt;div&gt;（建模步态条件变化）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#d92d20;" parent="1" vertex="1">
           <mxGeometry x="745" y="150" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="title_lower" value="身份不变分支&amp;lt;br&amp;gt;&amp;lt;font style=&amp;quot;font-size:16px&amp;quot;&amp;gt;（提取稳定身份特征）&amp;lt;/font&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#003b7a;" parent="1" vertex="1">
+        <mxCell id="title_lower" value="身份不变分支&lt;div&gt;（提取稳定身份特征）&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#003b7a;" parent="1" vertex="1">
           <mxGeometry x="760" y="480" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="title_proto" value="动态不变原型库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;fontStyle=1;fontColor=#00838f;" parent="1" vertex="1">
