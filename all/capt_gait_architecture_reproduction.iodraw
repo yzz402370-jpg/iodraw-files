@@ -1314,7 +1314,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Figure A Overall Model" id="F13KlNrLJjDEGS5RQ4Zy">
-    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1652,7 +1652,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Figure B CAPT Detail" id="Dmlt-3p9NXcXSqoriVnY">
-    <mxGraphModel dx="2049" dy="2806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1661,7 +1661,7 @@
           <mxGeometry x="700" y="24" width="1050" height="40" as="geometry" />
         </mxCell>
         <mxCell id="114" value="Neural-network styled expansion of Part Pyramid, ConfAware, and PDTM with dimensional transitions and key operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#4b5563;fontStyle=0;" parent="2" vertex="1">
-          <mxGeometry x="360" y="-80" width="1500" height="26" as="geometry" />
+          <mxGeometry x="420" y="63" width="1500" height="26" as="geometry" />
         </mxCell>
         <mxCell id="115" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#173f96;strokeWidth=2;fillColor=#fafcff;" parent="2" vertex="1">
           <mxGeometry x="40" y="120" width="250" height="260" as="geometry" />
