@@ -561,6 +561,9 @@
             <mxPoint x="1177" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="68dbqYwYGI4ft_cEaSdq-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c203" target="c205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c203" value="Average fuse (across branches)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#188038;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1033" y="622" width="288" height="28" as="geometry" />
         </mxCell>
