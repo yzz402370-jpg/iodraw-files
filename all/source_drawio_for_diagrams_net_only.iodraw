@@ -627,7 +627,7 @@
           <mxGeometry x="975" y="946" width="90" height="22" as="geometry" />
         </mxCell>
         <mxCell id="c234" value="⊗" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#111111;strokeWidth=1.2;fontSize=16;fontColor=#111111;align=center;verticalAlign=middle;opacity=0;" parent="1" vertex="1">
-          <mxGeometry x="768" y="976" width="22" height="22" as="geometry" />
+          <mxGeometry x="820" y="975" width="22" height="22" as="geometry" />
         </mxCell>
         <mxCell id="c235" value="Element-wise&#xa;multiply" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="852" y="968" width="85" height="44" as="geometry" />
@@ -636,7 +636,7 @@
           <mxGeometry x="995" y="971" width="31" height="31" as="geometry" />
         </mxCell>
         <mxCell id="c239" value="Temporal&#xa;branch" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1085" y="966" width="82" height="45" as="geometry" />
+          <mxGeometry x="1040" y="963.5" width="82" height="45" as="geometry" />
         </mxCell>
         <mxCell id="c240" value="" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#CFE0FF;strokeColor=#446DEB;strokeWidth=1;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1227" y="967" width="30" height="30" as="geometry" />
@@ -645,7 +645,7 @@
           <mxGeometry x="1258" y="973" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c242" value="Tensor&#xa;(Batch-first)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1312" y="966" width="92" height="45" as="geometry" />
+          <mxGeometry x="1297" y="965.5" width="92" height="45" as="geometry" />
         </mxCell>
         <mxCell id="68dbqYwYGI4ft_cEaSdq-10" value="" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;fontSize=12;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
           <mxGeometry x="1239" y="79" width="45" height="56" as="geometry" />
