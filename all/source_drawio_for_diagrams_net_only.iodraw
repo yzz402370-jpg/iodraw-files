@@ -320,7 +320,7 @@
           <mxGeometry x="362" y="720" width="19" height="19" as="geometry" />
         </mxCell>
         <mxCell id="c112" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1.5;fontSize=8;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="395" y="720" width="19" height="19" as="geometry" />
+          <mxGeometry x="395" y="720" width="15" height="19" as="geometry" />
         </mxCell>
         <mxCell id="c113" value="B × 24 × 12 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="168" y="741" width="145" height="22" as="geometry" />
