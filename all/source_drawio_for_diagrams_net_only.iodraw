@@ -442,17 +442,14 @@
             <mxPoint x="690" y="667" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="68dbqYwYGI4ft_cEaSdq-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c160" target="c166">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="c160" value="Blend&#xa;α = 0.5 · α_feat + 0.5 · α_corr&#xa;B × 24 × 7" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#777777;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="602" y="669" width="188" height="55" as="geometry" />
+          <mxGeometry x="595" y="669" width="188" height="55" as="geometry" />
         </mxCell>
         <mxCell id="68dbqYwYGI4ft_cEaSdq-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c166" target="c168">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c166" value="Mode = multiply" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="642.5" y="735" width="115" height="28" as="geometry" />
+          <mxGeometry x="638" y="735" width="115" height="28" as="geometry" />
         </mxCell>
         <mxCell id="c168" value="Z_c   B × 24 × 12 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="615" y="781" width="170" height="30" as="geometry" />
