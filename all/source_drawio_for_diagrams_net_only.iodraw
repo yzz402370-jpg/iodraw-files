@@ -616,12 +616,6 @@
             <mxPoint x="1358" y="268" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e207" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1358" y="268" as="sourcePoint" />
-            <mxPoint x="1358" y="715" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="e208" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1358" y="715" as="sourcePoint" />
