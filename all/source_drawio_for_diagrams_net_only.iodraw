@@ -512,7 +512,14 @@
           <mxGeometry x="1015" y="488" width="76" height="58" as="geometry" />
         </mxCell>
         <mxCell id="68dbqYwYGI4ft_cEaSdq-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c189" target="c203">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1053" y="610" />
+              <mxPoint x="1112" y="610" />
+              <mxPoint x="1112" y="602" />
+              <mxPoint x="1166" y="602" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="c189" value="PW + BN +&#xa;GELU" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFF7EF;strokeColor=#F4511E;strokeWidth=1.2;fontSize=10;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1014" y="557" width="78" height="43" as="geometry" />
