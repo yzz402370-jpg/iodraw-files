@@ -371,7 +371,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c134" value="Linear → Softmax&#xa;(at part level)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="537" y="409" width="107" height="43" as="geometry" />
+          <mxGeometry x="537" y="410" width="107" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e135" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
