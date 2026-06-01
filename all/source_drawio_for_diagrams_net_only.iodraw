@@ -596,9 +596,6 @@
         <mxCell id="c214" value="Y&#xa;B × 24 × 12 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1102" y="800" width="150" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="c215" value="Downstream:    GAP(T, P)      →      LN + Dropout + FC      →      identity logits" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#7B1FA2;strokeWidth=1.2;fontSize=18;fontColor=#7B1FA2;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="355" y="872" width="790" height="44" as="geometry" />
-        </mxCell>
         <mxCell id="c216" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;dashed=1;dashPattern=5 4;" parent="1" vertex="1">
           <mxGeometry x="38" y="937" width="1375" height="100" as="geometry" />
         </mxCell>
