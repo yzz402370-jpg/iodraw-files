@@ -443,13 +443,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c160" value="Blend&#xa;α = 0.5 · α_feat + 0.5 · α_corr&#xa;B × 24 × 7" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#777777;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="626" y="667" width="188" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="e162" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="814" y="685" as="sourcePoint" />
-            <mxPoint x="760" y="685" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="598.5" y="669" width="188" height="55" as="geometry" />
         </mxCell>
         <mxCell id="e165" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
