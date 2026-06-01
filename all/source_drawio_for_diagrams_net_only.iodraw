@@ -281,7 +281,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c99" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="20" y="690" width="439" height="54" as="geometry" />
+          <mxGeometry x="20" y="690" width="439" height="70" as="geometry" />
         </mxCell>
         <mxCell id="c100" value="Concatenate (7 + 4 + 1 = 12 tokens)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="129" y="694" width="210" height="20" as="geometry" />
