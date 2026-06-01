@@ -329,7 +329,7 @@
           <mxGeometry x="166" y="732" width="145" height="22" as="geometry" />
         </mxCell>
         <mxCell id="c115" value="Token embedding" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="132" y="778" width="204" height="27" as="geometry" />
+          <mxGeometry x="137.5" y="781" width="204" height="27" as="geometry" />
         </mxCell>
         <mxCell id="e116" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
