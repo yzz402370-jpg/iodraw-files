@@ -515,9 +515,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1053" y="610" />
-              <mxPoint x="1112" y="610" />
-              <mxPoint x="1112" y="602" />
-              <mxPoint x="1166" y="602" />
+              <mxPoint x="1166" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -555,7 +553,7 @@
           <mxGeometry x="1265" y="557" width="78" height="43" as="geometry" />
         </mxCell>
         <mxCell id="c203" value="Average fuse (across branches)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#188038;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="1022" y="622" width="288" height="28" as="geometry" />
+          <mxGeometry x="1033" y="622" width="288" height="28" as="geometry" />
         </mxCell>
         <mxCell id="c205" value="Residual connection" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1022" y="664" width="288" height="28" as="geometry" />
