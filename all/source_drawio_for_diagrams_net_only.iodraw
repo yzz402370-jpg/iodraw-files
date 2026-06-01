@@ -332,7 +332,7 @@
           <mxGeometry x="503" y="227" width="394" height="590" as="geometry" />
         </mxCell>
         <mxCell id="c120" value="Two-branch confidence-aware aggregation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF2D2D;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="565" y="260" width="285" height="26" as="geometry" />
+          <mxGeometry x="558" y="259" width="285" height="26" as="geometry" />
         </mxCell>
         <mxCell id="c121" value="A) Feature branch&#xa;(from Z_p)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="290" width="110" height="45" as="geometry" />
