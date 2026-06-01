@@ -499,6 +499,9 @@
         <mxCell id="c184" value="Lightweight multi-rate temporal branches (depthwise 1D conv)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#1E4DFF;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1004" y="404" width="350" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="68dbqYwYGI4ft_cEaSdq-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c185" target="c187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c185" value="d = 1&#xa;(rate 1)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#2E7D32;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1018.5" y="432" width="70" height="43" as="geometry" />
         </mxCell>
