@@ -373,12 +373,6 @@
         <mxCell id="c134" value="Linear → Softmax&#xa;(at part level)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="537" y="410" width="107" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="e135" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1" source="c37">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="504" as="sourcePoint" />
-            <mxPoint x="570" y="544" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="c136" value="α_feat&#xa;B × 24 × 7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="532" y="548" width="85" height="45" as="geometry" />
         </mxCell>
