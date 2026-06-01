@@ -323,13 +323,7 @@
           <mxGeometry x="414" y="716" width="19" height="19" as="geometry" />
         </mxCell>
         <mxCell id="c113" value="B × 24 × 12 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="168" y="741" width="145" height="22" as="geometry" />
-        </mxCell>
-        <mxCell id="e114" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="235" y="744" as="sourcePoint" />
-            <mxPoint x="235" y="772" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="172" y="738" width="145" height="22" as="geometry" />
         </mxCell>
         <mxCell id="c115" value="Token embedding" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="113" y="773" width="204" height="27" as="geometry" />
@@ -342,9 +336,6 @@
         </mxCell>
         <mxCell id="c117" value="Z_p   B × 24 × 12 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="138" y="827" width="190" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="c118" value="Pyramid gate&#xa;off in final run" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#1E4DFF;align=center;verticalAlign=middle;spacing=4;dashed=1;dashPattern=5 4;" parent="1" vertex="1">
-          <mxGeometry x="355" y="765" width="105" height="70" as="geometry" />
         </mxCell>
         <mxCell id="c119" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#FF2D2D;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;dashed=1;dashPattern=5 4;" parent="1" vertex="1">
           <mxGeometry x="540" y="264" width="394" height="590" as="geometry" />
