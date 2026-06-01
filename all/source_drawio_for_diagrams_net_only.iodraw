@@ -50,7 +50,7 @@
           <mxGeometry x="774" y="84" width="86" height="64" as="geometry" />
         </mxCell>
         <mxCell id="c16" value="⋯" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="870" y="95" width="42" height="40" as="geometry" />
+          <mxGeometry x="892" y="104" width="42" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c17" value="F (joint feature tensor)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#1F2A6D;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="945" y="56" width="160" height="24" as="geometry" />
