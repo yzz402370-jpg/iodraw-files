@@ -448,14 +448,8 @@
         <mxCell id="c166" value="Mode = multiply" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="635" y="735" width="115" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="e167" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="763" as="sourcePoint" />
-            <mxPoint x="720" y="795" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="c168" value="Z_c   B × 24 × 12 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="637" y="792" width="170" height="30" as="geometry" />
+          <mxGeometry x="609" y="781" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c169" value="(7 fine corrected + 4 coarse + 1 global unchanged)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="592" y="820" width="260" height="18" as="geometry" />
