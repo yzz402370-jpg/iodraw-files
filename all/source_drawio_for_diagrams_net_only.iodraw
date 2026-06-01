@@ -319,14 +319,11 @@
         <mxCell id="c113" value="B × 24 × 12 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="166" y="732" width="145" height="22" as="geometry" />
         </mxCell>
+        <mxCell id="68dbqYwYGI4ft_cEaSdq-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c115" target="c117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c115" value="Token embedding" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="137.5" y="781" width="204" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="e116" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="235" y="800" as="sourcePoint" />
-            <mxPoint x="235" y="825" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="c117" value="Z_p   B × 24 × 12 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="143.5" y="830" width="190" height="24" as="geometry" />
