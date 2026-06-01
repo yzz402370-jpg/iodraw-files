@@ -612,31 +612,31 @@
           <mxGeometry x="86" y="966" width="70" height="42" as="geometry" />
         </mxCell>
         <mxCell id="c220" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E41A1C;strokeColor=#C62828;strokeWidth=1.2;fontSize=8;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="143.5" y="980" width="16" height="16" as="geometry" />
+          <mxGeometry x="170" y="980" width="16" height="16" as="geometry" />
         </mxCell>
         <mxCell id="c221" value="Trunk" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="181" y="966" width="70" height="42" as="geometry" />
+          <mxGeometry x="170" y="966" width="70" height="42" as="geometry" />
         </mxCell>
         <mxCell id="c222" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0D47D9;strokeColor=#0B3CB5;strokeWidth=1.2;fontSize=8;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="252" y="980" width="16" height="16" as="geometry" />
+          <mxGeometry x="279" y="980" width="16" height="16" as="geometry" />
         </mxCell>
         <mxCell id="c223" value="Left&#xa;Forelimb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="276" y="966" width="70" height="42" as="geometry" />
         </mxCell>
         <mxCell id="c224" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F4511E;strokeColor=#D84315;strokeWidth=1.2;fontSize=8;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="367" y="980" width="16" height="16" as="geometry" />
+          <mxGeometry x="387" y="980" width="16" height="16" as="geometry" />
         </mxCell>
         <mxCell id="c225" value="Right&#xa;Forelimb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="391" y="966" width="70" height="42" as="geometry" />
         </mxCell>
         <mxCell id="c226" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#176C1F;strokeColor=#0E4D14;strokeWidth=1.2;fontSize=8;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="482" y="980" width="16" height="16" as="geometry" />
+          <mxGeometry x="495" y="980" width="16" height="16" as="geometry" />
         </mxCell>
         <mxCell id="c227" value="Left&#xa;Hindlimb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="506" y="966" width="70" height="42" as="geometry" />
         </mxCell>
         <mxCell id="c228" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D9A000;strokeColor=#B8860B;strokeWidth=1.2;fontSize=8;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="597" y="980" width="16" height="16" as="geometry" />
+          <mxGeometry x="604" y="980" width="16" height="16" as="geometry" />
         </mxCell>
         <mxCell id="c229" value="Right&#xa;Hindlimb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="621" y="966" width="70" height="42" as="geometry" />
