@@ -609,10 +609,10 @@
           <mxGeometry x="185" y="965" width="70" height="42" as="geometry" />
         </mxCell>
         <mxCell id="c223" value="Left&#xa;Forelimb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="276" y="966" width="70" height="42" as="geometry" />
+          <mxGeometry x="278" y="961" width="70" height="42" as="geometry" />
         </mxCell>
         <mxCell id="c225" value="Right&#xa;Forelimb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="391" y="966" width="70" height="42" as="geometry" />
+          <mxGeometry x="372" y="965" width="70" height="42" as="geometry" />
         </mxCell>
         <mxCell id="c227" value="Left&#xa;Hindlimb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="506" y="966" width="70" height="42" as="geometry" />
