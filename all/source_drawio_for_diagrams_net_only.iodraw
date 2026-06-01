@@ -367,9 +367,6 @@
         <mxCell id="c131" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F8BBD0;strokeColor=#F8BBD0;strokeWidth=1.5;fontSize=8;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="666" y="335" width="13" height="13" as="geometry" />
         </mxCell>
-        <mxCell id="c132" value="⋯" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="654" y="327" width="34" height="28" as="geometry" />
-        </mxCell>
         <mxCell id="e133" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="358" as="sourcePoint" />
@@ -465,9 +462,6 @@
         </mxCell>
         <mxCell id="c156" value="α_feat ⊗ α_conf&#xa;B × 24 × 7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="635" y="590" width="115" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="c157" value="Renorm (across 7 fine parts)&#xa;→ α_corr&#xa;B × 24 × 7" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#2E7D32;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="756" y="596" width="115" height="61" as="geometry" />
         </mxCell>
         <mxCell id="e158" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
