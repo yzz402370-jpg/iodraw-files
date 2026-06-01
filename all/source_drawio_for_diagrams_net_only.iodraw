@@ -269,13 +269,7 @@
           <mxGeometry x="362" y="614" width="18" height="18" as="geometry" />
         </mxCell>
         <mxCell id="c96" value="Z_global&#xa;B × 24 × 1 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="328" y="635" width="95" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="e97" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="235" y="537" as="sourcePoint" />
-            <mxPoint x="235" y="552" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="323.5" y="635" width="95" height="34" as="geometry" />
         </mxCell>
         <mxCell id="68dbqYwYGI4ft_cEaSdq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c99" target="c115">
           <mxGeometry relative="1" as="geometry" />
