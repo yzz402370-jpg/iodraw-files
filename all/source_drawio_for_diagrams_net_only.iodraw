@@ -182,7 +182,7 @@
           <mxGeometry x="283" y="329" width="32" height="48" as="geometry" />
         </mxCell>
         <mxCell id="c68" value="B × 128 × 24 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="254" y="385" width="135" height="22" as="geometry" />
+          <mxGeometry x="251" y="382" width="135" height="22" as="geometry" />
         </mxCell>
         <mxCell id="e69" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#2B55C7;strokeWidth=1;dashed=1;dashPattern=5 4;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
