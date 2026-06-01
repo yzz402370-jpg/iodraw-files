@@ -488,10 +488,10 @@
           <mxGeometry x="1306" y="338" width="60" height="43" as="geometry" />
         </mxCell>
         <mxCell id="c181" value="⋯" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1157" y="346" width="40" height="25" as="geometry" />
+          <mxGeometry x="1152" y="347" width="40" height="25" as="geometry" />
         </mxCell>
         <mxCell id="c182" value="⋯" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1269" y="344" width="36" height="25" as="geometry" />
+          <mxGeometry x="1266" y="344" width="36" height="25" as="geometry" />
         </mxCell>
         <mxCell id="c183" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#188038;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;dashed=1;dashPattern=5 4;" parent="1" vertex="1">
           <mxGeometry x="984" y="399" width="386" height="211" as="geometry" />
