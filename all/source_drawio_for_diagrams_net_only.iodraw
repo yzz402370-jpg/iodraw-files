@@ -479,7 +479,7 @@
           <mxGeometry x="1230" y="350" width="36" height="25" as="geometry" />
         </mxCell>
         <mxCell id="c183" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#188038;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;dashed=1;dashPattern=5 4;" parent="1" vertex="1">
-          <mxGeometry x="984" y="399" width="366" height="211" as="geometry" />
+          <mxGeometry x="984" y="399" width="346" height="211" as="geometry" />
         </mxCell>
         <mxCell id="c184" value="Lightweight multi-rate temporal branches (depthwise 1D conv)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#1E4DFF;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="982" y="409" width="350" height="20" as="geometry" />
@@ -642,6 +642,9 @@
         </mxCell>
         <mxCell id="68dbqYwYGI4ft_cEaSdq-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.83;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="c58" target="c85">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68dbqYwYGI4ft_cEaSdq-55" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFFFFF;strokeColor=#FF2D2D;strokeWidth=1.4;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="500" y="218" width="420" height="650" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
