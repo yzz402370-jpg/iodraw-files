@@ -436,7 +436,7 @@
         <mxCell id="c152" value="α_conf&#xa;B × 24 × 7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="748" y="548" width="95" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="c153" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;⊗&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#111111;strokeWidth=1.2;fontSize=20;fontColor=#111111;align=center;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="c153" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;⊗&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#111111;strokeWidth=1.2;fontSize=20;fontColor=#111111;align=center;verticalAlign=middle;opacity=0;" parent="1" vertex="1">
           <mxGeometry x="674" y="559" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="e154" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
