@@ -406,6 +406,9 @@
         <mxCell id="c145" value="S&#xa;B × 48 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="800" y="322" width="90" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="68dbqYwYGI4ft_cEaSdq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c146" target="c148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c146" value="AvgPool (k = 3)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#2E7D32;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="733" y="386" width="135" height="43" as="geometry" />
         </mxCell>
@@ -423,12 +426,6 @@
         </mxCell>
         <mxCell id="c156" value="α_feat ⊗ α_conf&#xa;B × 24 × 7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="635" y="590" width="115" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="e158" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="614" as="sourcePoint" />
-            <mxPoint x="756" y="625" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="e159" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
