@@ -263,10 +263,10 @@
           <mxGeometry x="300" y="580" width="142" height="92" as="geometry" />
         </mxCell>
         <mxCell id="c94" value="1 global token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="587" width="90" height="22" as="geometry" />
+          <mxGeometry x="326" y="587" width="90" height="22" as="geometry" />
         </mxCell>
         <mxCell id="c95" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1.5;fontSize=8;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="366" y="614" width="18" height="18" as="geometry" />
+          <mxGeometry x="362" y="614" width="18" height="18" as="geometry" />
         </mxCell>
         <mxCell id="c96" value="Z_global&#xa;B × 24 × 1 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="328" y="635" width="95" height="34" as="geometry" />
