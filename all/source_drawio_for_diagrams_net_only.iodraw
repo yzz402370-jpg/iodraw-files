@@ -461,7 +461,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1400" y="266" />
-              <mxPoint x="1400" y="713" />
+              <mxPoint x="1400" y="720" />
+              <mxPoint x="1180" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -532,7 +533,7 @@
           <mxGeometry x="1152" y="707" width="28" height="28" as="geometry" />
         </mxCell>
         <mxCell id="c212" value="LayerNorm   (α = .05)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="1022" y="745" width="288" height="28" as="geometry" />
+          <mxGeometry x="1022" y="753" width="288" height="28" as="geometry" />
         </mxCell>
         <mxCell id="c214" value="Y&#xa;B × 24 × 12 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1102" y="803" width="150" height="46" as="geometry" />
