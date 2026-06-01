@@ -606,7 +606,7 @@
           <mxGeometry x="240" y="946" width="180" height="22" as="geometry" />
         </mxCell>
         <mxCell id="c221" value="Trunk" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="170" y="966" width="70" height="42" as="geometry" />
+          <mxGeometry x="185" y="965" width="70" height="42" as="geometry" />
         </mxCell>
         <mxCell id="c223" value="Left&#xa;Forelimb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="276" y="966" width="70" height="42" as="geometry" />
