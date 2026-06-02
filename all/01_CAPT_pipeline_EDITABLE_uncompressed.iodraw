@@ -901,7 +901,7 @@
             <mxPoint x="620" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nn1_W6fh1lunISXiT2vx-354" value="" style="group;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="1">
+        <mxCell id="Nn1_W6fh1lunISXiT2vx-354" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1000" y="340" width="60" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-355" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Nn1_W6fh1lunISXiT2vx-354">
