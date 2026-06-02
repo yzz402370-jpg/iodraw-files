@@ -333,7 +333,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="c170" value="Input:   Z_c&#xa;B × 24 × 12 × D" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#188038;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+        <mxCell id="c170" value="&lt;b&gt;Input:   Z_c&lt;br&gt;B × 24 × 12 × D&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#188038;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1038" y="245" width="288" height="43" as="geometry" />
         </mxCell>
         <mxCell id="c172" value="Split into per-part token sequences (P = 12)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
@@ -515,7 +515,7 @@
         <mxCell id="c40" value="b) ConfAware" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FF2D2D;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
           <mxGeometry x="115" y="10" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="c120" value="Two-branch confidence-aware aggregation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF2D2D;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
+        <mxCell id="c120" value="&lt;b&gt;Two-branch confidence-aware aggregation&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF2D2D;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
           <mxGeometry x="68" y="40" width="285" height="26" as="geometry" />
         </mxCell>
         <mxCell id="c121" value="&lt;b&gt;A) Feature branch&lt;br&gt;(from Z_p)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
