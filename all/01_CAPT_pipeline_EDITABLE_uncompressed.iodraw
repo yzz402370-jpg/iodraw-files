@@ -905,7 +905,7 @@
           <mxGeometry width="24.76190476190476" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-375" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="404" y="352" width="102" height="21" as="geometry" />
+          <mxGeometry x="404" y="348" width="102" height="21" as="geometry" />
         </mxCell>
         <mxCell id="97" value="Raw Score" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="Nn1_W6fh1lunISXiT2vx-375" vertex="1">
           <mxGeometry width="85" height="20" as="geometry" />
