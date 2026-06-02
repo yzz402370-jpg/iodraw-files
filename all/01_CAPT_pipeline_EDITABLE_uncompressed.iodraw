@@ -920,7 +920,7 @@
           <mxGeometry x="243.35615006150067" width="11.493849938499388" height="22" as="geometry" />
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-408" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="629" y="576" width="95" height="60" as="geometry" />
+          <mxGeometry x="620" y="570" width="95" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-405" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Nn1_W6fh1lunISXiT2vx-408">
           <mxGeometry width="30" height="60" as="geometry" />
