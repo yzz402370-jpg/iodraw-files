@@ -156,7 +156,7 @@
         <mxCell id="Nn1_W6fh1lunISXiT2vx-379" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;" parent="1" source="95" target="151" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="95" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
+        <mxCell id="95" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#FFF7E6;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
           <mxGeometry x="395" y="313" width="445" height="136" as="geometry" />
         </mxCell>
         <mxCell id="96" value="3. Confidence Path" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=19;fontColor=#ff6a00;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
