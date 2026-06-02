@@ -92,7 +92,7 @@
         <mxCell id="27" value="B × 5 × 48 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="100" width="150" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="43" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#000;" parent="1" edge="1">
+        <mxCell id="43" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#000;exitX=0.955;exitY=0.492;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="Nn1_W6fh1lunISXiT2vx-319">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="171.5" as="sourcePoint" />
             <mxPoint x="534" y="171.5" as="targetPoint" />
@@ -164,7 +164,7 @@
           <mxGeometry x="890" y="265" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="92" value="Keep Temporal&lt;br&gt;T = 24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="995" y="260" width="150" height="45" as="geometry" />
+          <mxGeometry x="977" y="260" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="93" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;strokeColor=#000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
