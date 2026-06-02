@@ -655,7 +655,7 @@
         <mxCell id="c146" value="&lt;b&gt;AvgPool (k = 3)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#2E7D32;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="752" y="386" width="135" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="68dbqYwYGI4ft_cEaSdq-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" parent="1" source="c148" target="c150" edge="1">
+        <mxCell id="68dbqYwYGI4ft_cEaSdq-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="c148" target="c150" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="820" y="490" />
@@ -666,7 +666,7 @@
         <mxCell id="c148" value="&lt;b&gt;Temporal resize&lt;br&gt;T = 24&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#2E7D32;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="752" y="444" width="135" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="68dbqYwYGI4ft_cEaSdq-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="c150" edge="1">
+        <mxCell id="68dbqYwYGI4ft_cEaSdq-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;" parent="1" source="c150" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="560" as="targetPoint" />
             <Array as="points">
