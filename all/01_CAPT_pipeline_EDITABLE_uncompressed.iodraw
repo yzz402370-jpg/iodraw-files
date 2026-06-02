@@ -341,10 +341,10 @@
           <mxGeometry x="955" y="730" width="138" height="28" as="geometry" />
         </mxCell>
         <mxCell id="247" value="Output Tokens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="882" y="792" width="110" height="20" as="geometry" />
+          <mxGeometry x="900" y="792" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="254" value="Y ∈ ℝ&lt;sup&gt;B×12×D&lt;/sup&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="960" y="790" width="130" height="24" as="geometry" />
+          <mxGeometry x="998.5" y="790" width="130" height="24" as="geometry" />
         </mxCell>
         <mxCell id="255" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2.5;strokeColor=#000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
