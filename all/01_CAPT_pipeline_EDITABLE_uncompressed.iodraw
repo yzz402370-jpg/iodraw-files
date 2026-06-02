@@ -52,15 +52,6 @@
         <mxCell id="21" value="Clip Build&lt;br&gt;&lt;i&gt;(T = 48, V = 39)&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#888888;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="62" y="502" width="178" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=3;strokeColor=#000;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="361" y="148" as="sourcePoint" />
-            <mxPoint x="420" y="148" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="388" y="148" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="24" value="2. Base Skeleton Encoder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=23;fontColor=#2f51d9;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="18" width="480" height="32" as="geometry" />
         </mxCell>
