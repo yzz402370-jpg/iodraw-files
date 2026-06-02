@@ -274,12 +274,6 @@
         <mxCell id="182" value="12 Tokens (7 fine + 4 coarse + 1 global)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="325" y="740" width="225" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="193" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#91b2ff;fillColor=#91b2ff;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
-          <mxGeometry x="622" y="762" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="194" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#c6cdfb;fillColor=#c6cdfb;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
-          <mxGeometry x="652" y="762" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="195" value="Z&lt;sub&gt;p&lt;/sub&gt; ∈ ℝ&lt;sup&gt;B×12×D&lt;/sup&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=3;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="375" y="790" width="140" height="24" as="geometry" />
         </mxCell>
@@ -770,7 +764,7 @@
           <mxGeometry x="1088" y="556" width="42" height="28" as="geometry" />
         </mxCell>
         <mxCell id="196" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#FFFCF2;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
-          <mxGeometry x="604" y="512" width="273" height="308" as="geometry" />
+          <mxGeometry x="670" y="509" width="273" height="308" as="geometry" />
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-425" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="241" target="243" edge="1">
           <mxGeometry relative="1" as="geometry" />
