@@ -184,13 +184,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="151" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=2;dashed=1;dashPattern=6 4;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="275" y="458" width="890" height="372" as="geometry" />
+          <mxGeometry x="275" y="458" width="890" height="374" as="geometry" />
         </mxCell>
         <mxCell id="152" value="4. CAPT (Confidence-Aware Part-Temporal)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontColor=#2f51d9;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="475" width="460" height="34" as="geometry" />
         </mxCell>
         <mxCell id="154" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="305" y="512" width="285" height="275" as="geometry" />
+          <mxGeometry x="305" y="512" width="285" height="308" as="geometry" />
         </mxCell>
         <mxCell id="155" value="a) Part Pyramid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#2f51d9;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="523" width="180" height="25" as="geometry" />
