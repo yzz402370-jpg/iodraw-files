@@ -194,30 +194,6 @@
         <mxCell id="69" value="B × 128 × 24 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1165" y="112" width="170" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="71" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=1.5;direction=north;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="117" width="18" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="72" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#2f51d9;fillColor=#dce7ff;strokeWidth=1.5;direction=east;opacity=85;" parent="1" vertex="1">
-          <mxGeometry x="1234" y="123" width="10" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="74" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=1.5;direction=north;" parent="1" vertex="1">
-          <mxGeometry x="1228" y="117" width="18" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="75" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#2f51d9;fillColor=#dce7ff;strokeWidth=1.5;direction=east;opacity=85;" parent="1" vertex="1">
-          <mxGeometry x="1242" y="123" width="10" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="77" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=1.5;direction=north;" parent="1" vertex="1">
-          <mxGeometry x="1236" y="117" width="18" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="80" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=1.5;direction=north;" parent="1" vertex="1">
-          <mxGeometry x="1244" y="117" width="18" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="83" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=1.5;direction=north;" parent="1" vertex="1">
-          <mxGeometry x="1252" y="117" width="18" height="12" as="geometry" />
-        </mxCell>
-        <mxCell id="84" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#2f51d9;fillColor=#dce7ff;strokeWidth=1.5;direction=east;opacity=85;" parent="1" vertex="1">
-          <mxGeometry x="1266" y="123" width="10" height="78" as="geometry" />
-        </mxCell>
         <mxCell id="85" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#666;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="455" y="245" as="sourcePoint" />
