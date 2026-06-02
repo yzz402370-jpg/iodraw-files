@@ -102,19 +102,19 @@
           <mxGeometry x="545" y="151.75" width="67" height="38" as="geometry" />
         </mxCell>
         <mxCell id="46" value="E1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="638" y="78" width="70" height="22" as="geometry" />
+          <mxGeometry x="623.5" y="81" width="70" height="22" as="geometry" />
         </mxCell>
         <mxCell id="48" value="E2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="714" y="78" width="70" height="22" as="geometry" />
+          <mxGeometry x="699.5" y="81" width="70" height="22" as="geometry" />
         </mxCell>
         <mxCell id="50" value="DS1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="791" y="78" width="70" height="22" as="geometry" />
+          <mxGeometry x="776.5" y="81" width="70" height="22" as="geometry" />
         </mxCell>
         <mxCell id="52" value="E3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="867" y="78" width="70" height="22" as="geometry" />
+          <mxGeometry x="852.5" y="81" width="70" height="22" as="geometry" />
         </mxCell>
         <mxCell id="54" value="E4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="943" y="78" width="70" height="22" as="geometry" />
+          <mxGeometry x="928.5" y="81" width="70" height="22" as="geometry" />
         </mxCell>
         <mxCell id="56" value="KeepT24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1006" y="78" width="70" height="22" as="geometry" />
@@ -162,12 +162,6 @@
         </mxCell>
         <mxCell id="90" value="T = 24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="890" y="265" width="120" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="91" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#666;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1006" y="181" as="sourcePoint" />
-            <mxPoint x="1006" y="246" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="92" value="Keep Temporal&lt;br&gt;T = 24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="995" y="260" width="150" height="45" as="geometry" />
