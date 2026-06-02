@@ -8,7 +8,7 @@
           <mxGeometry width="1448" height="1086" as="geometry" />
         </mxCell>
         <mxCell id="3" value="1. Input Skeleton Sequence" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=23;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="60" y="18" width="360" height="32" as="geometry" />
+          <mxGeometry x="28" y="30" width="360" height="32" as="geometry" />
         </mxCell>
         <mxCell id="4" value="t = 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="36" y="80" width="80" height="22" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="228" y="132" width="50" height="35" as="geometry" />
         </mxCell>
         <mxCell id="12" value="X ∈ ℝ&lt;sup&gt;T×5×48×39&lt;/sup&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="232" width="245" height="30" as="geometry" />
+          <mxGeometry x="44" y="203.5" width="245" height="30" as="geometry" />
         </mxCell>
         <mxCell id="13" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#555555;fillColor=#ffffff;strokeWidth=2;dashed=1;dashPattern=6 4;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="25" y="290" width="332" height="114" as="geometry" />
