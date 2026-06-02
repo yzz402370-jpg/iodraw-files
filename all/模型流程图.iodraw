@@ -235,13 +235,13 @@
             <mxPoint x="568.71" y="664" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="170" value="4 Coarse Groups" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="170" value="4 Coarse Groups" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="382" y="644" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="171" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#8f67da;fillColor=#8f67da;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
           <mxGeometry x="320" y="664" width="22" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="172" value="G&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="172" value="G&lt;sub&gt;1&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=3;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="318" y="695" width="34" height="20" as="geometry" />
         </mxCell>
         <mxCell id="173" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#6ea0f1;fillColor=#6ea0f1;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
@@ -253,7 +253,7 @@
         <mxCell id="175" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#8ec77b;fillColor=#8ec77b;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
           <mxGeometry x="504" y="664" width="22" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="176" value="G&lt;sub&gt;3&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="176" value="G&lt;sub&gt;3&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=3;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="498" y="695" width="34" height="20" as="geometry" />
         </mxCell>
         <mxCell id="177" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#f0d066;fillColor=#f0d066;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
@@ -262,7 +262,7 @@
         <mxCell id="178" value="G&lt;sub&gt;4&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="552" y="695" width="34" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="179" value="1 Global Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="179" value="1 Global Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="698.9" width="130" height="22" as="geometry" />
         </mxCell>
         <mxCell id="180" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#cfc7f6;fillColor=#cfc7f6;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
