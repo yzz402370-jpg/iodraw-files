@@ -427,10 +427,10 @@
           <mxGeometry x="900" y="936" width="90" height="22" as="geometry" />
         </mxCell>
         <mxCell id="304" value="×" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="940" y="859" width="30" height="30" as="geometry" />
+          <mxGeometry x="1110" y="858" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="305" value="Element-wise&lt;br&gt;Multiply" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="976" y="855" width="90" height="30" as="geometry" />
+          <mxGeometry x="1153" y="858" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="306" value="GAP" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#ffffff;strokeWidth=2;fontSize=13;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="1245" y="860" width="38" height="24" as="geometry" />
