@@ -150,7 +150,7 @@
         <mxCell id="88" value="Temporal&lt;br&gt;Downsample&lt;br&gt;T: 48 → 24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="760" y="258" width="130" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="89" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#666;entryX=0.981;entryY=0.935;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="Nn1_W6fh1lunISXiT2vx-331">
+        <mxCell id="89" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#666;" parent="1" edge="1" target="25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="848" y="245" as="sourcePoint" />
             <mxPoint x="1224" y="245" as="targetPoint" />
