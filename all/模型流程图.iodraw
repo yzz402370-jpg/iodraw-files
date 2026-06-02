@@ -303,7 +303,7 @@
         <mxCell id="254" value="Y ∈ ℝ&lt;sup&gt;B×12×D&lt;/sup&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=3;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="790" width="130" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="258" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#6f35e4;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
+        <mxCell id="258" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#6f35e4;fillColor=#F8EBFF;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
           <mxGeometry x="1190" y="385" width="230" height="312" as="geometry" />
         </mxCell>
         <mxCell id="259" value="5. Global Head" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontColor=#6f35e4;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
