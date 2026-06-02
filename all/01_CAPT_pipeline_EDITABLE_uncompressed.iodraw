@@ -409,7 +409,7 @@
           <mxGeometry x="82" y="858" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="291" value="Left Forelimb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="332" y="858" width="100" height="30" as="geometry" />
+          <mxGeometry x="320" y="857" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="293" value="Right Forelimb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="482" y="858" width="100" height="30" as="geometry" />
