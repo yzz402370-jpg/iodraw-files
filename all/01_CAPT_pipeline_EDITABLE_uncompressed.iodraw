@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="3392383c59ae49f0bbe1" name="CAPT Editable">
-    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1448" pageHeight="1086" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1448" pageHeight="1086" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="151" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=2;dashed=1;dashPattern=6 4;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="275" y="458" width="890" height="383" as="geometry" />
+          <mxGeometry x="275" y="458" width="890" height="372" as="geometry" />
         </mxCell>
         <mxCell id="152" value="4. CAPT (Confidence-Aware Part-Temporal)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontColor=#2f51d9;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="475" width="460" height="34" as="geometry" />
