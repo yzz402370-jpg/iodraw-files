@@ -55,7 +55,7 @@
         <mxCell id="24" value="2. Base Skeleton Encoder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=23;fontColor=#2f51d9;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="18" width="480" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="25" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
+        <mxCell id="25" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f51d9;fillColor=#F2F5FF;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
           <mxGeometry x="394" y="48" width="913" height="254" as="geometry" />
         </mxCell>
         <mxCell id="26" value="Input Tensor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -757,7 +757,7 @@
         <mxCell id="286" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#8355d3;fillColor=#8355d3;" parent="1" vertex="1">
           <mxGeometry x="59.31999999999999" y="864" width="14.928406466512701" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="196" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#FFFCF2;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
+        <mxCell id="196" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#FFF7E6;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
           <mxGeometry x="604" y="512" width="273" height="308" as="geometry" />
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-408" value="" style="group" parent="1" vertex="1" connectable="0">
