@@ -195,7 +195,7 @@
         <mxCell id="155" value="a) Part Pyramid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#2f51d9;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="523" width="180" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="156" value="7 Part Tokens (fine)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="156" value="7 Part Tokens (fine)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="380" y="548" width="130" height="18" as="geometry" />
         </mxCell>
         <mxCell id="164" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;strokeColor=#666;dashed=1;dashPattern=5 4;" parent="1" edge="1">
@@ -208,7 +208,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="165" value="Anatomical grouping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="165" value="Anatomical grouping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="372.5" y="620" width="150" height="22" as="geometry" />
         </mxCell>
         <mxCell id="166" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;strokeColor=#666;dashed=1;dashPattern=5 4;" parent="1" edge="1">
