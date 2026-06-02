@@ -7,7 +7,7 @@
         <mxCell id="c1" value="" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry width="1448" height="1086" as="geometry" />
         </mxCell>
-        <mxCell id="68dbqYwYGI4ft_cEaSdq-55" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=none;strokeColor=#82b366;strokeWidth=1.4;fontSize=12;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+        <mxCell id="68dbqYwYGI4ft_cEaSdq-55" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=default;strokeColor=#82b366;strokeWidth=1.4;fontSize=12;align=center;verticalAlign=middle;spacing=4;fillStyle=hatch;" parent="1" vertex="1">
           <mxGeometry x="961" y="208" width="479" height="650" as="geometry" />
         </mxCell>
         <mxCell id="c2" value="Detailed CAPT Module" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;fontColor=#1F2A6D;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
