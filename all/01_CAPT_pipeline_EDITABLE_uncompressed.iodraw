@@ -44,10 +44,10 @@
           <mxGeometry x="238" y="325" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="19" value="Normalize" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#888888;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="84" y="433" width="154" height="37" as="geometry" />
+          <mxGeometry x="76" y="438" width="154" height="37" as="geometry" />
         </mxCell>
         <mxCell id="21" value="Clip Build&lt;br&gt;&lt;i&gt;(T = 48, V = 39)&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#888888;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="72" y="502" width="178" height="53" as="geometry" />
+          <mxGeometry x="62" y="502" width="178" height="53" as="geometry" />
         </mxCell>
         <mxCell id="22" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=3;strokeColor=#000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
