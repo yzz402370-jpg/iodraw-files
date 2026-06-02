@@ -200,10 +200,10 @@
         </mxCell>
         <mxCell id="164" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.4;strokeColor=#666;dashed=1;dashPattern=5 4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="344" y="594" as="sourcePoint" />
+            <mxPoint x="330" y="594" as="sourcePoint" />
             <mxPoint x="568" y="594" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="344" y="618" />
+              <mxPoint x="330" y="618" />
               <mxPoint x="568" y="618" />
             </Array>
           </mxGeometry>
