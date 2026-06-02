@@ -313,20 +313,8 @@
         <mxCell id="211" value="GAP&lt;br&gt;Pool" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#ffffff;strokeWidth=2;fontSize=15;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="786" y="672" width="58" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="212" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#000;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="673" y="720" as="sourcePoint" />
-            <mxPoint x="717" y="748" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="213" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#000;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="815" y="720" as="sourcePoint" />
-            <mxPoint x="761" y="748" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="214" value="×" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;strokeWidth=2;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="725.5" y="723" width="30" height="30" as="geometry" />
+          <mxGeometry x="730" y="725" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="215" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
