@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="21" value="Clip Build&lt;br&gt;&lt;i&gt;(T = 48, V = 39)&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#888888;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="85" y="503" width="178" height="53" as="geometry" />
+          <mxGeometry x="72" y="502" width="178" height="53" as="geometry" />
         </mxCell>
         <mxCell id="22" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=3;strokeColor=#000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
