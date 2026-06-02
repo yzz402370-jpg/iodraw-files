@@ -154,7 +154,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="95" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="395" y="314" width="417" height="141" as="geometry" />
+          <mxGeometry x="395" y="314" width="417" height="136" as="geometry" />
         </mxCell>
         <mxCell id="96" value="3. Confidence Path" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=19;fontColor=#ff6a00;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="325" width="330" height="28" as="geometry" />
@@ -163,7 +163,7 @@
           <mxGeometry x="414.5" y="350" width="85" height="20" as="geometry" />
         </mxCell>
         <mxCell id="98" value="S" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="486.5" y="370" width="25" height="20" as="geometry" />
+          <mxGeometry x="439.5" y="370" width="25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="120" value="B × 1 × 48 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="395" y="428" width="120" height="20" as="geometry" />
