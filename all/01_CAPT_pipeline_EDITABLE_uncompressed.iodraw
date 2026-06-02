@@ -393,14 +393,11 @@
             <mxPoint x="1305" y="588" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Nn1_W6fh1lunISXiT2vx-435" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="266" target="264">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="266" value="LN + Dropout + FC" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#6f35e4;fillColor=#ffffff;strokeWidth=2;fontSize=18;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="1211" y="588" width="188" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="267" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2.5;strokeColor=#000;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1305" y="624" as="sourcePoint" />
-            <mxPoint x="1305" y="645" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="268" value="Identity Logits" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1238" y="654" width="135" height="24" as="geometry" />
