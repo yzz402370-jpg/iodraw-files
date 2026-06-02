@@ -830,7 +830,7 @@
           <mxGeometry x="65" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="196" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#FFFCF2;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="Nn1_W6fh1lunISXiT2vx-408" vertex="1">
-          <mxGeometry x="-23" y="-60" width="273" height="308" as="geometry" />
+          <mxGeometry x="7" y="160" width="273" height="308" as="geometry" />
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-409" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="761" y="570" width="95" height="60" as="geometry" />
