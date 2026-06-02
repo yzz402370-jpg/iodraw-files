@@ -41,7 +41,7 @@
           <mxGeometry x="132" y="325" width="96" height="45" as="geometry" />
         </mxCell>
         <mxCell id="17" value="score&lt;br&gt;(confidence)" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="242" y="325" width="100" height="45" as="geometry" />
+          <mxGeometry x="244" y="325" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="19" value="Normalize" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#888888;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="76" y="438" width="154" height="37" as="geometry" />
