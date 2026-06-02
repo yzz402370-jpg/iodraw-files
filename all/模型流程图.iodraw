@@ -153,7 +153,7 @@
             <mxPoint x="1360" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nn1_W6fh1lunISXiT2vx-379" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" parent="1" source="95" target="151" edge="1">
+        <mxCell id="Nn1_W6fh1lunISXiT2vx-379" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;fontSize=11;" parent="1" source="95" target="151" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="95" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
@@ -171,7 +171,7 @@
         <mxCell id="124" value="Resize&lt;br&gt;&lt;i&gt;T = 24&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#000;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="643" y="362.5" width="81" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="126" value="S&lt;sub&gt;24&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=17;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="126" value="S&lt;sub&gt;24&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=17;fontColor=#000;fontFamily=Arial;fontStyle=3;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="760.5" y="325" width="45" height="22" as="geometry" />
         </mxCell>
         <mxCell id="148" value="B × 1 × 24 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=3;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
