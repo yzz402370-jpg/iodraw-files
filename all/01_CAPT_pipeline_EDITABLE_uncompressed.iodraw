@@ -154,7 +154,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="95" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="395" y="313" width="417" height="136" as="geometry" />
+          <mxGeometry x="395" y="313" width="445" height="136" as="geometry" />
         </mxCell>
         <mxCell id="96" value="3. Confidence Path" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=19;fontColor=#ff6a00;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="325" width="330" height="28" as="geometry" />
@@ -197,15 +197,6 @@
         </mxCell>
         <mxCell id="148" value="B × 1 × 24 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="704" y="428" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="149" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2.3;strokeColor=#ff6a00;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="813" y="402" as="sourcePoint" />
-            <mxPoint x="865" y="458" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="865" y="402" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="150" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2.3;strokeColor=#ff6a00;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -902,7 +893,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-363" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1120" y="300" width="60" height="70" as="geometry" />
+          <mxGeometry x="764" y="358" width="60" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-355" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Nn1_W6fh1lunISXiT2vx-363">
           <mxGeometry x="35.238095238095184" width="24.76190476190476" height="70" as="geometry" />
