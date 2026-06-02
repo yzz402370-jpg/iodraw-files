@@ -328,6 +328,9 @@
         <mxCell id="223" value="Z&lt;sub&gt;c&lt;/sub&gt; ∈ ℝ&lt;sup&gt;B×12×D&lt;/sup&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="681.25" y="804" width="122.5" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="Nn1_W6fh1lunISXiT2vx-440" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="224" target="258">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="224" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f7d32;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="890" y="512" width="263" height="308" as="geometry" />
         </mxCell>
