@@ -721,7 +721,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="196" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#FFFCF2;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
-          <mxGeometry x="603.5" y="512" width="273" height="308" as="geometry" />
+          <mxGeometry x="757" y="870" width="273" height="308" as="geometry" />
         </mxCell>
         <mxCell id="227" value="d = 1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f7d32;fillColor=#ffffff;strokeWidth=2;fontSize=12;fontColor=#000;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="914" y="556" width="42" height="28" as="geometry" />
