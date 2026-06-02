@@ -160,10 +160,10 @@
           <mxGeometry x="420" y="325" width="330" height="28" as="geometry" />
         </mxCell>
         <mxCell id="97" value="Raw Score" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="399" y="360" width="85" height="20" as="geometry" />
+          <mxGeometry x="404" y="352" width="85" height="20" as="geometry" />
         </mxCell>
         <mxCell id="98" value="S" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="443" y="350" width="25" height="20" as="geometry" />
+          <mxGeometry x="481" y="353" width="25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="120" value="B × 1 × 48 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="395" y="428" width="120" height="20" as="geometry" />
