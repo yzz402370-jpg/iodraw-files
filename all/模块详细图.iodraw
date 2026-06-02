@@ -383,7 +383,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="c189" value="PW + BN +&#xa;GELU" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFF7EF;strokeColor=#F4511E;strokeWidth=1.2;fontSize=10;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+        <mxCell id="c189" value="&lt;b&gt;PW + BN +&lt;br&gt;GELU&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFF7EF;strokeColor=#F4511E;strokeWidth=1.2;fontSize=10;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1014" y="557" width="78" height="43" as="geometry" />
         </mxCell>
         <mxCell id="68dbqYwYGI4ft_cEaSdq-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c191" target="c193" edge="1">
@@ -403,7 +403,7 @@
             <mxPoint x="1177.2068965517242" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c195" value="PW + BN +&#xa;GELU" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFF7EF;strokeColor=#F4511E;strokeWidth=1.2;fontSize=10;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+        <mxCell id="c195" value="&lt;b&gt;PW + BN +&lt;br&gt;GELU&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFF7EF;strokeColor=#F4511E;strokeWidth=1.2;fontSize=10;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1138" y="557" width="78" height="43" as="geometry" />
         </mxCell>
         <mxCell id="68dbqYwYGI4ft_cEaSdq-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c197" target="c199" edge="1">
@@ -426,7 +426,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="c201" value="PW + BN +&#xa;GELU" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFF7EF;strokeColor=#F4511E;strokeWidth=1.2;fontSize=10;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+        <mxCell id="c201" value="&lt;b&gt;PW + BN +&lt;br&gt;GELU&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFF7EF;strokeColor=#F4511E;strokeWidth=1.2;fontSize=10;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1265" y="557" width="78" height="43" as="geometry" />
         </mxCell>
         <mxCell id="68dbqYwYGI4ft_cEaSdq-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" target="c195" edge="1">
@@ -437,7 +437,7 @@
         <mxCell id="68dbqYwYGI4ft_cEaSdq-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c203" target="c205" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c203" value="Average fuse (across branches)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#188038;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+        <mxCell id="c203" value="&lt;b&gt;Average fuse (across branches)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#188038;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1033" y="622" width="288" height="28" as="geometry" />
         </mxCell>
         <mxCell id="68dbqYwYGI4ft_cEaSdq-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c205" target="c210" edge="1">
