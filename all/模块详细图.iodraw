@@ -339,13 +339,13 @@
         <mxCell id="c172" value="Split into per-part token sequences (P = 12)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1024" y="313" width="315" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="c173" value="Part 1&#xa;T = 24" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F7F7F7;strokeColor=#777777;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+        <mxCell id="c173" value="&lt;b&gt;Part 1&lt;br&gt;T = 24&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F7F7F7;strokeColor=#777777;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1002" y="338" width="60" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="c175" value="Part 2&#xa;T = 24" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F7F7F7;strokeColor=#777777;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+        <mxCell id="c175" value="&lt;b&gt;Part 2&lt;br&gt;T = 24&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F7F7F7;strokeColor=#777777;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1082" y="338" width="60" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="c177" value="Part i&#xa;T = 24" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F7F7F7;strokeColor=#777777;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+        <mxCell id="c177" value="&lt;b&gt;Part i&lt;br&gt;T = 24&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F7F7F7;strokeColor=#777777;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="1203.5" y="338" width="60" height="43" as="geometry" />
         </mxCell>
         <mxCell id="c179" value="Part 12&#xa;T = 24" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#F7F7F7;strokeColor=#777777;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
