@@ -37,9 +37,6 @@
         <mxCell id="15" value="coords&lt;br&gt;&lt;i&gt;(x, y, z)&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#2f51d9;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="39" y="325" width="74" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="196" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#FFFCF2;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
-          <mxGeometry x="671.5" y="857" width="273" height="308" as="geometry" />
-        </mxCell>
         <mxCell id="16" value="motion&lt;br&gt;&lt;i&gt;(Δx, Δy, Δz)&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#77a665;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#3f7f2f;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="132" y="325" width="96" height="45" as="geometry" />
         </mxCell>
@@ -66,6 +63,9 @@
         </mxCell>
         <mxCell id="27" value="&lt;b&gt;B × 5 × 48 × 39&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="100" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="196" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#FFFCF2;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
+          <mxGeometry x="671.5" y="857" width="273" height="308" as="geometry" />
         </mxCell>
         <mxCell id="43" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
