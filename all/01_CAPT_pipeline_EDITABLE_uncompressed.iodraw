@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="3392383c59ae49f0bbe1" name="CAPT Editable">
-    <mxGraphModel dx="1195" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1448" pageHeight="1086" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1448" pageHeight="1086" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -872,7 +872,7 @@
         <mxCell id="235" value="d = 3" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f7d32;fillColor=#ffffff;strokeWidth=2;fontSize=12;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="1030" y="556" width="42" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="Nn1_W6fh1lunISXiT2vx-432" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="237">
+        <mxCell id="Nn1_W6fh1lunISXiT2vx-432" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="237">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1050.8333333333335" y="670" as="targetPoint" />
           </mxGeometry>
