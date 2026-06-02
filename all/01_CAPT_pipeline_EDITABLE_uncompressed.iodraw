@@ -403,16 +403,16 @@
           <mxGeometry x="1183" y="707" width="240" height="97" as="geometry" />
         </mxCell>
         <mxCell id="281" value="6. Training Objective" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontColor=#6f35e4;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1208" y="715" width="212" height="24" as="geometry" />
+          <mxGeometry x="1199.5" y="715" width="212" height="24" as="geometry" />
         </mxCell>
         <mxCell id="282" value="CE + Triplet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#6f35e4;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="753" width="130" height="22" as="geometry" />
+          <mxGeometry x="1240" y="744" width="130" height="22" as="geometry" />
         </mxCell>
         <mxCell id="283" value="l&lt;sub&gt;s&lt;/sub&gt; = 0.05" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#6f35e4;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#6f35e4;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="1205" y="776" width="78" height="26" as="geometry" />
+          <mxGeometry x="1212.5" y="770" width="78" height="26" as="geometry" />
         </mxCell>
         <mxCell id="284" value="m = 0.20" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#6f35e4;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#6f35e4;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="1317" y="776" width="78" height="26" as="geometry" />
+          <mxGeometry x="1313" y="770" width="78" height="26" as="geometry" />
         </mxCell>
         <mxCell id="285" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=2;dashed=1;dashPattern=6 4;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="34" y="839" width="1377" height="67" as="geometry" />
