@@ -349,7 +349,7 @@
           <mxGeometry x="955" y="730" width="138" height="28" as="geometry" />
         </mxCell>
         <mxCell id="254" value="Y ∈ ℝ&lt;sup&gt;B×12×D&lt;/sup&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="998.5" y="790" width="130" height="24" as="geometry" />
+          <mxGeometry x="960" y="790" width="130" height="24" as="geometry" />
         </mxCell>
         <mxCell id="255" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2.5;strokeColor=#000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -857,6 +857,11 @@
         </mxCell>
         <mxCell id="231" value="d = 2" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f7d32;fillColor=#ffffff;strokeWidth=2;fontSize=12;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="972" y="556" width="42" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Nn1_W6fh1lunISXiT2vx-431" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="233">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="993.3333333333335" y="670" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="233" value="Dilated&lt;br&gt;Conv (1D)" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f7d32;fillColor=#ffffff;strokeWidth=2;fontSize=12;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="969" y="603" width="48" height="46" as="geometry" />
