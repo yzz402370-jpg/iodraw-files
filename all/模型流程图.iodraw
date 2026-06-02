@@ -34,7 +34,7 @@
         <mxCell id="14" value="Input channels" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="295" width="150" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="coords&lt;br&gt;&lt;i&gt;(x, y, z)&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#2f51d9;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="15" value="coords&lt;br&gt;&lt;i&gt;(x, y, z)&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f51d9;fillColor=#F2F5FF;strokeWidth=2;fontSize=14;fontColor=#2f51d9;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="39" y="325" width="74" height="45" as="geometry" />
         </mxCell>
         <mxCell id="16" value="motion&lt;br&gt;&lt;i&gt;(Δx, Δy, Δz)&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#77a665;fillColor=#E3FFE5;strokeWidth=2;fontSize=14;fontColor=#3f7f2f;fontStyle=1;" parent="1" vertex="1">
