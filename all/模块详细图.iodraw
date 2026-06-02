@@ -7,7 +7,7 @@
         <mxCell id="c1" value="" style="rounded=0;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry width="1448" height="1086" as="geometry" />
         </mxCell>
-        <mxCell id="68dbqYwYGI4ft_cEaSdq-55" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=default;strokeColor=#82b366;strokeWidth=1.4;fontSize=12;align=center;verticalAlign=middle;spacing=4;fillStyle=hatch;" parent="1" vertex="1">
+        <mxCell id="68dbqYwYGI4ft_cEaSdq-55" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#E6FFE7;strokeColor=#82b366;strokeWidth=1.4;fontSize=12;align=center;verticalAlign=middle;spacing=4;fillStyle=hatch;" parent="1" vertex="1">
           <mxGeometry x="961" y="208" width="479" height="650" as="geometry" />
         </mxCell>
         <mxCell id="c2" value="Detailed CAPT Module" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=29;fontColor=#1F2A6D;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="1" vertex="1">
@@ -506,7 +506,7 @@
         <mxCell id="68dbqYwYGI4ft_cEaSdq-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.569;entryY=0.295;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="c177" target="68dbqYwYGI4ft_cEaSdq-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w6tHiP73UoikqXsSqCDQ-3" value="" style="group;fillColor=#FFF8E8;fillStyle=hatch;" parent="1" vertex="1" connectable="0">
+        <mxCell id="w6tHiP73UoikqXsSqCDQ-3" value="" style="group;fillColor=#FFF8E8;fillStyle=hatch;fontStyle=1" parent="1" vertex="1" connectable="0">
           <mxGeometry x="509" y="208" width="420" height="650" as="geometry" />
         </mxCell>
         <mxCell id="c37" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#FFFFFF;strokeColor=#FF2D2D;strokeWidth=1.4;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;fillStyle=hatch;" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
@@ -590,7 +590,7 @@
         <mxCell id="c153" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;⊗&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#111111;strokeWidth=1.2;fontSize=20;fontColor=#111111;align=center;verticalAlign=middle;opacity=0;" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
           <mxGeometry x="186" y="349" width="26" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="c156" value="&lt;b&gt;α_feat ⊗ α_conf&lt;br&gt;B × 24 × 7&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
+        <mxCell id="c156" value="&lt;span&gt;α_feat ⊗ α_conf&lt;br&gt;B × 24 × 7&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
           <mxGeometry x="141.5" y="382" width="115" height="42" as="geometry" />
         </mxCell>
         <mxCell id="e159" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#111111;strokeWidth=1.2;" parent="w6tHiP73UoikqXsSqCDQ-3" edge="1">
@@ -602,13 +602,13 @@
         <mxCell id="68dbqYwYGI4ft_cEaSdq-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="w6tHiP73UoikqXsSqCDQ-3" source="c160" target="c166" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c160" value="&lt;b&gt;Blend&lt;br&gt;α = 0.5 · α_feat + 0.5 · α_corr&lt;br&gt;B × 24 × 7&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#777777;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
+        <mxCell id="c160" value="&lt;span&gt;Blend&lt;br&gt;α = 0.5 · α_feat + 0.5 · α_corr&lt;br&gt;B × 24 × 7&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#777777;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;fontStyle=1" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
           <mxGeometry x="105" y="461" width="188" height="55" as="geometry" />
         </mxCell>
         <mxCell id="68dbqYwYGI4ft_cEaSdq-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="w6tHiP73UoikqXsSqCDQ-3" source="c166" target="c168" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c166" value="Mode = multiply" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
+        <mxCell id="c166" value="Mode = multiply" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#FFFFFF;strokeColor=#1E4DFF;strokeWidth=1.2;fontSize=12;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;fontStyle=1" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
           <mxGeometry x="141.5" y="527" width="115" height="28" as="geometry" />
         </mxCell>
         <mxCell id="c168" value="Z_c   B × 24 × 12 × D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;fontStyle=1;" parent="w6tHiP73UoikqXsSqCDQ-3" vertex="1">
