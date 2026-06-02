@@ -160,13 +160,10 @@
           <mxGeometry x="420" y="325" width="330" height="28" as="geometry" />
         </mxCell>
         <mxCell id="97" value="Raw Score" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="410" y="356" width="85" height="20" as="geometry" />
+          <mxGeometry x="414.5" y="350" width="85" height="20" as="geometry" />
         </mxCell>
         <mxCell id="98" value="S" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="430" y="374" width="25" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="99" value="" style="shape=rect;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#fff6ef;strokeWidth=1.5;" parent="1" vertex="1">
-          <mxGeometry x="422" y="395" width="10" height="36" as="geometry" />
         </mxCell>
         <mxCell id="100" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#ff6a00;fillColor=#ffffff;strokeWidth=1.5;direction=north;" parent="1" vertex="1">
           <mxGeometry x="426" y="383" width="10" height="12" as="geometry" />
