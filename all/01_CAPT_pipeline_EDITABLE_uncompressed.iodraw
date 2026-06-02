@@ -931,21 +931,6 @@
         <mxCell id="Nn1_W6fh1lunISXiT2vx-389" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ec71aa;fillColor=#ec71aa;strokeWidth=1.5;opacity=75;" vertex="1" parent="Nn1_W6fh1lunISXiT2vx-382">
           <mxGeometry x="147.15328467153284" width="12.846715328467154" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="Nn1_W6fh1lunISXiT2vx-396" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="480" y="760" width="71" height="22.5" as="geometry" />
-        </mxCell>
-        <mxCell id="Nn1_W6fh1lunISXiT2vx-390" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#8f67da;fillColor=#8f67da;strokeWidth=1.5;opacity=75;" vertex="1" parent="Nn1_W6fh1lunISXiT2vx-396">
-          <mxGeometry y="0.9782608695652173" width="12.538694215288219" height="21.521739130434785" as="geometry" />
-        </mxCell>
-        <mxCell id="Nn1_W6fh1lunISXiT2vx-391" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#6ea0f1;fillColor=#6ea0f1;strokeWidth=1.5;opacity=75;" vertex="1" parent="Nn1_W6fh1lunISXiT2vx-396">
-          <mxGeometry x="20.44808046465508" y="0.9782608695652173" width="12.536849315068494" height="21.521739130434785" as="geometry" />
-        </mxCell>
-        <mxCell id="Nn1_W6fh1lunISXiT2vx-392" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#8ec77b;fillColor=#8ec77b;strokeWidth=1.5;opacity=75;" vertex="1" parent="Nn1_W6fh1lunISXiT2vx-396">
-          <mxGeometry x="40.7352316192095" y="0.9782608695652173" width="12.536849315068494" height="21.521739130434785" as="geometry" />
-        </mxCell>
-        <mxCell id="Nn1_W6fh1lunISXiT2vx-393" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#f0d066;fillColor=#f0d066;strokeWidth=1.5;opacity=75;" vertex="1" parent="Nn1_W6fh1lunISXiT2vx-396">
-          <mxGeometry x="59.76323664825046" width="12.536849315068494" height="21.521739130434785" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
