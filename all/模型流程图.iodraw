@@ -13,9 +13,6 @@
         <mxCell id="4" value="&lt;b&gt;t = 1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="36" y="80" width="80" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="196" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#FFFCF2;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
-          <mxGeometry x="607" y="832" width="273" height="308" as="geometry" />
-        </mxCell>
         <mxCell id="5" value="&lt;b&gt;t = 12&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="142.02" y="80" width="80" height="22" as="geometry" />
         </mxCell>
@@ -30,6 +27,9 @@
         </mxCell>
         <mxCell id="12" value="X ∈ ℝ&lt;sup&gt;T×5×48×39&lt;/sup&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="48" y="203.5" width="286" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="196" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#FFFCF2;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;fillStyle=hatch;" parent="1" vertex="1">
+          <mxGeometry x="607" y="832" width="273" height="308" as="geometry" />
         </mxCell>
         <mxCell id="13" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#555555;fillColor=#ffffff;strokeWidth=2;dashed=1;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="25" y="290" width="332" height="114" as="geometry" />
