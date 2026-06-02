@@ -125,9 +125,6 @@
         <mxCell id="58" value="E5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1117" y="78" width="70" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="59" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#2f51d9;fillColor=#dce7ff;strokeWidth=1.8;" parent="1" vertex="1">
-          <mxGeometry x="1119" y="110" width="40" height="78" as="geometry" />
-        </mxCell>
         <mxCell id="61" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="748" y="156" as="sourcePoint" />
