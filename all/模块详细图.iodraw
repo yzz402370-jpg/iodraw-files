@@ -644,7 +644,7 @@
         <mxCell id="c145" value="&lt;b&gt;S&lt;br&gt;B × 48 × 39&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#111111;fontFamily=Helvetica;spacing=0;spacingTop=0;spacingBottom=0;" parent="1" vertex="1">
           <mxGeometry x="819" y="322" width="90" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="68dbqYwYGI4ft_cEaSdq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="c146" target="c148" edge="1">
+        <mxCell id="68dbqYwYGI4ft_cEaSdq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" parent="1" source="c146" target="c148" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="820" y="440" />
@@ -662,6 +662,9 @@
               <mxPoint x="820" y="500" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="S3_v00uItCh5M3wn_lXt-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c148" target="c152">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c148" value="&lt;b&gt;Temporal resize&lt;br&gt;T = 24&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#EEF8EE;strokeColor=#2E7D32;strokeWidth=1.2;fontSize=11;fontColor=#111111;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="752" y="444" width="135" height="43" as="geometry" />
