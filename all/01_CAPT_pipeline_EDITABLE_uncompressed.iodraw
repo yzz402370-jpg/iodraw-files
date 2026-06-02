@@ -354,12 +354,6 @@
         <mxCell id="254" value="Y ∈ ℝ&lt;sup&gt;B×12×D&lt;/sup&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="790" width="130" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="256" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2.5;strokeColor=#000;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="877" y="654" as="sourcePoint" />
-            <mxPoint x="890" y="654" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="258" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#6f35e4;fillColor=#ffffff;strokeWidth=2;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="1190" y="385" width="230" height="312" as="geometry" />
         </mxCell>
