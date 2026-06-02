@@ -70,16 +70,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="23" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;strokeColor=#000;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="263" y="530" as="sourcePoint" />
-            <mxPoint x="393" y="390" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="307" y="530" />
-              <mxPoint x="307" y="390" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="24" value="2. Base Skeleton Encoder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=23;fontColor=#2f51d9;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="18" width="480" height="32" as="geometry" />
         </mxCell>
@@ -1052,8 +1042,9 @@
         <mxCell id="Nn1_W6fh1lunISXiT2vx-351" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=40;entryPerimeter=0;" edge="1" parent="1" source="21" target="Nn1_W6fh1lunISXiT2vx-324">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="370" y="530" />
-              <mxPoint x="370" y="162" />
+              <mxPoint x="263" y="430" />
+              <mxPoint x="380" y="430" />
+              <mxPoint x="380" y="162" />
             </Array>
           </mxGeometry>
         </mxCell>
