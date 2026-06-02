@@ -408,9 +408,6 @@
         <mxCell id="287" value="Head/Neck" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="82" y="858" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="289" value="Trunk" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="207" y="858" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="291" value="Left Forelimb" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="332" y="858" width="100" height="30" as="geometry" />
         </mxCell>
@@ -845,7 +842,7 @@
           <mxGeometry x="130" y="63" width="78" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-449" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="74.25" y="864" width="711.7499999999999" height="16" as="geometry" />
+          <mxGeometry x="74.25" y="864" width="711.7499999999999" height="23" as="geometry" />
         </mxCell>
         <mxCell id="288" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#e31b12;fillColor=#e31b12;" parent="Nn1_W6fh1lunISXiT2vx-449" vertex="1">
           <mxGeometry x="108.53960739030023" width="14.928406466512701" height="16" as="geometry" />
@@ -864,6 +861,9 @@
         </mxCell>
         <mxCell id="298" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#ec71aa;fillColor=#ec71aa;" parent="Nn1_W6fh1lunISXiT2vx-449" vertex="1">
           <mxGeometry x="696.8215935334872" width="14.928406466512701" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="289" value="Trunk" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="Nn1_W6fh1lunISXiT2vx-449" vertex="1">
+          <mxGeometry x="132.75" y="-7" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="286" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#8355d3;fillColor=#8355d3;" parent="1" vertex="1">
           <mxGeometry x="59.31999999999999" y="864" width="14.928406466512701" height="16" as="geometry" />
