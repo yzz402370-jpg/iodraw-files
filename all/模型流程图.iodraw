@@ -247,7 +247,7 @@
         <mxCell id="173" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#6ea0f1;fillColor=#6ea0f1;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
           <mxGeometry x="367.98" y="664" width="22" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="174" value="G&lt;sub&gt;2&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="174" value="G&lt;sub&gt;2&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=3;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="363" y="695" width="34" height="20" as="geometry" />
         </mxCell>
         <mxCell id="175" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#8ec77b;fillColor=#8ec77b;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
@@ -259,7 +259,7 @@
         <mxCell id="177" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#f0d066;fillColor=#f0d066;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
           <mxGeometry x="554" y="664" width="22" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="178" value="G&lt;sub&gt;4&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="178" value="G&lt;sub&gt;4&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=3;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="552" y="695" width="34" height="20" as="geometry" />
         </mxCell>
         <mxCell id="179" value="1 Global Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -268,10 +268,10 @@
         <mxCell id="180" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#cfc7f6;fillColor=#cfc7f6;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
           <mxGeometry x="434" y="722" width="22" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="181" value="G&lt;sub&gt;K&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="181" value="G&lt;sub&gt;K&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000;fontFamily=Arial;fontStyle=3;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="453" y="723" width="45" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="182" value="12 Tokens (7 fine + 4 coarse + 1 global)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="182" value="12 Tokens (7 fine + 4 coarse + 1 global)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="325" y="740" width="220" height="22" as="geometry" />
         </mxCell>
         <mxCell id="193" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#91b2ff;fillColor=#91b2ff;strokeWidth=1.5;opacity=75;" parent="1" vertex="1">
