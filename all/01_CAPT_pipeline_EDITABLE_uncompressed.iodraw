@@ -433,10 +433,10 @@
           <mxGeometry x="976" y="855" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="306" value="GAP" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#ffffff;strokeWidth=2;fontSize=13;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="856" width="38" height="24" as="geometry" />
+          <mxGeometry x="1245" y="860" width="38" height="24" as="geometry" />
         </mxCell>
         <mxCell id="307" value="Global Average&lt;br&gt;Pooling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1106" y="855" width="105" height="30" as="geometry" />
+          <mxGeometry x="1288" y="856" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-310" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="643" y="122" width="40" height="93.5" as="geometry" />
