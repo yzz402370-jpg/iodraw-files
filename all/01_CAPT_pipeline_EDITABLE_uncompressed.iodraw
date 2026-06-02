@@ -172,10 +172,10 @@
           <mxGeometry x="547" y="372" width="74" height="45" as="geometry" />
         </mxCell>
         <mxCell id="124" value="Resize&lt;br&gt;&lt;i&gt;T = 24&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
-          <mxGeometry x="648" y="372" width="81" height="45" as="geometry" />
+          <mxGeometry x="643" y="362.5" width="81" height="45" as="geometry" />
         </mxCell>
         <mxCell id="126" value="S&lt;sub&gt;24&lt;/sub&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=17;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="767" y="328" width="45" height="22" as="geometry" />
+          <mxGeometry x="760.5" y="325" width="45" height="22" as="geometry" />
         </mxCell>
         <mxCell id="148" value="B × 1 × 24 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="723" y="420" width="120" height="20" as="geometry" />
