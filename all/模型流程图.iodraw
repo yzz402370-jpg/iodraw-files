@@ -13,10 +13,10 @@
         <mxCell id="4" value="&lt;b&gt;t = 1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="36" y="80" width="80" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="t = 12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="5" value="&lt;b&gt;t = 12&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="142.02" y="80" width="80" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="t = T (48)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="6" value="&lt;b&gt;t = T (48)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="80" width="80" height="22" as="geometry" />
         </mxCell>
         <mxCell id="7" value="⋯" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -25,7 +25,7 @@
         <mxCell id="10" value="⋯" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=34;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="228" y="132" width="50" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="X ∈ ℝ&lt;sup&gt;T×5×48×39&lt;/sup&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#000;fontFamily=Arial;fontStyle=0;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="12" value="X ∈ ℝ&lt;sup&gt;T×5×48×39&lt;/sup&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="48" y="203.5" width="286" height="36.5" as="geometry" />
         </mxCell>
         <mxCell id="13" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#555555;fillColor=#ffffff;strokeWidth=2;dashed=1;fontSize=16;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
@@ -61,7 +61,7 @@
         <mxCell id="26" value="Input Tensor" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="418" y="75" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="27" value="B × 5 × 48 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="27" value="&lt;b&gt;B × 5 × 48 × 39&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="100" width="150" height="22" as="geometry" />
         </mxCell>
         <mxCell id="43" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#000;" parent="1" edge="1">
@@ -70,7 +70,7 @@
             <mxPoint x="534" y="171.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="44" value="Stem&lt;br&gt;1×1 Conv" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
+        <mxCell id="44" value="&lt;b&gt;Stem&lt;br&gt;1×1 Conv&lt;/b&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#2f51d9;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#000;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="545" y="151.75" width="67" height="38" as="geometry" />
         </mxCell>
         <mxCell id="46" value="E1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=1;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -103,7 +103,7 @@
         <mxCell id="68" value="F" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1234" y="87" width="30" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="69" value="B × 128 × 24 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=2;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="69" value="B × 128 × 24 × 39" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#000;fontFamily=Arial;fontStyle=3;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1159" y="102" width="170" height="25" as="geometry" />
         </mxCell>
         <mxCell id="85" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#666;" parent="1" edge="1">
