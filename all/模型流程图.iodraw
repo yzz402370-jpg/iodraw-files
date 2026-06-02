@@ -40,7 +40,7 @@
         <mxCell id="16" value="motion&lt;br&gt;&lt;i&gt;(Δx, Δy, Δz)&lt;/i&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#77a665;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#3f7f2f;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="132" y="325" width="96" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="score&lt;br&gt;(confidence)" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#ffffff;strokeWidth=2;fontSize=14;fontColor=#000;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="17" value="score&lt;br&gt;(confidence)" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#ff6a00;fillColor=#FFF7E6;strokeWidth=2;fontSize=14;fontColor=#000;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="244" y="325" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Nn1_W6fh1lunISXiT2vx-353" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="19" target="21" edge="1">
