@@ -31,7 +31,7 @@
         <mxCell id="dPKThQ14rUJhdP98LK56-5" value="南向设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPKThQ14rUJhdP98LK56-10" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="dPKThQ14rUJhdP98LK56-10" value="路口-设备-方向映射示意图" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="100" width="300" height="60" as="geometry" />
         </mxCell>
       </root>
