@@ -10,10 +10,10 @@
         <mxCell id="dPKThQ14rUJhdP98LK56-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;北向设备&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="375" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPKThQ14rUJhdP98LK56-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;目标路口&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPKThQ14rUJhdP98LK56-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;目标路口&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="370" y="300" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dPKThQ14rUJhdP98LK56-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dPKThQ14rUJhdP98LK56-3" target="dPKThQ14rUJhdP98LK56-2">
+        <mxCell id="dPKThQ14rUJhdP98LK56-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="dPKThQ14rUJhdP98LK56-3" target="dPKThQ14rUJhdP98LK56-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPKThQ14rUJhdP98LK56-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;东向设备&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
