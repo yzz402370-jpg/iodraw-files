@@ -8,10 +8,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPKThQ14rUJhdP98LK56-1" value="北向设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="375" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPKThQ14rUJhdP98LK56-2" value="目标路口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="300" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dPKThQ14rUJhdP98LK56-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dPKThQ14rUJhdP98LK56-3" target="dPKThQ14rUJhdP98LK56-2">
           <mxGeometry relative="1" as="geometry" />
