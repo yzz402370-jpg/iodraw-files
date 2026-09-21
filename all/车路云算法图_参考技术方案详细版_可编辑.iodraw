@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="m_out" value="实时监测结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#70AD47;fillColor=#F4FFF3;fontSize=19;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=top;spacingTop=12;" parent="1" vertex="1">
-          <mxGeometry x="1330" y="55" width="650" height="680" as="geometry" />
+          <mxGeometry x="1320" y="55" width="650" height="680" as="geometry" />
         </mxCell>
         <mxCell id="m_o0" value="人流量 / 车流量" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
           <mxGeometry x="2718.181818181818" y="274.61538461538464" width="492.42424242424244" height="71.92307692307692" as="geometry" />
