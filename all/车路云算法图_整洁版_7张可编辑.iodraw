@@ -83,7 +83,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m1e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m1enc" target="m1road" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="345" />
+              <mxPoint x="860" y="415" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="m1e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m1people" target="m1check" edge="1">
           <mxGeometry relative="1" as="geometry" />
