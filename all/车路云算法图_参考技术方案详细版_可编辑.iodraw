@@ -49,9 +49,6 @@
         <mxCell id="me7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="m_group" source="m_align" target="m_road" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m_src4" value="活动基础信息" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="80" y="560" width="190" height="105" as="geometry" />
-        </mxCell>
         <mxCell id="m_out" value="实时监测结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#70AD47;fillColor=#F4FFF3;fontSize=19;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=top;spacingTop=12;" parent="1" vertex="1">
           <mxGeometry x="1340" y="140" width="330" height="520" as="geometry" />
         </mxCell>
@@ -69,6 +66,9 @@
         </mxCell>
         <mxCell id="m_o4" value="异常聚集 / 拥堵状态" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
           <mxGeometry x="1380" y="522" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_src4" value="活动基础信息" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="190" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m_note" value="互联网路况只作补充，不替代现场感知；人员与车辆采用不同处理链路。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#E7A457;fillColor=#FFF9F2;fontSize=15;fontStyle=0;fontColor=#7F6000;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="560" y="760" width="720" height="90" as="geometry" />
