@@ -1,0 +1,700 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17" pages="7">
+  <diagram name="01_多源融合人车流监测" id="01_多源融合人车流监测">
+    <mxGraphModel dx="2049" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m_src1" value="雷视一体机" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="110" width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="m_src2" value="低时延摄像机" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="260" width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="m_src3" value="互联网路况" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="410" width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="m_src4" value="活动基础信息" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="m_align" value="时空对齐与标定&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;时间同步 · 坐标转换 · 车道/区域映射&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#5B9BD5;fillColor=#F7FBFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="350" y="265" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="m_group" value="分对象感知与融合" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#5B9BD5;fillColor=#F9FCFF;dashed=1;dashPattern=8 8;fontSize=20;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="680" y="90" width="560" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="m_vehicle" value="车辆检测与轨迹关联&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;雷达目标 + 视频目标 → 位置/速度/方向匹配&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="m_group" vertex="1">
+          <mxGeometry x="730" y="165" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m_people" value="人员检测与区域计数&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;目标检测 + 多目标跟踪 + 越线计数&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="m_group" vertex="1">
+          <mxGeometry x="730" y="315" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m_road" value="路况辅助感知&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;互联网拥堵状态 · 活动场地运行特征&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="m_group" vertex="1">
+          <mxGeometry x="730" y="465" width="460" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m_fuse" value="统一状态融合&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;轨迹去重 · 置信度融合 · 区域聚合&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;spacing=4;" parent="m_group" vertex="1">
+          <mxGeometry x="800" y="610" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="me8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="m_group" source="m_vehicle" target="m_fuse" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="m_group" source="m_people" target="m_fuse" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="m_group" source="m_road" target="m_fuse" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_out" value="实时监测结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#70AD47;fillColor=#F4FFF3;fontSize=19;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=top;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="140" width="330" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="m_o0" value="人流量 / 车流量" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
+          <mxGeometry x="1380" y="210" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_o1" value="平均速度 / 占有率" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
+          <mxGeometry x="1380" y="288" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_o2" value="区域密度" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
+          <mxGeometry x="1380" y="366" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_o3" value="热点区域" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
+          <mxGeometry x="1380" y="444" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_o4" value="异常聚集 / 拥堵状态" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
+          <mxGeometry x="1380" y="522" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_note" value="互联网路况只作补充，不替代现场感知；人员与车辆采用不同处理链路。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#E7A457;fillColor=#FFF9F2;fontSize=15;fontStyle=0;fontColor=#7F6000;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="560" y="760" width="720" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="me1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" source="m_src1" target="m_align" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" source="m_src2" target="m_align" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" source="m_src3" target="m_align" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" source="m_src4" target="m_align" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" source="m_align" target="m_vehicle" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" source="m_align" target="m_people" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" source="m_align" target="m_road" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="me11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" source="m_group" target="m_out" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="02_多尺度高峰趋势预测" id="02_多尺度高峰趋势预测">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p_rt" value="实时人车流序列" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="120" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p_hist" value="历史交通流" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="280" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p_act" value="活动类型 / 规模 / 时间" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#8FA9C2;fillColor=#F7FAFD;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="440" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p_weather" value="气象信息（可选）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#8FA9C2;fillColor=#F7FAFD;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="600" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p_window" value="统一时间粒度与滑动窗口&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;分钟级 / 小时级窗口构建&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#5B9BD5;fillColor=#F7FBFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="340" y="300" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p_model" value="多尺度预测结构" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#5B9BD5;fillColor=#F9FCFF;dashed=1;dashPattern=8 8;fontSize=20;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="680" y="80" width="600" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="p_short" value="短时分支&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;近期流量变化 · 路网传播特征&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="p_model" vertex="1">
+          <mxGeometry x="735" y="155" width="490" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p_period" value="周期先验分支&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;日周期 · 入场/散场阶段规律&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="p_model" vertex="1">
+          <mxGeometry x="735" y="300" width="490" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p_scene" value="场景条件编码&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;活动规模 · 起止时间 · 天气辅助&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="p_model" vertex="1">
+          <mxGeometry x="735" y="445" width="490" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p_merge" value="多尺度特征融合&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;Transformer / 轻量时序模型&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;spacing=4;" parent="p_model" vertex="1">
+          <mxGeometry x="815" y="595" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p_peak" value="峰值特征提取&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;峰值规模 · 到达时刻 · 持续时长&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#5B9BD5;fillColor=#FFFFFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="260" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p_out" value="预测结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#70AD47;fillColor=#F4FFF3;fontSize=19;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=top;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="500" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="p_o0" value="未来人流趋势" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="p_out" vertex="1">
+          <mxGeometry x="1390" y="560" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p_o1" value="未来车流趋势" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="p_out" vertex="1">
+          <mxGeometry x="1390" y="625" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p_o2" value="重点高峰时段" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="p_out" vertex="1">
+          <mxGeometry x="1390" y="690" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p_note" value="历史活动周期规律作为先验特征使用，不依赖预案数据，也不进行在线训练回流。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#E7A457;fillColor=#FFF9F2;fontSize=15;fontStyle=0;fontColor=#7F6000;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="540" y="790" width="720" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_p_rt" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="p_rt" target="p_window">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p_hist" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="p_hist" target="p_window">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p_act" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="p_act" target="p_window">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p_weather" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="p_weather" target="p_window">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pe5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="p_window" target="p_short">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pe6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="p_window" target="p_period">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pe7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="p_window" target="p_scene">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p_short" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="p_model" edge="1" source="p_short" target="p_merge">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p_period" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="p_model" edge="1" source="p_period" target="p_merge">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_p_scene" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="p_model" edge="1" source="p_scene" target="p_merge">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pe11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="p_model" target="p_peak">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pe12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="p_peak" target="p_out">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="03_风险分级预警" id="03_风险分级预警">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r_mon" value="实时监测指标&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;车流 / 人流 / 区域密度&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="120" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r_road" value="互联网路况" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="290" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r_evt" value="视频事件结果&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;聚集 / 闯入 / 事故 / 烟火&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="450" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r_zone" value="区域属性&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;出入口 / 重点路段 / 容量&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#8FA9C2;fillColor=#F7FAFD;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="630" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r_feat" value="风险特征构建&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;归一化 · 增长率 · 场景修正&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#5B9BD5;fillColor=#F7FBFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="370" y="300" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="r_group" value="双通道风险判定" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#5B9BD5;fillColor=#F9FCFF;dashed=1;dashPattern=8 8;fontSize=20;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="700" y="100" width="570" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="r_rule" value="规则阈值通道&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;关键指标快速筛查 · 明确事件直接触发&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="r_group" vertex="1">
+          <mxGeometry x="760" y="180" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r_ml" value="轻量分类通道&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;XGBoost / MLP · 多特征综合评分&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="r_group" vertex="1">
+          <mxGeometry x="760" y="340" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r_arb" value="仲裁融合&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;规则结果 + 模型分值 + 区域阈值&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;spacing=4;" parent="r_group" vertex="1">
+          <mxGeometry x="830" y="520" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r_grade" value="风险等级判定&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;一般 / 较重 / 严重&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#5B9BD5;fillColor=#FFFFFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="250" width="250" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="r_out" value="预警输出" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#70AD47;fillColor=#F4FFF3;fontSize=19;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=top;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="500" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="r_o0" value="风险位置" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="r_out" vertex="1">
+          <mxGeometry x="1380" y="560" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="r_o1" value="影响范围" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="r_out" vertex="1">
+          <mxGeometry x="1380" y="625" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="r_o2" value="主要触发因素" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="r_out" vertex="1">
+          <mxGeometry x="1380" y="690" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="r_note" value="重大事件与边界案例可进入人工复核；复核用于业务确认，不作为在线自学习回路。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#E7A457;fillColor=#FFF9F2;fontSize=15;fontStyle=0;fontColor=#7F6000;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="540" y="760" width="760" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="er_mon" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="r_mon" target="r_feat">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er_road" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="r_road" target="r_feat">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er_evt" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="r_evt" target="r_feat">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er_zone" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="r_zone" target="r_feat">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="re5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="r_feat" target="r_rule">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="re6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="r_feat" target="r_ml">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="re7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="r_group" edge="1" source="r_rule" target="r_arb">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="re8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="r_group" edge="1" source="r_ml" target="r_arb">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="re9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="r_group" target="r_grade">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="re10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="r_grade" target="r_out">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="04_保障预案准备" id="04_保障预案准备">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q_scene" value="当前场景特征&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;活动类型 / 规模 / 场地 / 风险等级&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#8FA9C2;fillColor=#F7FAFD;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="170" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="q_state" value="实时交通状态&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;流量 / 拥堵 / 可用资源&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#8FA9C2;fillColor=#F7FAFD;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="390" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="q_lib" value="历史预案库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="620" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="q_filter" value="硬条件筛选&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;活动类型 · 规模区间 · 场地位置 · 风险等级&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#5B9BD5;fillColor=#F7FBFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="360" y="300" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="q_recall" value="候选预案召回" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#5B9BD5;fillColor=#F9FCFF;dashed=1;dashPattern=8 8;fontSize=20;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="700" y="90" width="560" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="q_tag" value="标签/规则召回&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;保证强相关方案不遗漏&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="q_recall" vertex="1">
+          <mxGeometry x="755" y="165" width="450" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="q_sim" value="相似案例召回&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;场景特征相似度匹配&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="q_recall" vertex="1">
+          <mxGeometry x="755" y="310" width="450" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="q_rank" value="候选排序&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;适配度 · 历史效果 · 资源条件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;spacing=4;" parent="q_recall" vertex="1">
+          <mxGeometry x="820" y="465" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="q_param" value="参数化调整&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;信号配时 · 分流方向 · 限流阈值 · 资源配置&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#5B9BD5;fillColor=#F7FBFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="230" width="290" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="q_out" value="方案输出" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#70AD47;fillColor=#F4FFF3;fontSize=19;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=top;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="500" width="290" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="q_o0" value="候选预案排序" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="q_out" vertex="1">
+          <mxGeometry x="1380" y="555" width="210" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="q_o1" value="逐条匹配依据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="q_out" vertex="1">
+          <mxGeometry x="1380" y="610" width="210" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="q_o2" value="关键参数调整建议" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="q_out" vertex="1">
+          <mxGeometry x="1380" y="665" width="210" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="q_o3" value="人工审核后使用" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="q_out" vertex="1">
+          <mxGeometry x="1380" y="720" width="210" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="q_note" value="历史预案仅用于检索与匹配，不参与流量预测模型训练。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#E7A457;fillColor=#FFF9F2;fontSize=15;fontStyle=0;fontColor=#7F6000;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="530" y="740" width="760" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qe1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="q_scene" target="q_filter">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qe2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="q_state" target="q_filter">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qe3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="q_lib" target="q_filter">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qe4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="q_filter" target="q_tag">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qe5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="q_filter" target="q_sim">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qe6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="q_recall" edge="1" source="q_tag" target="q_rank">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qe7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="q_recall" edge="1" source="q_sim" target="q_rank">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qe8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="q_recall" target="q_param">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qe9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="q_param" target="q_out">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="05_雷视融合高精度车流统计" id="05_雷视融合高精度车流统计">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f_radar" value="毫米波雷达&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;位置 / 速度 / 方向&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="120" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f_video" value="视频 / 雷视一体机&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;检测 / 车型 / 轨迹&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="300" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f_v2x" value="OBU / RSU（可选）&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;通过时刻 / 行驶方向&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="480" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f_lane" value="车道基础信息" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="660" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f_cal" value="统一标定与映射&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;时间同步 · 坐标标定 · 车道映射&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#5B9BD5;fillColor=#F7FBFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="350" y="300" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f_assoc" value="跨传感器目标关联" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#5B9BD5;fillColor=#F9FCFF;dashed=1;dashPattern=8 8;fontSize=20;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="700" y="90" width="560" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="f_match" value="候选匹配&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;空间距离 + 速度差 + 方向一致性&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="f_assoc" vertex="1">
+          <mxGeometry x="755" y="165" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f_track" value="轨迹关联&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;连续性校验 + 短时轨迹补偿&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="f_assoc" vertex="1">
+          <mxGeometry x="755" y="310" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f_dedup" value="重复目标消除&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;一车一轨迹 · 冲突置信度处理&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="f_assoc" vertex="1">
+          <mxGeometry x="755" y="455" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f_fuse" value="统一车辆轨迹" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;spacing=4;" parent="f_assoc" vertex="1">
+          <mxGeometry x="820" y="595" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f_agg" value="车道级聚合统计&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;按车道 / 时间窗汇总&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#5B9BD5;fillColor=#F7FBFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="250" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f_out" value="统计结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#70AD47;fillColor=#F4FFF3;fontSize=19;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=top;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="500" width="290" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="f_o0" value="车流量" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="f_out" vertex="1">
+          <mxGeometry x="1370" y="555" width="210" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="f_o1" value="平均速度（观测）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="f_out" vertex="1">
+          <mxGeometry x="1370" y="610" width="210" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="f_o2" value="占有率（观测）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="f_out" vertex="1">
+          <mxGeometry x="1370" y="665" width="210" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="f_o3" value="数据质量 / 异常标记" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="f_out" vertex="1">
+          <mxGeometry x="1370" y="720" width="210" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="f_note" value="预测模型后续以“车流量”作为主要预测目标，速度、占有率保留为当前观测指标。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#E7A457;fillColor=#FFF9F2;fontSize=15;fontStyle=0;fontColor=#7F6000;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="520" y="780" width="780" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ef_radar" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="f_radar" target="f_cal">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ef_video" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="f_video" target="f_cal">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ef_v2x" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="f_v2x" target="f_cal">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ef_lane" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="f_lane" target="f_cal">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fe5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="f_cal" target="f_match">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fe6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="f_assoc" edge="1" source="f_match" target="f_track">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fe7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="f_assoc" edge="1" source="f_track" target="f_dedup">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fe8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="f_assoc" edge="1" source="f_dedup" target="f_fuse">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fe9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="f_assoc" target="f_agg">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fe10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="f_agg" target="f_out">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="06_时空Transformer短时流量预测" id="06_时空Transformer短时流量预测">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s_seq" value="近期车流量序列" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="120" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s_topo" value="路网拓扑" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="300" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s_ext" value="天气 / 事故（可选）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#8FA9C2;fillColor=#F7FAFD;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="480" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s_win" value="固定滑动窗口&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;统一粒度 · 缺失值处理&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#5B9BD5;fillColor=#F7FBFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="360" y="285" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s_enc" value="输入编码" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#5B9BD5;fillColor=#F9FCFF;dashed=1;dashPattern=8 8;fontSize=20;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="700" y="80" width="520" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="s_time" value="时间位置编码&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;时刻 / 序列顺序&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="s_enc" vertex="1">
+          <mxGeometry x="755" y="145" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s_space" value="路网空间编码&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;节点 / 邻接关系&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="s_enc" vertex="1">
+          <mxGeometry x="975" y="145" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s_extenc" value="外部特征编码&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;天气 / 事故&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#E7A457;fillColor=#FFF9F2;fontSize=16;fontStyle=1;fontColor=#7F6000;align=center;verticalAlign=middle;spacing=4;" parent="s_enc" vertex="1">
+          <mxGeometry x="865" y="255" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s_tf" value="时空Transformer" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#5B9BD5;fillColor=#F9FCFF;dashed=1;dashPattern=8 8;fontSize=20;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="700" y="420" width="520" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="s_sa" value="空间注意力&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;学习相邻路口流量关联&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="s_tf" vertex="1">
+          <mxGeometry x="750" y="485" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="s_ta" value="时间注意力&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;提取连续时间片变化&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="s_tf" vertex="1">
+          <mxGeometry x="970" y="485" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="s_merge" value="时空融合&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;联合表示&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;spacing=4;" parent="s_tf" vertex="1">
+          <mxGeometry x="860" y="625" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s_head" value="多步预测头&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;t+1 … t+n&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#5B9BD5;fillColor=#FFFFFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="280" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="s_out" value="短时预测结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#70AD47;fillColor=#F4FFF3;fontSize=19;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=top;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="530" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="s_o0" value="未来5～60分钟车流量" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="s_out" vertex="1">
+          <mxGeometry x="1360" y="590" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s_o1" value="流量变化趋势" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="s_out" vertex="1">
+          <mxGeometry x="1360" y="650" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s_o2" value="重点高流量时段" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="s_out" vertex="1">
+          <mxGeometry x="1360" y="710" width="220" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s_note" value="在线运行只读取最新窗口持续推理，不进行在线训练或模型参数回写。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#E7A457;fillColor=#FFF9F2;fontSize=15;fontStyle=0;fontColor=#7F6000;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="540" y="820" width="750" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="se1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="s_seq" target="s_win">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="s_topo" target="s_win">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="s_ext" target="s_win">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="s_win" target="s_enc">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="s_enc" target="s_tf">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="s_tf" target="s_head">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="s_head" target="s_out">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7F8C8D;strokeWidth=1.6;dashed=1;dashPattern=6 4;" parent="1" edge="1" source="s_time" target="s_sa">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7F8C8D;strokeWidth=1.6;dashed=1;dashPattern=6 4;" parent="1" edge="1" source="s_space" target="s_sa">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7F8C8D;strokeWidth=1.6;dashed=1;dashPattern=6 4;" parent="1" edge="1" source="s_time" target="s_ta">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7F8C8D;strokeWidth=1.6;dashed=1;dashPattern=6 4;" parent="1" edge="1" source="s_extenc" target="s_merge">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="s_tf" edge="1" source="s_sa" target="s_merge">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="se13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="s_tf" edge="1" source="s_ta" target="s_merge">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="07_区域交通流量日中长期预测" id="07_区域交通流量日中长期预测">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l_hist" value="历史车流量" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="130" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l_cal" value="日历周期特征&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;时段 / 星期 / 工作日周末&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#8FA9C2;fillColor=#F7FAFD;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="320" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="l_holiday" value="节假日信息" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#8FA9C2;fillColor=#F7FAFD;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="510" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l_weather" value="天气（可选）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#8FA9C2;fillColor=#F7FAFD;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="60" y="680" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l_prep" value="序列整理与特征构建&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;异常清洗 · 统一粒度 · 多尺度窗口&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#5B9BD5;fillColor=#F7FBFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="350" y="310" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="l_model" value="中长期时序模型" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#5B9BD5;fillColor=#F9FCFF;dashed=1;dashPattern=8 8;fontSize=20;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="90" width="570" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="l_trend" value="趋势分支&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;跨日变化 · 长期趋势&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="l_model" vertex="1">
+          <mxGeometry x="765" y="165" width="460" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l_period" value="周期分支&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;日周期 · 周周期 · 工作日差异&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#7EA6D8;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="l_model" vertex="1">
+          <mxGeometry x="765" y="310" width="460" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l_exo" value="外部因素分支&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;节假日 / 天气（可选）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#E7A457;fillColor=#FFF9F2;fontSize=16;fontStyle=1;fontColor=#7F6000;align=center;verticalAlign=middle;spacing=4;" parent="l_model" vertex="1">
+          <mxGeometry x="765" y="455" width="460" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l_fuse" value="LSTM / Transformer融合预测" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;spacing=4;" parent="l_model" vertex="1">
+          <mxGeometry x="810" y="600" width="370" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="l_head" value="多时域预测头&amp;#xa;&lt;font style=&quot;font-size:14px;font-weight:normal;&quot;&gt;小时级 · 天级 · 1～7天&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#5B9BD5;fillColor=#F7FBFF;fontSize=18;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="250" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l_out" value="中长期结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#70AD47;fillColor=#F4FFF3;fontSize=19;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=top;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="500" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o0" value="区域车流量趋势" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="l_out" vertex="1">
+          <mxGeometry x="1380" y="555" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o1" value="日交通总量" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="l_out" vertex="1">
+          <mxGeometry x="1380" y="610" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o2" value="关键高峰时段" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="l_out" vertex="1">
+          <mxGeometry x="1380" y="665" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="l_o3" value="日时方案参考" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="l_out" vertex="1">
+          <mxGeometry x="1380" y="720" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="l_note" value="模型主要依赖历史车流量和日历周期特征，外部数据仅在稳定可用时作为增强项。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#E7A457;fillColor=#FFF9F2;fontSize=15;fontStyle=0;fontColor=#7F6000;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="540" y="790" width="760" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="el_hist" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="l_hist" target="l_prep">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el_cal" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="l_cal" target="l_prep">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el_holiday" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="l_holiday" target="l_prep">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el_weather" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="l_weather" target="l_prep">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="l_prep" target="l_trend">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="l_prep" target="l_period">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="l_prep" target="l_exo">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el_trend" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="l_model" edge="1" source="l_trend" target="l_fuse">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el_period" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="l_model" edge="1" source="l_period" target="l_fuse">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="el_exo" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="l_model" edge="1" source="l_exo" target="l_fuse">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="l_model" target="l_head">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="le12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5B9BD5;strokeWidth=2;" parent="1" edge="1" source="l_head" target="l_out">
+          <mxGeometry relative="1" as="geometry">
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
