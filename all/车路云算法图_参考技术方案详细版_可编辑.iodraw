@@ -50,22 +50,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m_out" value="实时监测结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#70AD47;fillColor=#F4FFF3;fontSize=19;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=top;spacingTop=12;" parent="1" vertex="1">
-          <mxGeometry x="1340" y="140" width="330" height="520" as="geometry" />
+          <mxGeometry x="1130" y="30" width="650" height="680" as="geometry" />
         </mxCell>
         <mxCell id="m_o0" value="人流量 / 车流量" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
-          <mxGeometry x="1380" y="210" width="250" height="55" as="geometry" />
+          <mxGeometry x="2718.181818181818" y="274.61538461538464" width="492.42424242424244" height="71.92307692307692" as="geometry" />
         </mxCell>
         <mxCell id="m_o1" value="平均速度 / 占有率" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
-          <mxGeometry x="1380" y="288" width="250" height="55" as="geometry" />
+          <mxGeometry x="2718.181818181818" y="376.61538461538464" width="492.42424242424244" height="71.92307692307692" as="geometry" />
         </mxCell>
         <mxCell id="m_o2" value="区域密度" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
-          <mxGeometry x="1380" y="366" width="250" height="55" as="geometry" />
+          <mxGeometry x="2718.181818181818" y="478.61538461538464" width="492.42424242424244" height="71.92307692307692" as="geometry" />
         </mxCell>
         <mxCell id="m_o3" value="热点区域" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
-          <mxGeometry x="1380" y="444" width="250" height="55" as="geometry" />
+          <mxGeometry x="2718.181818181818" y="580.6153846153846" width="492.42424242424244" height="71.92307692307692" as="geometry" />
         </mxCell>
         <mxCell id="m_o4" value="异常聚集 / 拥堵状态" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#93C47D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#274E13;align=center;verticalAlign=middle;" parent="m_out" vertex="1">
-          <mxGeometry x="1380" y="522" width="250" height="55" as="geometry" />
+          <mxGeometry x="2718.181818181818" y="682.6153846153846" width="492.42424242424244" height="71.92307692307692" as="geometry" />
         </mxCell>
         <mxCell id="m_src4" value="活动基础信息" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="80" y="560" width="190" height="105" as="geometry" />
