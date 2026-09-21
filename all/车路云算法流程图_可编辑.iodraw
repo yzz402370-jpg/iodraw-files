@@ -982,7 +982,7 @@
           <mxGeometry x="18" y="169" width="184" height="46" as="geometry" />
         </mxCell>
         <mxCell id="fPp1aaJu4IabN9T1SYCV-50" value="中台支撑" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#5B9BD5;fillColor=#F7FBFF;dashed=1;dashPattern=8 8;fontSize=20;fontStyle=1;fontColor=#1F4E79;align=center;verticalAlign=top;spacingTop=10;" vertex="1" parent="fPp1aaJu4IabN9T1SYCV-33">
-          <mxGeometry x="20" y="560" width="480" height="150" as="geometry" />
+          <mxGeometry x="20" y="570" width="480" height="150" as="geometry" />
         </mxCell>
         <mxCell id="fPp1aaJu4IabN9T1SYCV-51" value="交通数据中台" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#F6B26B;fillColor=#FFF8EF;fontSize=18;fontStyle=1;fontColor=#7F6000;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="fPp1aaJu4IabN9T1SYCV-50">
           <mxGeometry x="18" y="50" width="136" height="44" as="geometry" />
