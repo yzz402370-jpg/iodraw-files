@@ -218,7 +218,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="03 风险分级预警" id="03 风险分级预警">
-    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -319,95 +319,95 @@
     </mxGraphModel>
   </diagram>
   <diagram name="04 保障预案准备" id="04 保障预案准备">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="t4" value="保障预案准备" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=26;fontStyle=1;fontColor=#1F2937;" vertex="1" parent="1">
+        <mxCell id="t4" value="保障预案准备" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=26;fontStyle=1;fontColor=#1F2937;" parent="1" vertex="1">
           <mxGeometry x="40" y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a4_db1" value="预案样例库" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="a4_db1" value="预案样例库" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="70" y="160" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="a4_db2" value="历史事件库" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="a4_db2" value="历史事件库" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="70" y="320" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="a4_in1" value="标准化事件标签" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_in1" value="标准化事件标签" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="70" y="500" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="a4_group" value="多路召回" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;dashed=1;dashPattern=8 6;strokeColor=#B9D2EE;fillColor=#F8FBFF;fontSize=20;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+        <mxCell id="a4_group" value="多路召回" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;dashed=1;dashPattern=8 6;strokeColor=#B9D2EE;fillColor=#F8FBFF;fontSize=20;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
           <mxGeometry x="330" y="120" width="520" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="a4_390190" value="标签分类召回&#xa;事件类型 / 风险等级 / 场景" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_390190" value="标签分类召回&#xa;事件类型 / 风险等级 / 场景" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="390" y="190" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="a4_610190" value="语义向量召回&#xa;文本相似 / 语义匹配" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_610190" value="语义向量召回&#xa;文本相似 / 语义匹配" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="610" y="190" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="a4_390340" value="案例推理 CBR&#xa;相似案例 / 执行效果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_390340" value="案例推理 CBR&#xa;相似案例 / 执行效果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="390" y="340" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="a4_610340" value="规则硬约束通道&#xa;适用条件 / 禁限规则" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_610340" value="规则硬约束通道&#xa;适用条件 / 禁限规则" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="610" y="340" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="a4_f" value="候选过滤&#xa;硬约束筛除" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#8CB3D9;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_f" value="候选过滤&#xa;硬约束筛除" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#8CB3D9;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="940" y="220" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="a4_r" value="多维适配度评分&#xa;场景一致性 / 目标覆盖 / 时效性" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_r" value="多维适配度评分&#xa;场景一致性 / 目标覆盖 / 时效性" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="940" y="370" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="a4_j" value="融合重排" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_j" value="融合重排" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#B8CCE4;fillColor=#F8FBFF;fontSize=16;fontStyle=1;fontColor=#1F3F66;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="1180" y="300" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="a4_out" value="候选预案列表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#A8D08D;fillColor=#F6FCF3;fontSize=20;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="a4_out" value="候选预案列表" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;strokeColor=#A8D08D;fillColor=#F6FCF3;fontSize=20;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1410" y="240" width="220" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="a4_o0" value="推荐预案" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#A8D08D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_o0" value="推荐预案" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#A8D08D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="1450" y="280" width="140" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="a4_o1" value="匹配依据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#A8D08D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_o1" value="匹配依据" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#A8D08D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="1450" y="312" width="140" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="a4_o2" value="参考参数" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#A8D08D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_o2" value="参考参数" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#A8D08D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="1450" y="344" width="140" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="a4_o3" value="排序结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#A8D08D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;spacing=6;" vertex="1" parent="1">
+        <mxCell id="a4_o3" value="排序结果" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#A8D08D;fillColor=#FFFFFF;fontSize=16;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="1450" y="376" width="140" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="a4_note" value="说明：以“多路召回—过滤—重排”为主线，输出按适配度排序的候选预案，便于人工比选。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#F4B183;fillColor=#FFF8EF;fontSize=14;fontColor=#7F6000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="a4_note" value="说明：以“多路召回—过滤—重排”为主线，输出按适配度排序的候选预案，便于人工比选。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#F4B183;fillColor=#FFF8EF;fontSize=14;fontColor=#7F6000;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="430" y="680" width="860" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="a4e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" edge="1" parent="1" source="a4_db1" target="a4_390190">
+        <mxCell id="a4e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" parent="1" source="a4_db1" target="a4_390190" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a4e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" edge="1" parent="1" source="a4_db1" target="a4_610190">
+        <mxCell id="a4e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" parent="1" source="a4_db1" target="a4_610190" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a4e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" edge="1" parent="1" source="a4_db2" target="a4_390340">
+        <mxCell id="a4e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" parent="1" source="a4_db2" target="a4_390340" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a4e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" edge="1" parent="1" source="a4_in1" target="a4_group">
+        <mxCell id="a4e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" parent="1" source="a4_in1" target="a4_group" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a4e50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" edge="1" parent="1" source="a4_390190" target="a4_f">
+        <mxCell id="a4e50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" parent="1" source="a4_390190" target="a4_f" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a4e51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" edge="1" parent="1" source="a4_610190" target="a4_f">
+        <mxCell id="a4e51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" parent="1" source="a4_610190" target="a4_f" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a4e52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" edge="1" parent="1" source="a4_390340" target="a4_f">
+        <mxCell id="a4e52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" parent="1" source="a4_390340" target="a4_f" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a4e53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" edge="1" parent="1" source="a4_610340" target="a4_f">
+        <mxCell id="a4e53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" parent="1" source="a4_610340" target="a4_f" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a4e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" edge="1" parent="1" source="a4_f" target="a4_r">
+        <mxCell id="a4e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" parent="1" source="a4_f" target="a4_r" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a4e10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" edge="1" parent="1" source="a4_r" target="a4_j">
+        <mxCell id="a4e10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" parent="1" source="a4_r" target="a4_j" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a4e11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" edge="1" parent="1" source="a4_j" target="a4_out">
+        <mxCell id="a4e11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#7FA8D8;strokeWidth=2;" parent="1" source="a4_j" target="a4_out" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
