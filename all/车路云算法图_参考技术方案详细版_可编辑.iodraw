@@ -50,16 +50,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m_src1" value="雷视一体机" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="80" y="110" width="190" height="105" as="geometry" />
+          <mxGeometry x="310" y="102.5" width="190" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m_src2" value="低时延摄像机" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="80" y="260" width="190" height="105" as="geometry" />
+          <mxGeometry x="310" y="252.5" width="190" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m_src3" value="互联网路况" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="80" y="410" width="190" height="105" as="geometry" />
+          <mxGeometry x="310" y="402.5" width="190" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m_src4" value="活动基础信息" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#8FA9C2;fillColor=#F8FBFF;fontSize=17;fontStyle=1;fontColor=#23415F;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="80" y="560" width="190" height="105" as="geometry" />
+          <mxGeometry x="310" y="552.5" width="190" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m_note" value="互联网路况只作补充，不替代现场感知；人员与车辆采用不同处理链路。" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#E7A457;fillColor=#FFF9F2;fontSize=15;fontStyle=0;fontColor=#7F6000;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="560" y="760" width="720" height="90" as="geometry" />
