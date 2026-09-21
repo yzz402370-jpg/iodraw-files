@@ -218,7 +218,7 @@
           <mxGeometry x="923.6666666666667" y="355" width="141.33333333333334" height="210" as="geometry" />
         </mxCell>
         <mxCell id="proc2" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size:20px&quot;&gt;风险分级&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#5E78A6&quot; style=&quot;font-size:14px&quot;&gt;一般 / 较重 / 严重&lt;/font&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fillColor=#F2F7FD;strokeColor=#2F80ED;strokeWidth=2;fontColor=#0F3D91;fontFamily=Microsoft YaHei;fontSize=18;align=center;verticalAlign=middle;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="350" width="210" height="170" as="geometry" />
+          <mxGeometry x="1130" y="370" width="210" height="170" as="geometry" />
         </mxCell>
         <mxCell id="out_outer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2FBF6;strokeColor=#1BAA63;strokeWidth=2;fontColor=#0F3D91;fontFamily=Microsoft YaHei;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=6;dashed=0;" parent="1" vertex="1">
           <mxGeometry x="1385" y="235" width="185" height="430" as="geometry" />
@@ -250,7 +250,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2F80ED;strokeWidth=3;endArrow=block;endFill=1;" parent="1" source="proc2" target="out_outer" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="455" />
+              <mxPoint x="1370" y="455" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
