@@ -943,7 +943,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fPp1aaJu4IabN9T1SYCV-33" value="底层服务与资源层" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#5B9BD5;fillColor=#F7FBFF;fontSize=22;fontStyle=1;fontColor=#1F4E79;align=center;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="380" width="520" height="880" as="geometry" />
+          <mxGeometry x="1370" y="380" width="520" height="880" as="geometry" />
         </mxCell>
         <mxCell id="fPp1aaJu4IabN9T1SYCV-34" value="数据查询服务" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#5B9BD5;fillColor=#F7FBFF;dashed=1;dashPattern=8 8;fontSize=20;fontStyle=1;fontColor=#1F4E79;align=center;verticalAlign=top;spacingTop=10;" vertex="1" parent="fPp1aaJu4IabN9T1SYCV-33">
           <mxGeometry x="20" y="40" width="220" height="220" as="geometry" />
