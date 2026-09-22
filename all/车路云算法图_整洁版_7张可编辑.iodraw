@@ -577,7 +577,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="m7db" value="历史车流量" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=12;strokeColor=#8FB0D0;fillColor=#F7FAFE;fontSize=15;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="50" y="150" width="170" height="95" as="geometry" />
+          <mxGeometry x="55" y="125" width="170" height="95" as="geometry" />
         </mxCell>
         <mxCell id="m7s0" value="时段 / 星期" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="50" y="300" width="180" height="58" as="geometry" />
