@@ -572,107 +572,96 @@
     </mxGraphModel>
   </diagram>
   <diagram name="07 区域交通流量日中长期预测" id="07 区域交通流量日中长期预测">
-    <mxGraphModel dx="1800" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="m7db" value="历史车流量" parent="1" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=12;strokeColor=#8FB0D0;fillColor=#F7FAFE;fontSize=15;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" vertex="1">
+        <mxCell id="m7db" value="历史车流量" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=12;strokeColor=#8FB0D0;fillColor=#F7FAFE;fontSize=15;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="50" y="150" width="170" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="m7s0" value="时段 / 星期" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" vertex="1">
+        <mxCell id="m7s0" value="时段 / 星期" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="50" y="300" width="180" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="m7s1" value="工作日 / 周末" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" vertex="1">
+        <mxCell id="m7s1" value="工作日 / 周末" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="50" y="372" width="180" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="m7s2" value="节假日信息" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" vertex="1">
+        <mxCell id="m7s2" value="节假日信息" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="50" y="444" width="180" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="m7s3" value="天气（可选）" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" vertex="1">
+        <mxCell id="m7s3" value="天气（可选）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="50" y="516" width="180" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="m7feat" value="序列整理与特征构建&#xa;趋势 / 周期 / 日历特征" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" vertex="1">
+        <mxCell id="m7feat" value="序列整理与特征构建&#xa;趋势 / 周期 / 日历特征" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="320" y="300" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="m7g" value="" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#8CB9E8;fillColor=#F9FBFD;dashed=1;dashPattern=8 6;fontSize=1;fontColor=#F9FBFD;" vertex="1">
+        <mxCell id="m7g" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#8CB9E8;fillColor=#F9FBFD;dashed=1;dashPattern=8 6;fontSize=1;fontColor=#F9FBFD;" parent="1" vertex="1">
           <mxGeometry x="620" y="120" width="560" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="m7g_ttl" value="中长期时序模型" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365D;" vertex="1">
+        <mxCell id="m7g_ttl" value="中长期时序模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365D;" parent="1" vertex="1">
           <mxGeometry x="640" y="130" width="520" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m7trend" value="趋势分支&#xa;跨日变化 / 长期趋势" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" vertex="1">
+        <mxCell id="m7trend" value="趋势分支&#xa;跨日变化 / 长期趋势" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="680" y="195" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="m7period" value="周期分支&#xa;日周期 / 周周期" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" vertex="1">
+        <mxCell id="m7period" value="周期分支&#xa;日周期 / 周周期" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="930" y="195" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="m7fuse" value="融合预测&#xa;LSTM / Transformer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" vertex="1">
+        <mxCell id="m7fuse" value="融合预测&#xa;LSTM / Transformer" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="805" y="370" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="m7head" value="多时域输出&#xa;未来数小时～7天" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" vertex="1">
+        <mxCell id="m7head" value="多时域输出&#xa;未来数小时～7天" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="1270" y="285" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="m7out" value="" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#75B96A;fillColor=#F7FCF5;fontSize=1;fontColor=#F7FCF5;" vertex="1">
+        <mxCell id="m7out" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#75B96A;fillColor=#F7FCF5;fontSize=1;fontColor=#F7FCF5;" parent="1" vertex="1">
           <mxGeometry x="1545" y="220" width="195" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="m7out_ttl" value="预测结果" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365D;" vertex="1">
+        <mxCell id="m7out_ttl" value="预测结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#17365D;" parent="1" vertex="1">
           <mxGeometry x="1560" y="232" width="165" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m7o0" value="未来车流趋势" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#9CCC8D;fillColor=#FFFFFF;fontSize=14;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;" vertex="1">
+        <mxCell id="m7o0" value="未来车流趋势" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#9CCC8D;fillColor=#FFFFFF;fontSize=14;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1563" y="275" width="159" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m7o1" value="日交通总量" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#9CCC8D;fillColor=#FFFFFF;fontSize=14;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;" vertex="1">
+        <mxCell id="m7o1" value="日交通总量" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#9CCC8D;fillColor=#FFFFFF;fontSize=14;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1563" y="327" width="159" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m7o2" value="关键高峰时段" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#9CCC8D;fillColor=#FFFFFF;fontSize=14;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;" vertex="1">
+        <mxCell id="m7o2" value="关键高峰时段" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#9CCC8D;fillColor=#FFFFFF;fontSize=14;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1563" y="379" width="159" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m7o3" value="区域变化趋势" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#9CCC8D;fillColor=#FFFFFF;fontSize=14;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;" vertex="1">
+        <mxCell id="m7o3" value="区域变化趋势" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#9CCC8D;fillColor=#FFFFFF;fontSize=14;fontStyle=1;fontColor=#385723;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1563" y="431" width="159" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m7edb" value="" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" edge="1" source="m7db" target="m7feat">
-          <mxGeometry relative="1" as="geometry">
-          </mxGeometry>
+        <mxCell id="m7edb" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7db" target="m7feat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m7e0" value="" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" edge="1" source="m7s0" target="m7feat">
-          <mxGeometry relative="1" as="geometry">
-          </mxGeometry>
+        <mxCell id="m7e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7s0" target="m7feat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m7e1" value="" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" edge="1" source="m7s1" target="m7feat">
-          <mxGeometry relative="1" as="geometry">
-          </mxGeometry>
+        <mxCell id="m7e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7s1" target="m7feat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m7e2" value="" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" edge="1" source="m7s2" target="m7feat">
-          <mxGeometry relative="1" as="geometry">
-          </mxGeometry>
+        <mxCell id="m7e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7s2" target="m7feat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m7e3" value="" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" edge="1" source="m7s3" target="m7feat">
-          <mxGeometry relative="1" as="geometry">
-          </mxGeometry>
+        <mxCell id="m7e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7s3" target="m7feat" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m7e4" value="" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" edge="1" source="m7feat" target="m7trend">
-          <mxGeometry relative="1" as="geometry">
-          </mxGeometry>
+        <mxCell id="m7e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7feat" target="m7trend" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m7e5" value="" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" edge="1" source="m7feat" target="m7period">
-          <mxGeometry relative="1" as="geometry">
-          </mxGeometry>
+        <mxCell id="m7e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7feat" target="m7period" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m7e6" value="" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" edge="1" source="m7trend" target="m7fuse">
-          <mxGeometry relative="1" as="geometry">
-          </mxGeometry>
+        <mxCell id="m7e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7trend" target="m7fuse" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m7e7" value="" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" edge="1" source="m7period" target="m7fuse">
-          <mxGeometry relative="1" as="geometry">
-          </mxGeometry>
+        <mxCell id="m7e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7period" target="m7fuse" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m7e8" value="" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" edge="1" source="m7fuse" target="m7head">
-          <mxGeometry relative="1" as="geometry">
-          </mxGeometry>
+        <mxCell id="m7e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7fuse" target="m7head" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m7e9" value="" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" edge="1" source="m7head" target="m7out">
-          <mxGeometry relative="1" as="geometry">
-          </mxGeometry>
+        <mxCell id="m7e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7head" target="m7out" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
