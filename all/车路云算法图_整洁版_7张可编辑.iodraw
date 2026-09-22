@@ -601,7 +601,7 @@
           <mxGeometry x="640" y="130" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m7trend" value="趋势分支&#xa;跨日变化 / 长期趋势" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="690" y="185" width="180" height="100" as="geometry" />
+          <mxGeometry x="690" y="175" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="m7period" value="周期分支&#xa;日周期 / 周周期" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="690" y="400" width="180" height="100" as="geometry" />
