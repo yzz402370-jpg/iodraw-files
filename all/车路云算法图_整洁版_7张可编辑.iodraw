@@ -309,13 +309,13 @@
           <mxGeometry x="50" y="110" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="m4s0" value="活动类型 / 规模" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
-          <mxGeometry x="50" y="275" width="180" height="58" as="geometry" />
+          <mxGeometry x="50" y="256" width="180" height="58" as="geometry" />
         </mxCell>
         <mxCell id="m4s1" value="场地位置" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
-          <mxGeometry x="50" y="347" width="180" height="58" as="geometry" />
+          <mxGeometry x="50" y="336" width="180" height="58" as="geometry" />
         </mxCell>
         <mxCell id="m4s2" value="当前风险等级" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
-          <mxGeometry x="50" y="419" width="180" height="58" as="geometry" />
+          <mxGeometry x="50" y="412" width="180" height="58" as="geometry" />
         </mxCell>
         <mxCell id="m4s3" value="当前交通状态" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="50" y="491" width="180" height="58" as="geometry" />
