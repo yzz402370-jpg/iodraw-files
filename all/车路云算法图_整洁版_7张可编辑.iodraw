@@ -335,7 +335,7 @@
         <mxCell id="m4filter" value="规则筛选&#xa;类型 / 规模 / 场地&#xa;风险等级硬约束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="680" y="172.5" width="180" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="ZG97bXFjBx2QzQxOIDmo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m4sim" target="m4rank">
+        <mxCell id="ZG97bXFjBx2QzQxOIDmo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6E9BCB;" edge="1" parent="1" source="m4sim" target="m4rank">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m4sim" value="相似案例检索&#xa;场景特征匹配&#xa;历史方案召回" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
