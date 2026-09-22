@@ -336,7 +336,7 @@
           <mxGeometry x="680" y="190" width="180" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m4sim" value="相似案例检索&#xa;场景特征匹配&#xa;历史方案召回" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="930" y="190" width="180" height="115" as="geometry" />
+          <mxGeometry x="650" y="409" width="180" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m4rank" value="候选排序&#xa;适配度评分&#xa;形成候选方案集" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="805" y="380" width="190" height="105" as="geometry" />
