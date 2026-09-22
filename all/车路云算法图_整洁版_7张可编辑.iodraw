@@ -188,16 +188,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m2e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="m2feat" target="m2period" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="600" y="340" />
-              <mxPoint x="600" y="450" />
-              <mxPoint x="680" y="450" />
-              <mxPoint x="680" y="441" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="m2e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="m2short" target="m2fuse" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
