@@ -652,7 +652,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m7e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7trend" target="m7fuse" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="245" />
+              <mxPoint x="670" y="360" />
+              <mxPoint x="900" y="360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="m7e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m7period" target="m7fuse" edge="1">
           <mxGeometry relative="1" as="geometry" />
