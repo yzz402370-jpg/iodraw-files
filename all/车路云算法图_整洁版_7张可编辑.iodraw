@@ -336,10 +336,10 @@
           <mxGeometry x="680" y="190" width="180" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m4sim" value="相似案例检索&#xa;场景特征匹配&#xa;历史方案召回" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="650" y="409" width="180" height="115" as="geometry" />
+          <mxGeometry x="680" y="395" width="180" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m4rank" value="候选排序&#xa;适配度评分&#xa;形成候选方案集" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="805" y="380" width="190" height="105" as="geometry" />
+          <mxGeometry x="940" y="287.5" width="190" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m4adj" value="参数化调整&#xa;信号 / 分流 / 限流&#xa;资源配置建议" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="1260" y="280" width="210" height="120" as="geometry" />
