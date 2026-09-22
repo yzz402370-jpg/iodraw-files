@@ -399,14 +399,6 @@
         <mxCell id="m4e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m4filter" target="m4rank" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m4e9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m4sim" target="m4rank" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1080" y="343" />
-              <mxPoint x="900" y="343" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="m4e10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m4rank" target="m4adj" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
