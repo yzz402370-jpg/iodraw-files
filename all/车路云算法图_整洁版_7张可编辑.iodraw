@@ -132,6 +132,9 @@
         <mxCell id="m2feat" value="多尺度特征构建&#xa;分钟窗 / 小时窗 / 周期特征" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#7EA6D8;fillColor=#F7FAFE;fontSize=16;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=5;" parent="1" vertex="1">
           <mxGeometry x="310" y="285" width="230" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="c_cwkdCmxhRZmNOzXzBk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m2feat" target="m2period">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="m2g" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#8CB9E8;fillColor=#F9FBFD;dashed=1;dashPattern=8 6;fontSize=1;fontColor=#F9FBFD;" parent="1" vertex="1">
           <mxGeometry x="620" y="120" width="520" height="470" as="geometry" />
         </mxCell>
