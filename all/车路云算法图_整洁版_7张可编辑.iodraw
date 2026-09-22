@@ -142,7 +142,7 @@
           <mxGeometry x="675" y="195" width="180" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m2period" value="周期分支&#xa;活动阶段与历史规律&#xa;小时级趋势" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="675" y="428" width="180" height="105" as="geometry" />
+          <mxGeometry x="675" y="409" width="180" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m2fuse" value="特征融合&#xa;短时变化 + 周期先验" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="910" y="292.5" width="185" height="95" as="geometry" />
