@@ -333,7 +333,7 @@
           <mxGeometry x="640" y="130" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m4filter" value="规则筛选&#xa;类型 / 规模 / 场地&#xa;风险等级硬约束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="680" y="190" width="180" height="115" as="geometry" />
+          <mxGeometry x="680" y="172.5" width="180" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m4sim" value="相似案例检索&#xa;场景特征匹配&#xa;历史方案召回" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;strokeColor=#9EC3E6;fillColor=#FFFFFF;fontSize=15;fontStyle=1;fontColor=#234A76;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="680" y="395" width="180" height="115" as="geometry" />
@@ -388,8 +388,8 @@
         <mxCell id="m4e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#6E9BCB;strokeWidth=2;exitPerimeter=1;entryPerimeter=1;" parent="1" source="m4scene" target="m4filter" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="640" y="365" />
-              <mxPoint x="640" y="248" />
+              <mxPoint x="610" y="365" />
+              <mxPoint x="610" y="248" />
             </Array>
           </mxGeometry>
         </mxCell>
