@@ -924,7 +924,7 @@
         <mxCell id="fPp1aaJu4IabN9T1SYCV-26" value="Query MCP&lt;br&gt;&lt;font style=&quot;font-weight: normal; font-size: 19px;&quot;&gt;查询实时感知、历史、拓扑数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#6FA8DC;fillColor=#FFFFFF;fontSize=21;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="fPp1aaJu4IabN9T1SYCV-25" vertex="1">
           <mxGeometry x="30" y="55" width="300" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="fPp1aaJu4IabN9T1SYCV-27" value="Algorithm MCP&#xa;&lt;font style=&quot;font-size: 21px; font-weight: normal;&quot;&gt;调用统计、短时预测、中长期预测算法&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#6FA8DC;fillColor=#FFFFFF;fontSize=21;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="fPp1aaJu4IabN9T1SYCV-25" vertex="1">
+        <mxCell id="fPp1aaJu4IabN9T1SYCV-27" value="Algorithm MCP&lt;br&gt;&lt;font style=&quot;font-weight: normal; font-size: 19px;&quot;&gt;调用统计、短时预测、中长期预测算法&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#6FA8DC;fillColor=#FFFFFF;fontSize=21;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="fPp1aaJu4IabN9T1SYCV-25" vertex="1">
           <mxGeometry x="30" y="141" width="300" height="68" as="geometry" />
         </mxCell>
         <mxCell id="fPp1aaJu4IabN9T1SYCV-28" value="Knowledge MCP&#xa;&lt;font style=&quot;font-size: 21px; font-weight: normal;&quot;&gt;指标定义、规则说明、模型配置&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;strokeColor=#6FA8DC;fillColor=#FFFFFF;fontSize=21;fontStyle=1;fontColor=#17365D;align=center;verticalAlign=middle;spacing=4;" parent="fPp1aaJu4IabN9T1SYCV-25" vertex="1">
