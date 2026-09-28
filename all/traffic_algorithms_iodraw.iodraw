@@ -302,7 +302,7 @@
         <mxCell id="7" value="路侧视频检测" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="306" width="177" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="时间空间对齐&#xa;同步 / 标定 / 映射" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="8" value="时间空间对齐&#xa;同步 / 标定 / 映射" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="270" y="215" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F8FBFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;dashed=1;dashPattern=5 4;" parent="1" vertex="1">
@@ -1048,80 +1048,80 @@
     </mxGraphModel>
   </diagram>
   <diagram id="page11" name="11 基于区域规则的占道检测原理图">
-    <mxGraphModel dx="1440" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="530" math="0" shadow="0" background="#FFFFFF">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="530" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="基于区域规则的占道检测原理图" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="2" value="基于区域规则的占道检测原理图" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="20" y="15" width="1400" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="3" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="25" y="125" width="205" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="输入数据" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#2468BD;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="4" value="输入数据" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#2468BD;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="33" y="137" width="189" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="非机动车检测框" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="5" value="非机动车检测框" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="190" width="177" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="连续运动轨迹" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="6" value="连续运动轨迹" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="248" width="177" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="监管区域边界" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="7" value="监管区域边界" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="306" width="177" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="预设业务规则" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="8" value="预设业务规则" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="364" width="177" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="区域关系分析&#xa;位置 / 相交关系" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="9" value="区域关系分析&#xa;位置 / 相交关系" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="270" y="215" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F8FBFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;dashed=1;dashPattern=5 4;" vertex="1" parent="1">
+        <mxCell id="10" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F8FBFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;dashed=1;dashPattern=5 4;" parent="1" vertex="1">
           <mxGeometry x="480" y="115" width="455" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="占道规则综合判定" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="11" value="占道规则综合判定" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="495" y="130" width="425" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="空间条件&#xa;进入指定区域&#xa;方向与区域关系" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="12" value="空间条件&#xa;进入指定区域&#xa;方向与区域关系" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="497" y="200" width="126" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="时间条件&#xa;持续时间&#xa;多帧一致性" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="13" value="时间条件&#xa;持续时间&#xa;多帧一致性" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="642" y="200" width="126" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="规则匹配&#xa;触发与恢复&#xa;特殊通行情形" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="14" value="规则匹配&#xa;触发与恢复&#xa;特殊通行情形" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="787" y="200" width="126" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="事件生成&#xa;记录触发条件" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="15" value="事件生成&#xa;记录触发条件" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="975" y="215" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F0FAF5;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="16" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F0FAF5;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1195" y="125" width="220" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="输出结果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#21A46F;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="17" value="输出结果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#21A46F;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1203" y="137" width="204" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="疑似占道事件" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="18" value="疑似占道事件" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1209" y="190" width="192" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="事件时间与位置" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="19" value="事件时间与位置" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1209" y="248" width="192" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="证据留存待复核" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="20" value="证据留存待复核" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1209" y="306" width="192" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="9">
+        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="3" target="9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="9" target="10">
+        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="9" target="10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="10" target="15">
+        <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="10" target="15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="15" target="16">
+        <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="15" target="16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="25" value="机位或道路变化后重新校验标定；疑似事件需结合现场规则人工复核。" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#62748C;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+        <mxCell id="25" value="机位或道路变化后重新校验标定；疑似事件需结合现场规则人工复核。" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#62748C;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="80" y="450" width="1280" height="44" as="geometry" />
         </mxCell>
       </root>
