@@ -269,7 +269,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="24" target="35" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="385" />
+              <mxPoint x="1130" y="383" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
