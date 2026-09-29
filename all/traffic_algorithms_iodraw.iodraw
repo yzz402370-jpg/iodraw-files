@@ -435,16 +435,16 @@
         <mxCell id="4" value="输入数据" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#2468BD;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="33" y="137" width="189" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="历史节点流量" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="5" value="历史节点流量" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="190" width="177" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="日历周期特征" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="6" value="日历周期特征" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="248" width="177" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="路网关联信息" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="7" value="路网关联信息" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="306" width="177" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="外部信息（可选）" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="8" value="外部信息（可选）" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="364" width="177" height="46" as="geometry" />
         </mxCell>
         <mxCell id="9" value="特征构建&#xa;汇总 / 清洗 / 对齐" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
@@ -456,13 +456,13 @@
         <mxCell id="11" value="多尺度时间序列模型" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="495" y="130" width="425" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="周期特征&#xa;日周变化&#xa;工作日与节假日" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="12" value="周期特征&#xa;日周变化&#xa;工作日与节假日" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="497" y="200" width="126" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="趋势特征&#xa;长期变化&#xa;节点差异" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="13" value="趋势特征&#xa;长期变化&#xa;节点差异" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="642" y="200" width="126" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="联合预测&#xa;LSTM或&#xa;Transformer" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="14" value="联合预测&#xa;LSTM或&#xa;Transformer" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="787" y="200" width="126" height="155" as="geometry" />
         </mxCell>
         <mxCell id="15" value="预测汇总&#xa;分步长评估" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
@@ -474,13 +474,13 @@
         <mxCell id="17" value="输出结果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#21A46F;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1203" y="137" width="204" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="未来1～7天" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="18" value="未来1～7天" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1209" y="190" width="192" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="日流量变化趋势" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="19" value="日流量变化趋势" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1209" y="248" width="192" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="重点高峰时段" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="20" value="重点高峰时段" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1209" y="306" width="192" height="46" as="geometry" />
         </mxCell>
         <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="3" target="9" edge="1">
