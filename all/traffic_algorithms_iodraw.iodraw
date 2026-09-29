@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="流量预测算法框架图" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="20" y="15" width="1400" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="3" value="应用服务层" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2468BD;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="25" y="90" width="140" height="75" as="geometry" />
         </mxCell>
@@ -385,13 +382,13 @@
         <mxCell id="10" value="时空Transformer" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="495" y="130" width="425" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="空间注意力&#xa;上下游传播&#xa;相邻节点关联" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="11" value="空间注意力&#xa;上下游传播&#xa;相邻节点关联" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="497" y="200" width="126" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="时间注意力&#xa;近期变化规律&#xa;连续时间关联" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="12" value="时间注意力&#xa;近期变化规律&#xa;连续时间关联" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="642" y="200" width="126" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="特征融合&#xa;时空联合表征&#xa;多节点编码" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="13" value="特征融合&#xa;时空联合表征&#xa;多节点编码" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="787" y="200" width="126" height="155" as="geometry" />
         </mxCell>
         <mxCell id="14" value="多步预测&#xa;滚动更新" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
