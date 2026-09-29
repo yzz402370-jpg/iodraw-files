@@ -515,13 +515,13 @@
         <mxCell id="4" value="输入数据" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#2468BD;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="33" y="137" width="189" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="短时预测结果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="5" value="短时预测结果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="190" width="177" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="中长期预测结果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="6" value="中长期预测结果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="248" width="177" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="历史实测数据" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="7" value="历史实测数据" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="39" y="306" width="177" height="46" as="geometry" />
         </mxCell>
         <mxCell id="8" value="结果封装&#xa;节点 / 时段 / 粒度" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=15;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
@@ -551,13 +551,13 @@
         <mxCell id="16" value="输出结果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#21A46F;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1203" y="137" width="204" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="折线趋势图" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="17" value="折线趋势图" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1209" y="190" width="192" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="路口对比柱状图" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="18" value="路口对比柱状图" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1209" y="248" width="192" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="区域地图热力图" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="19" value="区域地图热力图" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1209" y="306" width="192" height="46" as="geometry" />
         </mxCell>
         <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="3" target="8" edge="1">
