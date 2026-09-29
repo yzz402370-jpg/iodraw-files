@@ -474,7 +474,7 @@
         <mxCell id="17" value="输出结果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#21A46F;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1203" y="137" width="204" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="未来30～60天" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="18" value="未来1～7天" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1209" y="190" width="192" height="46" as="geometry" />
         </mxCell>
         <mxCell id="19" value="日流量变化趋势" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
