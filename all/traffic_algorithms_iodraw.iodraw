@@ -95,16 +95,16 @@
           <mxGeometry x="25" y="600" width="140" height="75" as="geometry" />
         </mxCell>
         <mxCell id="32" value="雷视一体机" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="190" y="600" width="270" height="80" as="geometry" />
+          <mxGeometry x="190" y="600" width="296" height="80" as="geometry" />
         </mxCell>
         <mxCell id="34" value="路侧视频" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="519" y="600" width="270" height="80" as="geometry" />
+          <mxGeometry x="507" y="598" width="296" height="80" as="geometry" />
         </mxCell>
         <mxCell id="35" value="历史交通流量" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="847" y="600" width="270" height="80" as="geometry" />
+          <mxGeometry x="823" y="597" width="296" height="80" as="geometry" />
         </mxCell>
         <mxCell id="36" value="日历与外部信息" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="595" width="270" height="80" as="geometry" />
+          <mxGeometry x="1140" y="595" width="296" height="80" as="geometry" />
         </mxCell>
         <mxCell id="37" value="↑" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=30;fontColor=#75A7EC;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="755" y="564" width="52" height="36" as="geometry" />
