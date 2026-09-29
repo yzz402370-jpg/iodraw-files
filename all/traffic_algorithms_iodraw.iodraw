@@ -98,7 +98,7 @@
           <mxGeometry x="190" y="600" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="34" value="路侧视频" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="519" y="600" width="234.4" height="75" as="geometry" />
+          <mxGeometry x="519" y="600" width="269" height="75" as="geometry" />
         </mxCell>
         <mxCell id="35" value="历史交通流量" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="847" y="600" width="234.4" height="75" as="geometry" />
