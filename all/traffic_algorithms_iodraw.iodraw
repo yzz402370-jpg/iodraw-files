@@ -924,9 +924,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="非机动车多目标跟踪原理图" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="20" y="15" width="1400" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="3" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="25" y="125" width="205" height="290" as="geometry" />
         </mxCell>
@@ -995,9 +992,6 @@
         </mxCell>
         <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#75A7EC;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="12" target="13" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="26" value="跨摄像机或长期遮挡后无法可靠关联时，不强行合并轨迹。" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=16;fontColor=#62748C;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="80" y="450" width="1280" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
