@@ -690,9 +690,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="非机动车识别服务集成链路图" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#244D88;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="20" y="15" width="1400" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="3" value="" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F8FF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="25" y="110" width="215" height="230" as="geometry" />
         </mxCell>
