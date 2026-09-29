@@ -640,7 +640,7 @@
         <mxCell id="25" value="输出：事件记录与证据" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#7957BC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#7957BC;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1124" y="398" width="276" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="26" value="支撑体系" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#486687;strokeColor=#486687;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="26" value="数据处理层" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#486687;strokeColor=#486687;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="25" y="490" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="27" value="视频监控平台" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
