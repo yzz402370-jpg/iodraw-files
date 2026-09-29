@@ -598,7 +598,7 @@
         <mxCell id="11" value="L1  非机动车检测" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2468BD;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="198" y="213" width="280" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="视频抽帧与预处理&#xa;YOLO多尺度识别&#xa;类别与位置输出" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="12" value="视频抽帧与预处理&#xa;YOLO多尺度识别&#xa;类别与位置输出" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="202" y="270" width="272" height="110" as="geometry" />
         </mxCell>
         <mxCell id="13" value="输出：目标检测结果" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#2468BD;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
@@ -610,7 +610,7 @@
         <mxCell id="15" value="L2  多目标跟踪" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#21A46F;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="506" y="213" width="280" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="运动状态预测&#xa;跨帧目标匹配&#xa;轨迹维护与质量标记" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="16" value="运动状态预测&#xa;跨帧目标匹配&#xa;轨迹维护与质量标记" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="510" y="270" width="272" height="110" as="geometry" />
         </mxCell>
         <mxCell id="17" value="输出：目标标识与轨迹" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#21A46F;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#21A46F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
@@ -622,7 +622,7 @@
         <mxCell id="19" value="L3  区域占道检测" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EE812D;strokeColor=#EE812D;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="814" y="213" width="280" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="道路区域人工标定&#xa;位置与持续时间分析&#xa;多帧一致性判断" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="20" value="道路区域人工标定&#xa;位置与持续时间分析&#xa;多帧一致性判断" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="818" y="270" width="272" height="110" as="geometry" />
         </mxCell>
         <mxCell id="21" value="输出：疑似占道事件" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#EE812D;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#EE812D;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
@@ -634,7 +634,7 @@
         <mxCell id="23" value="L4  事件管理" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#7957BC;strokeColor=#7957BC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1122" y="213" width="280" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="截图与片段记录&#xa;事件查询与人工复核&#xa;统计分析与优化" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="24" value="截图与片段记录&#xa;事件查询与人工复核&#xa;统计分析与优化" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1126" y="270" width="272" height="110" as="geometry" />
         </mxCell>
         <mxCell id="25" value="输出：事件记录与证据" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#7957BC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#7957BC;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
@@ -655,7 +655,7 @@
         <mxCell id="30" value="边缘设备或服务器" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1114" y="490" width="296" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="31" value="数据接入层" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2468BD;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+        <mxCell id="31" value="设备基础层" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2468BD;strokeColor=#2468BD;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="25" y="600" width="140" height="75" as="geometry" />
         </mxCell>
         <mxCell id="32" value="路侧监控视频" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#75A7EC;strokeWidth=1.6;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#244D88;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
