@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p01_cell_002" value="多源感知融合算法框架图" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=29;fontColor=#2869AE;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="30" y="22" width="1220" height="42" as="geometry" />
+        </mxCell>
         <mxCell id="p01_cell_003" value="输入层" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2869AE;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="40" y="433.4" width="155" height="63.96" as="geometry" />
         </mxCell>
@@ -84,6 +87,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p02_cell_002" value="多源感知融合服务集成链路图" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=29;fontColor=#2869AE;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="30" y="22" width="1220" height="42" as="geometry" />
+        </mxCell>
         <mxCell id="p02_cell_003" value="现场设备" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2869AE;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="30" y="91.76" width="270" height="39" as="geometry" />
         </mxCell>
@@ -116,6 +122,9 @@
         </mxCell>
         <mxCell id="p02_cell_013" value="现场配置：授时 标定 四向分区" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="380" y="472.4" width="490" height="50.7" as="geometry" />
+        </mxCell>
+        <mxCell id="p02_cell_014" value="支持质量提示与视频核查" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="35" y="558.98" width="1210" height="27.3" as="geometry" />
         </mxCell>
         <mxCell id="p02_cell_015" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p02_cell_006" target="p02_cell_008" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -152,6 +161,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p03_cell_002" value="基于鸟瞰图的多源空间统一原理图" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=29;fontColor=#2869AE;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="30" y="22" width="1220" height="42" as="geometry" />
+        </mxCell>
         <mxCell id="p03_cell_003" value="视频目标&#xa;地面参考点" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF5FD;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="35" y="121.4" width="235" height="81.9" as="geometry" />
         </mxCell>
@@ -176,6 +188,9 @@
         <mxCell id="p03_cell_010" value="经纬度映射&#xa;地图展示" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="990" y="402.2" width="260" height="70.2" as="geometry" />
         </mxCell>
+        <mxCell id="p03_cell_011" value="设备位置变化后重新标定" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="35" y="558.98" width="1210" height="27.3" as="geometry" />
+        </mxCell>
         <mxCell id="p03_cell_012" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p03_cell_003" target="p03_cell_004" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -194,8 +209,9 @@
         <mxCell id="p03_cell_017" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=1;entryY=0.5;dashed=1;dashPattern=5 4;" parent="1" source="p03_cell_009" target="p03_cell_004" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="680" y="480" />
-              <mxPoint x="680" y="162" />
+              <mxPoint x="655" y="480.2" />
+              <mxPoint x="665" y="480.2" />
+              <mxPoint x="665" y="161.96" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -210,6 +226,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p04_cell_002" value="基于缓冲窗口的多源时间对齐原理图" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=29;fontColor=#2869AE;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="30" y="22" width="1220" height="42" as="geometry" />
+        </mxCell>
         <mxCell id="p04_cell_003" value="雷达数据" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF5FD;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="35" y="113.6" width="230" height="78" as="geometry" />
         </mxCell>
@@ -226,13 +245,19 @@
           <mxGeometry x="645" y="273.5" width="255" height="70.2" as="geometry" />
         </mxCell>
         <mxCell id="p04_cell_008" value="短暂丢包" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="75" y="398.3" width="260" height="70.2" as="geometry" />
+          <mxGeometry x="80" y="410" width="260" height="70.2" as="geometry" />
         </mxCell>
         <mxCell id="p04_cell_009" value="有限保持&#xa;补偿标记" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF5EA;strokeColor=#C57526;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="430" y="382.7" width="335" height="101.4" as="geometry" />
         </mxCell>
         <mxCell id="p04_cell_010" value="超时停止&#xa;缺失标记" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="890" y="382.7" width="335" height="101.4" as="geometry" />
+        </mxCell>
+        <mxCell id="p04_cell_011" value="统一授时 时间校正" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="290" y="222.8" width="690" height="29.64" as="geometry" />
+        </mxCell>
+        <mxCell id="p04_cell_012" value="超时数据不参与融合" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="35" y="558.98" width="1210" height="27.3" as="geometry" />
         </mxCell>
         <mxCell id="p04_cell_013" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p04_cell_003" target="p04_cell_004" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -289,6 +314,9 @@
         </mxCell>
         <mxCell id="p05_cell_011" value="统一目标清单：去重 来源 质量" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF8F3;strokeColor=#248868;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="285" y="491.9" width="760" height="50.7" as="geometry" />
+        </mxCell>
+        <mxCell id="p05_cell_012" value="冲突重匹配，盲区单独标记" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="35" y="558.98" width="1210" height="27.3" as="geometry" />
         </mxCell>
         <mxCell id="p05_cell_013" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" parent="1" source="p05_cell_003" target="p05_cell_004" edge="1">
           <mxGeometry relative="1" as="geometry">
