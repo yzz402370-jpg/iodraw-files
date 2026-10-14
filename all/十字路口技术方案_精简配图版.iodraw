@@ -294,13 +294,13 @@
           <mxGeometry x="60" y="359.3" width="340" height="70.2" as="geometry" />
         </mxCell>
         <mxCell id="p05_cell_009" value="雷达单源输出" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF5FD;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="480" y="277.4" width="325" height="109.2" as="geometry" />
+          <mxGeometry x="478" y="277.4" width="325" height="109.2" as="geometry" />
         </mxCell>
         <mxCell id="p05_cell_010" value="视觉单源输出" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF5FD;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="880" y="277.4" width="350" height="109.2" as="geometry" />
         </mxCell>
         <mxCell id="p05_cell_011" value="统一目标清单：去重 来源 质量" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF8F3;strokeColor=#248868;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="262.5" y="491.9" width="760" height="50.7" as="geometry" />
+          <mxGeometry x="260" y="491.9" width="760" height="50.7" as="geometry" />
         </mxCell>
         <mxCell id="p05_cell_013" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" parent="1" source="p05_cell_003" target="p05_cell_004" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -386,9 +386,6 @@
         </mxCell>
         <mxCell id="p06_cell_010" value="激光雷达扩展：同步与联合标定" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="260" y="76.16" width="765" height="50.7" as="geometry" />
-        </mxCell>
-        <mxCell id="p06_cell_011" value="缺失字段与质量状态同步输出" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="35" y="558.98" width="1210" height="27.3" as="geometry" />
         </mxCell>
         <mxCell id="p06_cell_012" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p06_cell_003" target="p06_cell_004" edge="1">
           <mxGeometry relative="1" as="geometry" />
