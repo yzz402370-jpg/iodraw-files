@@ -644,7 +644,8 @@
         <mxCell id="n7eM4gmwsafLxdmqqpn9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="p10_cell_005" target="p10_cell_009">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="133" />
+              <mxPoint x="833" y="180" />
+              <mxPoint x="590" y="180" />
               <mxPoint x="590" y="390" />
               <mxPoint x="298" y="390" />
             </Array>
@@ -656,7 +657,7 @@
         <mxCell id="p10_cell_006" value="满足发号&#xa;条件？" style="rhombus;whiteSpace=wrap;html=0;fillColor=#FFF5EA;strokeColor=#C57526;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="680" y="265.7" width="255" height="136.5" as="geometry" />
         </mxCell>
-        <mxCell id="n7eM4gmwsafLxdmqqpn9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p10_cell_007" target="p10_cell_009">
+        <mxCell id="n7eM4gmwsafLxdmqqpn9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="p10_cell_007" target="p10_cell_009">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1120" y="390" />
