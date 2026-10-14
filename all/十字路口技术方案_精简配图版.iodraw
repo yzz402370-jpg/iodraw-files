@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="page-11" name="跨摄像机轨迹接力原理图">
-    <mxGraphModel dx="1221" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="620" math="0" shadow="0">
+    <mxGraphModel dx="1436" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="620" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -723,13 +723,7 @@
           <mxGeometry x="1090" y="82.4" width="160" height="101.4" as="geometry" />
         </mxCell>
         <mxCell id="p11_cell_009" value="暂不合并" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="990" y="406.1" width="260" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="p11_cell_010" value="交接范围：四向通行与人行横道" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="50" y="503.6" width="1180" height="31.2" as="geometry" />
-        </mxCell>
-        <mxCell id="p11_cell_011" value="FIFO用于候选缓存" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="35" y="558.98" width="1210" height="27.3" as="geometry" />
+          <mxGeometry x="1010" y="406.1" width="260" height="78" as="geometry" />
         </mxCell>
         <mxCell id="p11_cell_012" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p11_cell_003" target="p11_cell_004" edge="1">
           <mxGeometry relative="1" as="geometry" />
