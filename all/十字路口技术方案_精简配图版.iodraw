@@ -302,9 +302,6 @@
         <mxCell id="p05_cell_011" value="统一目标清单：去重 来源 质量" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF8F3;strokeColor=#248868;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="285" y="491.9" width="760" height="50.7" as="geometry" />
         </mxCell>
-        <mxCell id="p05_cell_012" value="冲突重匹配，盲区单独标记" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="35" y="558.98" width="1210" height="27.3" as="geometry" />
-        </mxCell>
         <mxCell id="p05_cell_013" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" parent="1" source="p05_cell_003" target="p05_cell_004" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
