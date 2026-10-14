@@ -1,12 +1,9 @@
 <mxfile host="Electron" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="page-1" name="多源感知融合服务集成链路图">
-    <mxGraphModel dx="1221" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="760" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="760" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" value="多源感知融合服务集成链路图" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=30;fontColor=#2869AE;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="30" y="22" width="1220" height="42" as="geometry" />
-        </mxCell>
         <mxCell id="c1" value="现场感知设备" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#2869AE;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="30" y="112" width="270" height="50" as="geometry" />
         </mxCell>
