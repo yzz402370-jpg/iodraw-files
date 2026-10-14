@@ -238,16 +238,13 @@
           <mxGeometry x="645" y="273.5" width="255" height="70.2" as="geometry" />
         </mxCell>
         <mxCell id="p04_cell_008" value="短暂丢包" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="80" y="410" width="260" height="70.2" as="geometry" />
+          <mxGeometry x="70" y="398.3" width="260" height="70.2" as="geometry" />
         </mxCell>
         <mxCell id="p04_cell_009" value="有限保持&#xa;补偿标记" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF5EA;strokeColor=#C57526;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="430" y="382.7" width="335" height="101.4" as="geometry" />
         </mxCell>
         <mxCell id="p04_cell_010" value="超时停止&#xa;缺失标记" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="890" y="382.7" width="335" height="101.4" as="geometry" />
-        </mxCell>
-        <mxCell id="p04_cell_011" value="统一授时 时间校正" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="290" y="222.8" width="690" height="29.64" as="geometry" />
         </mxCell>
         <mxCell id="p04_cell_013" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p04_cell_003" target="p04_cell_004" edge="1">
           <mxGeometry relative="1" as="geometry" />
