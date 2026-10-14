@@ -535,7 +535,7 @@
         <mxCell id="p08_cell_012" value="轨迹回放&#xa;JSON记录" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF8F3;strokeColor=#248868;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="985" y="351.5" width="240" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="rpfPgqDXqlSx_dNmXLio-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p08_cell_013">
+        <mxCell id="rpfPgqDXqlSx_dNmXLio-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="p08_cell_013">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="750" y="360" as="targetPoint" />
           </mxGeometry>
