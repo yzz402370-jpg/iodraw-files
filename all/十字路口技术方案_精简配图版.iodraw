@@ -579,7 +579,7 @@
           <mxGeometry x="295" y="176" width="230" height="85.8" as="geometry" />
         </mxCell>
         <mxCell id="p09_cell_005" value="运动预测" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="600" y="340" width="235" height="85.8" as="geometry" />
+          <mxGeometry x="600" y="363.2" width="235" height="85.8" as="geometry" />
         </mxCell>
         <mxCell id="p09_cell_006" value="目标匹配&#xa;位置 类别 外观" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#FFF5EA;strokeColor=#C57526;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="600" y="176" width="235" height="85.8" as="geometry" />
@@ -592,9 +592,6 @@
         </mxCell>
         <mxCell id="p09_cell_009" value="短时保留&#xa;超时结束" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="910" y="374.9" width="295" height="74.1" as="geometry" />
-        </mxCell>
-        <mxCell id="p09_cell_010" value="对象：机动车 非机动车 行人" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#2869AE;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="240" y="82.4" width="800" height="35.1" as="geometry" />
         </mxCell>
         <mxCell id="p09_cell_012" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p09_cell_003" target="p09_cell_004" edge="1">
           <mxGeometry relative="1" as="geometry" />
