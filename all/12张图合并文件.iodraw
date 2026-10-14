@@ -660,61 +660,61 @@
     </mxGraphModel>
   </diagram>
   <diagram id="page-10" name="全局编号分配与映射维护原理图">
-    <mxGraphModel dx="1280" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="760" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="760" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="p10_cell_002" value="全局编号分配与映射维护原理图" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=30;fontColor=#2869AE;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="30" y="22" width="1220" height="42" />
+        <mxCell id="p10_cell_002" value="全局编号分配与映射维护原理图" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=30;fontColor=#2869AE;fontStyle=1;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="30" y="22" width="1220" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_003" value="新局部目标&#xa;设备ID + Local ID" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF5FD;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="30" y="265" width="230" height="110" />
+        <mxCell id="p10_cell_003" value="新局部目标&#xa;设备ID + Local ID" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF5FD;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="30" y="265" width="230" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_004" value="可关联已有&#xa;全局轨迹？" style="rhombus;whiteSpace=wrap;html=0;fillColor=#FFF5EA;strokeColor=#C57526;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="345" y="235" width="220" height="170" />
+        <mxCell id="p10_cell_004" value="可关联已有&#xa;全局轨迹？" style="rhombus;whiteSpace=wrap;html=0;fillColor=#FFF5EA;strokeColor=#C57526;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="345" y="235" width="220" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_005" value="沿用已有Global ID" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF8F3;strokeColor=#248868;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="685" y="125" width="295" height="80" />
+        <mxCell id="p10_cell_005" value="沿用已有Global ID" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF8F3;strokeColor=#248868;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="685" y="125" width="295" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_006" value="满足新目标&#xa;确认及发号规则？" style="rhombus;whiteSpace=wrap;html=0;fillColor=#FFF5EA;strokeColor=#C57526;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="680" y="335" width="255" height="175" />
+        <mxCell id="p10_cell_006" value="满足新目标&#xa;确认及发号规则？" style="rhombus;whiteSpace=wrap;html=0;fillColor=#FFF5EA;strokeColor=#C57526;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="335" width="255" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_007" value="分配新的Global ID" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF8F3;strokeColor=#248868;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="995" y="365" width="250" height="100" />
+        <mxCell id="p10_cell_007" value="分配新的Global ID" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF8F3;strokeColor=#248868;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="995" y="365" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_008" value="继续确认&#xa;暂不重复发号" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="680" y="600" width="255" height="75" />
+        <mxCell id="p10_cell_008" value="继续确认&#xa;暂不重复发号" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F3F5F8;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="600" width="255" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_009" value="编号映射维护&#xa;设备会话 Local ID Global ID&#xa;结束或设备重启时清理失效关系" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F4F0FB;strokeColor=#7960A5;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="30" y="565" width="535" height="110" />
+        <mxCell id="p10_cell_009" value="编号映射维护&#xa;设备会话 Local ID Global ID&#xa;结束或设备重启时清理失效关系" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F4F0FB;strokeColor=#7960A5;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="30" y="565" width="535" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_010" value="车辆四向进入区 + 行人与非机动车进入边界；中心首次出现目标经确认后受控发号" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="25" y="82" width="1230" height="45" />
+        <mxCell id="p10_cell_010" value="车辆四向进入区 + 行人与非机动车进入边界；中心首次出现目标经确认后受控发号" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="25" y="82" width="1230" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_011" value="先匹配再发号；中心交接区优先匹配，避免同一目标获得多个全局编号。" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="35" y="711" width="1210" height="35" />
+        <mxCell id="p10_cell_011" value="先匹配再发号；中心交接区优先匹配，避免同一目标获得多个全局编号。" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="35" y="711" width="1210" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_012" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="p10_cell_003" target="p10_cell_004">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="p10_cell_012" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p10_cell_003" target="p10_cell_004" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_013" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="p10_cell_004" target="p10_cell_005">
-          <mxGeometry as="geometry" relative="1">
+        <mxCell id="p10_cell_013" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0;entryY=0.5;" parent="1" source="p10_cell_004" target="p10_cell_005" edge="1">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="455" y="165" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p10_cell_014" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="p10_cell_004" target="p10_cell_006">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="p10_cell_014" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p10_cell_004" target="p10_cell_006" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_015" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="p10_cell_006" target="p10_cell_007">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="p10_cell_015" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="p10_cell_006" target="p10_cell_007" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_016" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p10_cell_006" target="p10_cell_008">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="p10_cell_016" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#2869AE;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#2869AE;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="p10_cell_006" target="p10_cell_008" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="p10_cell_017" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0.5;entryY=0;dashed=1;dashPattern=5 4;" edge="1" parent="1" source="p10_cell_005" target="p10_cell_009">
-          <mxGeometry as="geometry" relative="1">
+        <mxCell id="p10_cell_017" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0.5;entryY=0;dashed=1;dashPattern=5 4;" parent="1" source="p10_cell_005" target="p10_cell_009" edge="1">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1215" y="165" />
               <mxPoint x="1215" y="545" />
@@ -722,8 +722,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p10_cell_018" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=1;dashPattern=5 4;" edge="1" parent="1" source="p10_cell_007" target="p10_cell_009">
-          <mxGeometry as="geometry" relative="1">
+        <mxCell id="p10_cell_018" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#60718A;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#60718A;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;dashed=1;dashPattern=5 4;" parent="1" source="p10_cell_007" target="p10_cell_009" edge="1">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1120" y="540" />
               <mxPoint x="300" y="540" />
