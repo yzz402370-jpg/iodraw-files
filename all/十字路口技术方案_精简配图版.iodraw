@@ -654,7 +654,7 @@
           <mxGeometry x="680" y="472.4" width="255" height="58.5" as="geometry" />
         </mxCell>
         <mxCell id="p10_cell_009" value="编号映射&#xa;失效清理" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#F4F0FB;strokeColor=#7960A5;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="30" y="445.1" width="535" height="85.8" as="geometry" />
+          <mxGeometry x="30" y="472.40000000000003" width="535" height="85.8" as="geometry" />
         </mxCell>
         <mxCell id="p10_cell_010" value="发号范围：车辆、行人及非机动车进入区" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#60718A;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="25" y="68.36" width="1230" height="35.1" as="geometry" />
