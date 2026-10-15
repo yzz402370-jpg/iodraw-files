@@ -760,7 +760,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="p12_cell_002" value="遮挡续接与轨迹结果服务原理图" style="text;html=0;strokeColor=none;fillColor=none;fontFamily=Microsoft YaHei;fontSize=29;fontColor=#2869AE;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
-          <mxGeometry x="30" y="22" width="1220" height="42" as="geometry" />
+          <mxGeometry x="30" y="50" width="1220" height="42" as="geometry" />
         </mxCell>
         <mxCell id="p12_cell_003" value="正常跟踪" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;fillColor=#EEF8F3;strokeColor=#248868;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#21364F;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" parent="1" vertex="1">
           <mxGeometry x="45" y="144.8" width="230" height="78" as="geometry" />
