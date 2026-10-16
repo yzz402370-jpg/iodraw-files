@@ -506,7 +506,7 @@
         <mxCell id="n9" value="统一字段组织&#xa;类别 / 位置&#xa;速度 / 方向" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=17;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="421" y="109" width="153" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="n10" value="来源与质量&#xa;标记&#xa;实测 / 融合&#xa;预测补偿" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;shape=rhombus;perimeter=rhombusPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
+        <mxCell id="n10" value="来源与质量&#xa;标记" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;shape=rhombus;perimeter=rhombusPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="598" y="109" width="153" height="126" as="geometry" />
         </mxCell>
         <mxCell id="n11" value="目标去重与封&#xa;装&#xa;编号与时间戳&#xa;更新频率控制" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=17;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
