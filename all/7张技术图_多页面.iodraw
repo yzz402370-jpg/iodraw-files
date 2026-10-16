@@ -59,34 +59,34 @@
           <mxGeometry x="904" y="241" width="338" height="41" as="geometry" />
         </mxCell>
         <mxCell id="n19" value="数据处理层" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontStyle=1;fontColor=#FFFFFF;spacing=5;rounded=1;arcSize=17;fillColor=#2469B2;strokeColor=#2469B2;strokeWidth=1.65;" parent="1" vertex="1">
-          <mxGeometry x="2" y="310" width="129" height="84" as="geometry" />
+          <mxGeometry x="2" y="320" width="129" height="84" as="geometry" />
         </mxCell>
         <mxCell id="n20" value="视频解码与抽帧" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
-          <mxGeometry x="137" y="314" width="274" height="76" as="geometry" />
+          <mxGeometry x="137" y="324" width="274" height="76" as="geometry" />
         </mxCell>
         <mxCell id="n21" value="相机内外参标定" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
-          <mxGeometry x="419" y="314" width="274" height="76" as="geometry" />
+          <mxGeometry x="419" y="324" width="274" height="76" as="geometry" />
         </mxCell>
         <mxCell id="n22" value="PTP 时间同步" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
-          <mxGeometry x="701" y="314" width="274" height="76" as="geometry" />
+          <mxGeometry x="701" y="324" width="274" height="76" as="geometry" />
         </mxCell>
         <mxCell id="n23" value="路口静态地图" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
-          <mxGeometry x="983" y="314" width="274" height="76" as="geometry" />
+          <mxGeometry x="983" y="324" width="274" height="76" as="geometry" />
         </mxCell>
         <mxCell id="n24" value="基础设施层" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontStyle=1;fontColor=#FFFFFF;spacing=5;rounded=1;arcSize=17;fillColor=#2469B2;strokeColor=#2469B2;strokeWidth=1.65;" parent="1" vertex="1">
-          <mxGeometry x="2" y="413" width="129" height="84" as="geometry" />
+          <mxGeometry x="2" y="423" width="129" height="84" as="geometry" />
         </mxCell>
         <mxCell id="n25" value="路侧高清摄像头" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
-          <mxGeometry x="137" y="417" width="274" height="76" as="geometry" />
+          <mxGeometry x="137" y="427" width="274" height="76" as="geometry" />
         </mxCell>
         <mxCell id="n26" value="鱼眼相机 / 雷视设备" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
-          <mxGeometry x="419" y="417" width="274" height="76" as="geometry" />
+          <mxGeometry x="419" y="427" width="274" height="76" as="geometry" />
         </mxCell>
         <mxCell id="n27" value="路口边缘计算节点" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
-          <mxGeometry x="701" y="417" width="274" height="76" as="geometry" />
+          <mxGeometry x="701" y="427" width="274" height="76" as="geometry" />
         </mxCell>
         <mxCell id="n28" value="PTP / GNSS 授时" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
-          <mxGeometry x="983" y="417" width="274" height="76" as="geometry" />
+          <mxGeometry x="983" y="427" width="274" height="76" as="geometry" />
         </mxCell>
         <mxCell id="n29" value="" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#2469B2;spacing=5;text;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="697" y="496" width="2" height="2" as="geometry" />
@@ -108,8 +108,8 @@
         </mxCell>
         <mxCell id="e31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#2469B2;strokeWidth=2.6;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="420" as="sourcePoint" />
-            <mxPoint x="698" y="390" as="targetPoint" />
+            <mxPoint x="700" y="430" as="sourcePoint" />
+            <mxPoint x="698" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#2469B2;strokeWidth=2.6;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=0;entryX=0.5;entryY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n32" target="n33" edge="1">
