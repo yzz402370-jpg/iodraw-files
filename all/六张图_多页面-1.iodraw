@@ -341,7 +341,7 @@
         <mxCell id="n9" value="以视觉时间&#xa;作为对齐基准" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=17;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="421" y="109" width="153" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="n10" value="滑动窗口缓&#xa;存&#xa;时间检索匹&#xa;配" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;shape=rhombus;perimeter=rhombusPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
+        <mxCell id="n10" value="滑动窗口缓存&#xa;时间检索匹配" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;shape=rhombus;perimeter=rhombusPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="598" y="109" width="153" height="126" as="geometry" />
         </mxCell>
         <mxCell id="n11" value="插值 / 预测补偿&#xa;过期数据丢弃" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=17;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
