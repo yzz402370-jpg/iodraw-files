@@ -408,8 +408,10 @@
         <mxCell id="n5" value="统一时空坐标" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=18;fontStyle=0;fontColor=#285E9D;spacing=5;shape=parallelogram;perimeter=parallelogramPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="30" y="237.333" width="171" height="72.6667" as="geometry" />
         </mxCell>
-        <mxCell id="cjpFYxOsAhpLaoFS17nx-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n6" target="n9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cjpFYxOsAhpLaoFS17nx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="174" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="n6" value="预处理&#xa;与准备" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=1;fontColor=#285E9D;spacing=5;shape=hexagon;perimeter=hexagonPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="245" y="123" width="130" height="102" as="geometry" />
@@ -423,7 +425,7 @@
         <mxCell id="n9" value="候选筛选&#xa;位置 / 速度&#xa;方向 / 类别" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=17;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="421" y="109" width="153" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="n10" value="一对一匹配&#xa;来源ID优先&#xa;冲突重检" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;shape=rhombus;perimeter=rhombusPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
+        <mxCell id="n10" value="一对一匹配&#xa;来源ID&#xa;冲突重检" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;shape=rhombus;perimeter=rhombusPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="598" y="109" width="153" height="126" as="geometry" />
         </mxCell>
         <mxCell id="n11" value="按分区融合&#xa;重叠区融合&#xa;单源区保留" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=17;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
