@@ -425,7 +425,7 @@
         <mxCell id="n9" value="候选筛选&#xa;位置 / 速度&#xa;方向 / 类别" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=17;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="421" y="109" width="153" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="n10" value="一对一匹配&#xa;来源ID&#xa;冲突重检" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;shape=rhombus;perimeter=rhombusPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
+        <mxCell id="n10" value="一对一&#xa;匹配来源ID&#xa;冲突重检" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;shape=rhombus;perimeter=rhombusPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="598" y="109" width="153" height="126" as="geometry" />
         </mxCell>
         <mxCell id="n11" value="按分区融合&#xa;重叠区融合&#xa;单源区保留" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=17;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
@@ -456,9 +456,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.5;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n11" target="n16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.5;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n16" target="n19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
