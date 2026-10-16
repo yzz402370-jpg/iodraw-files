@@ -37,7 +37,7 @@
         <mxCell id="12" value="" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=0;fontColor=#5D7FA8;fillColor=#EDF8F2;strokeColor=#A8C7EE;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="662.6666666666667" y="104" width="446.6666666666667" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="L2 多源对齐与融合" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fillColor=#18A86B;strokeColor=#18A86B;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="13" value="L2 多源对齐与融合" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fillColor=#18A86B;strokeColor=#18A86B;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="668.6666666666667" y="110" width="434.6666666666667" height="42" as="geometry" />
         </mxCell>
         <mxCell id="14" value="时间同步与 BEV 统一&lt;br&gt;目标关联与分区去重" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#5D7FA8;" parent="1" vertex="1">
@@ -93,9 +93,6 @@
         </mxCell>
         <mxCell id="31" value="" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=0;fontColor=#2D5E92;" parent="1" vertex="1">
           <mxGeometry x="799" y="285" width="2" height="2" as="geometry" />
-        </mxCell>
-        <mxCell id="32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5EA0F0;strokeWidth=2.8;" parent="1" source="30" target="31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="33" value="" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=0;fontColor=#2D5E92;" parent="1" vertex="1">
           <mxGeometry x="799" y="373" width="2" height="2" as="geometry" />
