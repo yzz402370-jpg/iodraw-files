@@ -286,9 +286,6 @@
         <mxCell id="n24" value="以地面参考点建立统一空间基准" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=16;fontStyle=0;fontColor=#285E9D;spacing=5;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="432" y="257" width="487" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="e13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.5;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n6" target="n9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="e14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.5;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n9" target="n10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
