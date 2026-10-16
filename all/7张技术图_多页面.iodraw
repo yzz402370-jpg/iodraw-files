@@ -519,7 +519,7 @@
           <mxGeometry x="381" y="18" width="499" height="515" as="geometry" />
         </mxCell>
         <mxCell id="n9" value="全局编号分配与身份确认" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=22;fontStyle=1;fontColor=#2469B2;spacing=5;text;fillColor=none;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="389" y="24" width="483" height="38" as="geometry" />
+          <mxGeometry x="389" y="133.75" width="483" height="38" as="geometry" />
         </mxCell>
         <mxCell id="n10" value="检索已有轨迹&#xa;时空 / 类别" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=18;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
           <mxGeometry x="400" y="218" width="146.667" height="114" as="geometry" />
