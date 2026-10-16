@@ -441,9 +441,6 @@
         <mxCell id="n21" value="单源与盲区说&#xa;明" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=18;fontStyle=0;fontColor=#1E9C72;spacing=5;shape=parallelogram;perimeter=parallelogramPerimeter;fillColor=#EBF8F2;strokeColor=#76C6A6;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="1182" y="242.333" width="166" height="72.6667" as="geometry" />
         </mxCell>
-        <mxCell id="n24" value="重叠区融合，单源覆盖区保留有效目标" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=16;fontStyle=0;fontColor=#285E9D;spacing=5;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
-          <mxGeometry x="432" y="257" width="487" height="48" as="geometry" />
-        </mxCell>
         <mxCell id="e14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.5;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n9" target="n10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
