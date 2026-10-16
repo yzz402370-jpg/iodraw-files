@@ -240,7 +240,7 @@
           <mxGeometry x="30" y="237.333" width="171" height="72.6667" as="geometry" />
         </mxCell>
         <mxCell id="n6" value="预处理&#xa;与准备" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=1;fontColor=#285E9D;spacing=5;shape=hexagon;perimeter=hexagonPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
-          <mxGeometry x="240" y="120" width="130" height="102" as="geometry" />
+          <mxGeometry x="250" y="121" width="130" height="102" as="geometry" />
         </mxCell>
         <mxCell id="n7" value="" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=12;fillColor=#F7FAFE;strokeColor=#81ACE2;strokeWidth=1.6;dashed=1;dashPattern=6 5;" parent="1" vertex="1">
           <mxGeometry x="402" y="24" width="546" height="300" as="geometry" />
