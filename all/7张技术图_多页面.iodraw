@@ -431,7 +431,12 @@
           <mxGeometry x="208" y="175" width="142" height="90" as="geometry" />
         </mxCell>
         <mxCell id="T3IhwAWHkUW0u1wAl51B-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n7" target="n14">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="220" />
+              <mxPoint x="890" y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="n7" value="" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=10;fillColor=#F6F9FD;strokeColor=#81ACE2;strokeWidth=1.65;dashed=1;dashPattern=6 5;" parent="1" vertex="1">
           <mxGeometry x="381" y="100" width="499" height="230" as="geometry" />
