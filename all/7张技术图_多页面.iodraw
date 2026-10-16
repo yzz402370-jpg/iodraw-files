@@ -430,7 +430,7 @@
         <mxCell id="n6" value="时空整理&#xa;与数据准备" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=1;fontColor=#285E9D;spacing=5;shape=parallelogram;perimeter=parallelogramPerimeter;fillColor=#EDF4FD;strokeColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="208" y="175" width="142" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="T3IhwAWHkUW0u1wAl51B-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n7" target="n14">
+        <mxCell id="T3IhwAWHkUW0u1wAl51B-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#5986C8;strokeWidth=2.6;" edge="1" parent="1" source="n7" target="n14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="890" y="220" />
