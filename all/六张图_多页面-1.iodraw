@@ -224,6 +224,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YMQ_hV49yqh8ZuuM88w8-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n1" target="n6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="n1" value="" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=16;fillColor=#F7FAFE;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="18" y="24" width="195" height="300" as="geometry" />
         </mxCell>
@@ -240,7 +243,7 @@
           <mxGeometry x="30" y="237.333" width="171" height="72.6667" as="geometry" />
         </mxCell>
         <mxCell id="n6" value="预处理&#xa;与准备" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=1;fontColor=#285E9D;spacing=5;shape=hexagon;perimeter=hexagonPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
-          <mxGeometry x="250" y="121" width="130" height="102" as="geometry" />
+          <mxGeometry x="240" y="123" width="130" height="102" as="geometry" />
         </mxCell>
         <mxCell id="n7" value="" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=12;fillColor=#F7FAFE;strokeColor=#81ACE2;strokeWidth=1.6;dashed=1;dashPattern=6 5;" parent="1" vertex="1">
           <mxGeometry x="402" y="24" width="546" height="300" as="geometry" />
@@ -283,9 +286,6 @@
         <mxCell id="n24" value="以地面参考点建立统一空间基准" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=16;fontStyle=0;fontColor=#285E9D;spacing=5;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="432" y="257" width="487" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="e12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.5;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n3" target="n6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="e13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.5;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n6" target="n9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -293,9 +293,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.5;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n10" target="n11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.5;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n11" target="n16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
