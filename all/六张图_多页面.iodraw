@@ -70,12 +70,6 @@
         <mxCell id="c20" value="去重与分区保留" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
           <mxGeometry x="953" y="216" width="238" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="c21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="708" y="198" as="sourcePoint" />
-            <mxPoint x="708" y="187" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="c22" value="后处理层" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#FFFFFF;fontStyle=1;fillColor=#675B9D;strokeColor=#675B9D;strokeWidth=1.7;" parent="1" vertex="1">
           <mxGeometry x="30" y="121" width="148" height="66" as="geometry" />
         </mxCell>
@@ -93,12 +87,6 @@
         </mxCell>
         <mxCell id="c27" value="质量及状态标记" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
           <mxGeometry x="953" y="130" width="238" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="c28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="708" y="112" as="sourcePoint" />
-            <mxPoint x="708" y="101" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="c29" value="输出层" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#FFFFFF;fontStyle=1;fillColor=#22A17A;strokeColor=#22A17A;strokeWidth=1.7;" parent="1" vertex="1">
           <mxGeometry x="30" y="35" width="148" height="66" as="geometry" />
