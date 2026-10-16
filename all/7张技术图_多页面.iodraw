@@ -639,9 +639,6 @@
         <mxCell id="n21" value="连续全局轨迹" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#1E9C72;spacing=5;rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#76C6A6;strokeWidth=1.65;" parent="1" vertex="1">
           <mxGeometry x="1084" y="369" width="159" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="n26" value="FIFO 只用于缓存管理，不直接决定目标身份；&#xa;直行、左转、右转和过街轨迹分别验证" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=23;fillColor=#F3F8FF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
-          <mxGeometry x="400" y="356" width="459" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="e13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.6;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n10" target="n11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -734,9 +731,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.6;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n11" target="n12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.6;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n3" target="n7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#5986C8;strokeWidth=2.6;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="n7" target="n10" edge="1">
