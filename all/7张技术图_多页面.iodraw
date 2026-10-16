@@ -34,9 +34,6 @@
         <mxCell id="n10" value="输出：统一 BEV 特征" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=26;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
           <mxGeometry x="152" y="241" width="338" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="Jeuz5mwkQespeW4uu0oi-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n11" target="n4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="n11" value="" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#1E9C72;spacing=5;rounded=1;arcSize=14;fillColor=#EBF8F2;strokeColor=#76C6A6;strokeWidth=1.65;" parent="1" vertex="1">
           <mxGeometry x="513" y="104" width="368" height="190" as="geometry" />
         </mxCell>
@@ -112,6 +109,12 @@
         <mxCell id="e34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#2469B2;strokeWidth=2.6;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="n33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="698" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jeuz5mwkQespeW4uu0oi-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;orthogonalLoop=1;jettySize=auto;strokeColor=#2469B2;strokeWidth=2.6;endArrow=block;endFill=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#2469B2;labelBackgroundColor=#FFFFFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708" y="330" as="sourcePoint" />
+            <mxPoint x="708" y="308" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
