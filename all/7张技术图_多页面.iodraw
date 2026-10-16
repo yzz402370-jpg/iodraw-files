@@ -706,11 +706,6 @@
         <mxCell id="n12" value="滤波与平滑&#xa;离开 / 冲突结束" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=18;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=18;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
           <mxGeometry x="725.333" y="202" width="146.667" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="jmzipFqqHc3HpZF7nfbf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="n15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1060" y="258.7647058823529" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="n15" value="续接 / 结束&#xa;状态判定" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=18;fontStyle=1;fontColor=#285E9D;spacing=5;shape=hexagon;perimeter=hexagonPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.65;" parent="1" vertex="1">
           <mxGeometry x="906" y="214" width="139" height="90" as="geometry" />
         </mxCell>
