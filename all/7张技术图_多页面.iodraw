@@ -52,7 +52,7 @@
         <mxCell id="n16" value="L3 目标跟踪与融合" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=1;fontColor=#FFFFFF;spacing=5;rounded=1;arcSize=26;fillColor=#F38433;strokeColor=#F38433;strokeWidth=1.65;" parent="1" vertex="1">
           <mxGeometry x="893" y="109" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="n17" value="多视角关联与去重&#xa;目标 ID 与轨迹管理" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#2469B2;spacing=5;text;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="n17" value="               多视角关联与去重&#xa;              目标 ID 与轨迹管理" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#2469B2;spacing=5;text;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="905" y="155" width="336" height="77" as="geometry" />
         </mxCell>
         <mxCell id="n18" value="输出：连续目标轨迹" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontStyle=0;fontColor=#DF7A27;spacing=5;rounded=1;arcSize=26;fillColor=#FFFFFF;strokeColor=#EDBB8B;strokeWidth=1.65;" parent="1" vertex="1">
