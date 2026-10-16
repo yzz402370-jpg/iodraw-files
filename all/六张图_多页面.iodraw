@@ -1,0 +1,533 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17" pages="6">
+  <diagram id="多源感知融合算法框架图" name="多源感知融合算法框架图">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="460" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="输入层" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#FFFFFF;fontStyle=1;fillColor=#5680B0;strokeColor=#5680B0;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="30" y="379" width="148" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F6F9FD;strokeColor=#9DB6CD;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="192" y="379" width="1018" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="四向电警视频" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="206" y="388" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="路侧摄像机" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="455" y="388" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="雷视轨迹" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="704" y="388" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="设备与区域配置" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="953" y="388" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708" y="370" as="sourcePoint" />
+            <mxPoint x="708" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8" value="推理层" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#FFFFFF;fontStyle=1;fillColor=#5F6D7E;strokeColor=#5F6D7E;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="30" y="293" width="148" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F6F9FD;strokeColor=#9DB6CD;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="192" y="293" width="1018" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" value="交通目标检测" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="206" y="302" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" value="无效观测过滤" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="455" y="302" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" value="单路目标跟踪" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="704" y="302" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" value="类别与质量评估" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="953" y="302" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708" y="284" as="sourcePoint" />
+            <mxPoint x="708" y="273" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c15" value="融合层" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#FFFFFF;fontStyle=1;fillColor=#295C96;strokeColor=#295C96;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="30" y="207" width="148" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F6F9FD;strokeColor=#9DB6CD;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="192" y="207" width="1018" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" value="时间同步对齐" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="206" y="216" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" value="BEV空间统一" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="455" y="216" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" value="雷视目标关联" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="704" y="216" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" value="去重与分区保留" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="953" y="216" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708" y="198" as="sourcePoint" />
+            <mxPoint x="708" y="187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c22" value="后处理层" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#FFFFFF;fontStyle=1;fillColor=#675B9D;strokeColor=#675B9D;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="30" y="121" width="148" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F6F9FD;strokeColor=#9DB6CD;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="192" y="121" width="1018" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" value="全局编号衔接" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="206" y="130" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" value="来源编号映射" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="455" y="130" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" value="位置与运动整理" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="704" y="130" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" value="质量及状态标记" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="953" y="130" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708" y="112" as="sourcePoint" />
+            <mxPoint x="708" y="101" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c29" value="输出层" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#FFFFFF;fontStyle=1;fillColor=#22A17A;strokeColor=#22A17A;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="30" y="35" width="148" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="192" y="35" width="1018" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" value="MQTT实时发布" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#8ACBB3;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="206" y="44" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" value="JSON融合记录" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#8ACBB3;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="455" y="44" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c33" value="全息目标展示" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#8ACBB3;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="704" y="44" width="238" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" value="轨迹跟踪服务" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#8ACBB3;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="953" y="44" width="238" height="47" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="多源感知融合服务集成链路图" name="多源感知融合服务集成链路图">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="390" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#5680B0;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="20" y="28" width="235" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="现场感知设备" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#295C96;fontStyle=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="74.5" y="37.775" width="126" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;dashed=1;dashPattern=5 4;" parent="1" vertex="1">
+          <mxGeometry x="293" y="28" width="236" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="边缘推理服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#295C96;fontStyle=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="348" y="37.775" width="126" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;dashed=1;dashPattern=5 4;" parent="1" vertex="1">
+          <mxGeometry x="565" y="28" width="309" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="多源融合服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#295C96;fontStyle=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="656.5" y="37.775" width="126" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="907" y="28" width="311" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="十字路口平台" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#22A17A;fontStyle=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="999.5" y="37.775" width="126" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="四向电警视频" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="35" y="83" width="205" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" value="路侧视频 / 雷视轨迹" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="35" y="145" width="205" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" value="目标检测 / 单路跟踪" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="308" y="83" width="205" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" value="目标预处理与筛选" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="308" y="145" width="205" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" value="时间与BEV坐标对齐" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="580" y="83" width="279" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" value="雷视关联 / 分区去重" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="580" y="145" width="279" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" value="MQTT实时融合目标" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="923" y="83" width="278" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" value="JSON记录 / 全息展示" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="923" y="145" width="278" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="164" as="sourcePoint" />
+            <mxPoint x="293" y="164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529" y="164" as="sourcePoint" />
+            <mxPoint x="565" y="164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="874" y="164" as="sourcePoint" />
+            <mxPoint x="907" y="164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c20" value="共享配置：设备标定参数 / 区域边界 / 同步策略 / 接口规范" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=18;fontColor=#244B77;fontStyle=0;fillColor=#F4F6F8;strokeColor=#9DB6CD;strokeWidth=1.7;" parent="1" vertex="1">
+          <mxGeometry x="315" y="323" width="609" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;dashed=1;dashPattern=6 5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="323" as="sourcePoint" />
+            <mxPoint x="620" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="基于鸟瞰图的多源空间统一原理图" name="基于鸟瞰图的多源空间统一原理图">
+    <mxGraphModel dx="1350" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="347" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="18" y="24" width="195" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="输入数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#295C96;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="73.5" y="33.775" width="84" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="多路视频帧" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="34" y="77" width="164" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="雷达目标轨迹" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="34" y="148" width="164" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="静态地标 / 标定" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="34" y="219" width="164" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="地面参考点&lt;br&gt;提取与投影" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="246" y="116" width="129" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;dashed=1;dashPattern=5 4;" vertex="1" parent="1">
+          <mxGeometry x="402" y="24" width="546" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="BEV 空间统一" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#295C96;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="591.0" y="33.775" width="168" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="视频像素映射&lt;br&gt;相机内外参&lt;br&gt;地标约束" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="421" y="107" width="153" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" value="雷达坐标转换&lt;br&gt;安装位置参数&lt;br&gt;同一平面基准" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="598" y="107" width="153" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" value="多方向标定&lt;br&gt;误差核验&lt;br&gt;统一坐标输出" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="775" y="107" width="154" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="213" y="165" as="sourcePoint" />
+            <mxPoint x="246" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="165" as="sourcePoint" />
+            <mxPoint x="402" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574" y="165" as="sourcePoint" />
+            <mxPoint x="598" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="751" y="165" as="sourcePoint" />
+            <mxPoint x="775" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="948" y="165" as="sourcePoint" />
+            <mxPoint x="979" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c17" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="980" y="24" width="238" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" value="输出结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#22A17A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1057.0" y="33.775" width="84" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" value="BEV统一位置坐标" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="997" y="77" width="203" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" value="多设备位置可比较" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="997" y="148" width="203" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" value="标定误差与质量标记" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="997" y="219" width="203" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="基于缓冲窗口的多源时间对齐原理" name="基于缓冲窗口的多源时间对齐原理图">
+    <mxGraphModel dx="1350" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="355" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="20" y="27" width="205" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="输入数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#295C96;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80.5" y="36.775" width="84" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="视频帧采集时间" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="35" y="80" width="174" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="雷达轨迹时间戳" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="35" y="145" width="174" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="设备延迟 / 时钟差" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="35" y="210" width="174" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;dashed=1;dashPattern=5 4;" vertex="1" parent="1">
+          <mxGeometry x="265" y="27" width="682" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="滑动窗口与时间对齐" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#295C96;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="511.5" y="36.775" width="189" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="以视频帧时间&lt;br&gt;作为对齐基准" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="285" y="105" width="201" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="雷达记录缓存&lt;br&gt;滑动时间窗口" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="504" y="105" width="201" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" value="最近时间检索&lt;br&gt;二分查找候选" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="723" y="105" width="201" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="165" as="sourcePoint" />
+            <mxPoint x="265" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="486" y="165" as="sourcePoint" />
+            <mxPoint x="504" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="705" y="165" as="sourcePoint" />
+            <mxPoint x="723" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c14" value="允许时间差校验 · 插值或短时预测 · 过期记录丢弃" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#5F6D7E;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="382.0" y="263.675" width="442" height="24.65" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="984" y="27" width="234" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" value="输出结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#22A17A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1059.0" y="36.775" width="84" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" value="同一时刻目标观测" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="999" y="80" width="203" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" value="对齐状态 / 补偿标记" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="999" y="145" width="203" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" value="超时无效数据过滤" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="999" y="210" width="203" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="947" y="165" as="sourcePoint" />
+            <mxPoint x="984" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="雷视目标匹配与分区融合原理图" name="雷视目标匹配与分区融合原理图">
+    <mxGraphModel dx="1350" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="370" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="20" y="24" width="190" height="303" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="输入数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#295C96;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="73.0" y="33.775" width="84" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="视觉目标清单" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="35" y="78" width="160" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="雷达目标清单" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="35" y="149" width="160" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="统一时空坐标" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="35" y="220" width="160" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;dashed=1;dashPattern=5 4;" vertex="1" parent="1">
+          <mxGeometry x="245" y="24" width="733" height="303" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="雷视关联与分区融合" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#295C96;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="517.0" y="33.775" width="189" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="候选筛选&lt;br&gt;位置 / 速度&lt;br&gt;方向 / 类别" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="263" y="102" width="213" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="二部图匹配&lt;br&gt;一对一关联&lt;br&gt;来源ID优先" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="497" y="102" width="213" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" value="按覆盖区处理&lt;br&gt;重叠区融合&lt;br&gt;单源区保留" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="731" y="102" width="213" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="174" as="sourcePoint" />
+            <mxPoint x="245" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="476" y="174" as="sourcePoint" />
+            <mxPoint x="497" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="174" as="sourcePoint" />
+            <mxPoint x="731" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c14" value="冲突重检 · 重复目标去除 · 不强行合并低置信度目标" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#5F6D7E;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="383.5" y="269.675" width="459" height="24.65" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="1013" y="24" width="207" height="303" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" value="输出结果" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#22A17A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1074.5" y="33.775" width="84" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" value="统一目标清单" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="1027" y="78" width="179" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" value="来源 / 质量标识" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="1027" y="149" width="179" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" value="单源与盲区说明" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="1027" y="220" width="179" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="978" y="174" as="sourcePoint" />
+            <mxPoint x="1013" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="融合结果生成与服务集成原理图" name="融合结果生成与服务集成原理图">
+    <mxGraphModel dx="1350" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="370" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="18" y="25" width="194" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="输入数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#295C96;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="73.0" y="34.775" width="84" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="融合目标观测" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="33" y="78" width="164" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="设备来源标识" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="33" y="144" width="164" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="全局编号映射" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="33" y="210" width="164" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F1F6FB;strokeColor=#9DB6CD;strokeWidth=1.7;dashed=1;dashPattern=5 4;" vertex="1" parent="1">
+          <mxGeometry x="246" y="25" width="695" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="融合结果组织与处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#295C96;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="499.0" y="34.775" width="189" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="统一字段组织&lt;br&gt;类别 / 位置&lt;br&gt;速度 / 方向" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="265" y="102" width="206" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="来源与质量标记&lt;br&gt;实测 / 融合&lt;br&gt;预测补偿" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="487" y="102" width="206" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" value="目标去重与封装&lt;br&gt;编号与时间戳&lt;br&gt;更新频率控制" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#244B77;fontStyle=0;fillColor=#FAFCFF;strokeColor=#5680B0;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="709" y="102" width="206" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="212" y="170" as="sourcePoint" />
+            <mxPoint x="246" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="471" y="170" as="sourcePoint" />
+            <mxPoint x="487" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="693" y="170" as="sourcePoint" />
+            <mxPoint x="709" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c14" value="有效区域裁剪 · 并行处理 · 缓冲负荷管理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#5F6D7E;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415.0" y="265.675" width="374" height="24.65" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="977" y="25" width="240" height="285" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" value="服务输出" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#22A17A;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1055.0" y="34.775" width="84" height="30.45" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" value="MQTT实时推送" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="993" y="78" width="208" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" value="JSON融合结果记录" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="993" y="144" width="208" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" value="平台展示 / 轨迹服务" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontColor=#244B77;fontStyle=0;fillColor=#EFF9F5;strokeColor=#22A17A;strokeWidth=1.7;" vertex="1" parent="1">
+          <mxGeometry x="993" y="210" width="208" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="941" y="170" as="sourcePoint" />
+            <mxPoint x="977" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
