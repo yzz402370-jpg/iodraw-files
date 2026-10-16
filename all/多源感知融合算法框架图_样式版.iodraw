@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram id="multiarch" name="多源感知融合算法框架图">
-    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="630" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="630" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="16" value="" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=0;fontColor=#5D7FA8;fillColor=#FFF5EC;strokeColor=#A8C7EE;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1127.3333333333335" y="104" width="446.6666666666667" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="17" value="L3 结果整理与服务输出" style="rounded=1;arcSize=16;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fillColor=#F08B2C;strokeColor=#F08B2C;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="17" value="L3 结果整理与服务输出" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fillColor=#F08B2C;strokeColor=#F08B2C;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1133.3333333333335" y="110" width="434.6666666666667" height="42" as="geometry" />
         </mxCell>
         <mxCell id="18" value="编号映射与位置整理&lt;br&gt;状态标记与服务封装" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#5D7FA8;" parent="1" vertex="1">
