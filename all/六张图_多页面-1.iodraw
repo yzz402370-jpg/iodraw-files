@@ -251,7 +251,7 @@
         <mxCell id="n9" value="视频像素映射&#xa;相机内外参&#xa;地标约束" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=17;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="421" y="109" width="153" height="126" as="geometry" />
         </mxCell>
-        <mxCell id="n10" value="雷达坐标转换&#xa;安装位置参数&#xa;同一平面基准" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;shape=rhombus;perimeter=rhombusPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
+        <mxCell id="n10" value="雷达坐标&#xa;安装位置" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;shape=rhombus;perimeter=rhombusPerimeter;fillColor=#EDF4FD;strokeColor=#2469B2;strokeWidth=1.6;" parent="1" vertex="1">
           <mxGeometry x="598" y="109" width="153" height="126" as="geometry" />
         </mxCell>
         <mxCell id="n11" value="多方向标定&#xa;误差核验&#xa;统一坐标输出" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=17;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.6;" parent="1" vertex="1">
