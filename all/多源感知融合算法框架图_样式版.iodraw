@@ -37,6 +37,11 @@
         <mxCell id="12" value="" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=0;fontColor=#5D7FA8;fillColor=#EDF8F2;strokeColor=#A8C7EE;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="662.6666666666667" y="104" width="446.6666666666667" height="175" as="geometry" />
         </mxCell>
+        <mxCell id="s6bF6i2ExPtwng2EJcA--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885.9411764705883" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="13" value="L2 多源对齐与融合" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fillColor=#18A86B;strokeColor=#18A86B;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="668.6666666666667" y="110" width="434.6666666666667" height="42" as="geometry" />
         </mxCell>
