@@ -40,7 +40,7 @@
         <mxCell id="n12" value="L2 动静态联合感知" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=1;fontColor=#FFFFFF;spacing=5;rounded=1;arcSize=26;fillColor=#1E9C72;strokeColor=#1E9C72;strokeWidth=1.65;" parent="1" vertex="1">
           <mxGeometry x="517" y="109" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="n13" value="三维目标检测与分类&#xa;车道线及静态要素分割" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#2469B2;spacing=5;text;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="n13" value="               三维目标检测与分类&#xa;             车道线及静态要素分割" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#2469B2;spacing=5;text;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="529" y="155" width="336" height="77" as="geometry" />
         </mxCell>
         <mxCell id="n14" value="输出：目标与地图要素" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontStyle=0;fontColor=#1E9C72;spacing=5;rounded=1;arcSize=26;fillColor=#FFFFFF;strokeColor=#76C6A6;strokeWidth=1.65;" parent="1" vertex="1">
