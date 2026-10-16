@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17" pages="7">
   <diagram id="tech01" name="01_视觉融合算法框架图">
-    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1260" pageHeight="528" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1260" pageHeight="528" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="n8" value="L1 多视角特征映射" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=20;fontStyle=1;fontColor=#FFFFFF;spacing=5;rounded=1;arcSize=26;fillColor=#2469B2;strokeColor=#2469B2;strokeWidth=1.65;" parent="1" vertex="1">
           <mxGeometry x="141" y="109" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="n9" value="多路图像特征提取&#xa;深度估计与坐标转换" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#2469B2;spacing=5;text;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="n9" value="              多路图像特征提取&#xa;             深度估计与坐标转换" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=19;fontStyle=0;fontColor=#2469B2;spacing=5;text;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="153" y="155" width="336" height="77" as="geometry" />
         </mxCell>
         <mxCell id="n10" value="输出：统一 BEV 特征" style="html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=17;fontStyle=0;fontColor=#285E9D;spacing=5;rounded=1;arcSize=26;fillColor=#FFFFFF;strokeColor=#81ACE2;strokeWidth=1.65;" parent="1" vertex="1">
