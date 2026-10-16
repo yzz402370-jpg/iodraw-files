@@ -7,6 +7,11 @@
         <mxCell id="c1" value="输入层" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#FFFFFF;fontStyle=1;fillColor=#5680B0;strokeColor=#5680B0;strokeWidth=1.7;" parent="1" vertex="1">
           <mxGeometry x="30" y="379" width="148" height="66" as="geometry" />
         </mxCell>
+        <mxCell id="ToM8MthO9BMhyfqDqXon-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="c2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="701" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="c2" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F6F9FD;strokeColor=#9DB6CD;strokeWidth=1.7;" parent="1" vertex="1">
           <mxGeometry x="192" y="379" width="1018" height="66" as="geometry" />
         </mxCell>
@@ -22,14 +27,11 @@
         <mxCell id="c6" value="设备与区域配置" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
           <mxGeometry x="953" y="388" width="238" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="c7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="708" y="370" as="sourcePoint" />
-            <mxPoint x="708" y="359" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="c8" value="推理层" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#FFFFFF;fontStyle=1;fillColor=#5F6D7E;strokeColor=#5F6D7E;strokeWidth=1.7;" parent="1" vertex="1">
           <mxGeometry x="30" y="293" width="148" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ToM8MthO9BMhyfqDqXon-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="c9" target="c16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c9" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#F6F9FD;strokeColor=#9DB6CD;strokeWidth=1.7;" parent="1" vertex="1">
           <mxGeometry x="192" y="293" width="1018" height="66" as="geometry" />
@@ -45,12 +47,6 @@
         </mxCell>
         <mxCell id="c13" value="类别与质量评估" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#244B77;fontStyle=0;fillColor=#FFFFFF;strokeColor=#B5C9DE;strokeWidth=1.7;" parent="1" vertex="1">
           <mxGeometry x="953" y="302" width="238" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="c14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5680B0;strokeWidth=2.3;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="708" y="284" as="sourcePoint" />
-            <mxPoint x="708" y="273" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="c15" value="融合层" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#FFFFFF;fontStyle=1;fillColor=#295C96;strokeColor=#295C96;strokeWidth=1.7;" parent="1" vertex="1">
           <mxGeometry x="30" y="207" width="148" height="66" as="geometry" />
